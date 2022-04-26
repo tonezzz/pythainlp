@@ -1,0 +1,919 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 23:41+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/tokenize.rst:5
+msgid "pythainlp.tokenize"
+msgstr ""
+
+#: ../../api/tokenize.rst:6
+msgid ""
+"The :class:`pythainlp.tokenize` contains multiple functions for "
+"tokenizing a chunk of Thai text into desirable units."
+msgstr ""
+
+#: ../../api/tokenize.rst:9
+msgid "Modules"
+msgstr ""
+
+#: of pythainlp.tokenize.core.clause_tokenize:1
+msgid "Clause tokenizer. (or Clause segmentation)"
+msgstr ""
+
+#: of pythainlp.tokenize.core.clause_tokenize:3
+msgid ""
+"Tokenizes running word list into list of clauses (list of strings). split"
+" by CRF trained on LST20 Corpus."
+msgstr ""
+
+#: of pythainlp.tokenize.core.Tokenizer.set_tokenize_engine
+#: pythainlp.tokenize.core.Tokenizer.word_tokenize
+#: pythainlp.tokenize.core.clause_tokenize
+#: pythainlp.tokenize.core.sent_tokenize
+#: pythainlp.tokenize.core.subword_tokenize
+#: pythainlp.tokenize.core.syllable_tokenize
+#: pythainlp.tokenize.core.word_tokenize
+#: pythainlp.tokenize.crfcut.extract_features pythainlp.tokenize.crfcut.segment
+#: pythainlp.tokenize.etcc.segment pythainlp.tokenize.longest.segment
+#: pythainlp.tokenize.multi_cut.find_all_segment
+#: pythainlp.tokenize.multi_cut.segment pythainlp.tokenize.nercut.segment
+#: pythainlp.tokenize.newmm.segment pythainlp.tokenize.nlpo3.load_dict
+#: pythainlp.tokenize.nlpo3.segment pythainlp.tokenize.tcc.segment
+#: pythainlp.tokenize.tcc.tcc pythainlp.tokenize.tcc.tcc_pos
+msgid "Parameters"
+msgstr ""
+
+#: of pythainlp.tokenize.core.clause_tokenize:6
+msgid "word list to be clause"
+msgstr ""
+
+#: of pythainlp.tokenize.core.Tokenizer.word_tokenize
+#: pythainlp.tokenize.core.clause_tokenize
+#: pythainlp.tokenize.core.sent_tokenize
+#: pythainlp.tokenize.core.subword_tokenize
+#: pythainlp.tokenize.core.syllable_tokenize
+#: pythainlp.tokenize.core.word_tokenize
+#: pythainlp.tokenize.crfcut.extract_features pythainlp.tokenize.crfcut.segment
+#: pythainlp.tokenize.etcc.segment pythainlp.tokenize.longest.segment
+#: pythainlp.tokenize.multi_cut.find_all_segment
+#: pythainlp.tokenize.multi_cut.segment pythainlp.tokenize.nercut.segment
+#: pythainlp.tokenize.newmm.segment pythainlp.tokenize.nlpo3.segment
+#: pythainlp.tokenize.tcc.segment pythainlp.tokenize.tcc.tcc
+#: pythainlp.tokenize.tcc.tcc_pos
+msgid "Returns"
+msgstr ""
+
+#: of pythainlp.tokenize.core.clause_tokenize:7
+msgid "list of claues"
+msgstr ""
+
+#: of pythainlp.tokenize.core.Tokenizer.word_tokenize
+#: pythainlp.tokenize.core.clause_tokenize
+#: pythainlp.tokenize.core.sent_tokenize
+#: pythainlp.tokenize.core.subword_tokenize
+#: pythainlp.tokenize.core.syllable_tokenize
+#: pythainlp.tokenize.core.word_tokenize
+#: pythainlp.tokenize.multi_cut.find_all_segment
+#: pythainlp.tokenize.multi_cut.segment pythainlp.tokenize.newmm.segment
+#: pythainlp.tokenize.nlpo3.segment pythainlp.tokenize.tcc.segment
+#: pythainlp.tokenize.tcc.tcc pythainlp.tokenize.tcc.tcc_pos
+msgid "Return type"
+msgstr ""
+
+#: of pythainlp.tokenize.core.Tokenizer pythainlp.tokenize.core.clause_tokenize
+#: pythainlp.tokenize.core.sent_tokenize
+#: pythainlp.tokenize.core.subword_tokenize
+#: pythainlp.tokenize.core.word_tokenize
+msgid "Example"
+msgstr "ตัวอย่าง"
+
+#: of pythainlp.tokenize.core.clause_tokenize:12
+msgid "Clause tokenizer::"
+msgstr ""
+
+#: of pythainlp.tokenize.core.sent_tokenize:1
+msgid "Sentence tokenizer."
+msgstr "การตัดประโยค"
+
+#: of pythainlp.tokenize.core.sent_tokenize:3
+msgid "Tokenizes running text into \"sentences\""
+msgstr ""
+
+#: of pythainlp.tokenize.core.sent_tokenize:5
+msgid "the text to be tokenized"
+msgstr ""
+
+#: of pythainlp.tokenize.core.sent_tokenize:6
+msgid "choose among *'crfcut'*, *'whitespace'*,     *'whitespace+newline'*"
+msgstr ""
+
+#: of pythainlp.tokenize.core.sent_tokenize:7
+msgid "list of splited sentences"
+msgstr ""
+
+#: of pythainlp.tokenize.core.sent_tokenize:12
+#: pythainlp.tokenize.core.subword_tokenize:25
+#: pythainlp.tokenize.core.syllable_tokenize:22
+#: pythainlp.tokenize.core.word_tokenize:36
+msgid "**Options for engine**"
+msgstr ""
+
+#: of pythainlp.tokenize.core.sent_tokenize:10
+msgid "*crfcut* - (default) split by CRF trained on TED dataset"
+msgstr ""
+
+#: of pythainlp.tokenize.core.sent_tokenize:11
+msgid "*whitespace+newline* - split by whitespaces and newline."
+msgstr ""
+
+#: of pythainlp.tokenize.core.sent_tokenize:12
+msgid ""
+"*whitespace* - split by whitespaces. Specifiaclly, with"
+"                          :class:`regex` pattern  ``r\" +\"``"
+msgstr ""
+
+#: of pythainlp.tokenize.core.sent_tokenize:13
+msgid "*tltk* - split by `TLTK <https://pypi.org/project/tltk/>`_.,"
+msgstr "*tltk* - แก้คำผิดโดย `TLTK <https://pypi.org/project/tltk/>`_.,"
+
+#: of pythainlp.tokenize.core.sent_tokenize:16
+msgid "Split the text based on *whitespace*::"
+msgstr ""
+
+#: of pythainlp.tokenize.core.sent_tokenize:31
+msgid "Split the text based on *whitespace* and *newline*::"
+msgstr ""
+
+#: of pythainlp.tokenize.core.sent_tokenize:43
+msgid "Split the text using CRF trained on TED dataset::"
+msgstr ""
+
+#: of pythainlp.tokenize.core.subword_tokenize:1
+msgid "Subword tokenizer. Can be smaller than syllable."
+msgstr ""
+
+#: of pythainlp.tokenize.core.subword_tokenize:3
+msgid ""
+"Tokenizes text into inseparable units of Thai contiguous characters "
+"namely `Thai Character Clusters (TCCs)     "
+"<https://www.researchgate.net/publication/2853284_Character_Cluster_Based_Thai_Information_Retrieval>`_"
+" TCCs are the units based on Thai spelling feature that could not be "
+"separated any character further such as   'ก็', 'จะ', 'ไม่', and 'ฝา'. If"
+" the following units are separated, they could not be spelled out. This "
+"function apply the TCC rules to tokenizes the text into the smallest "
+"units."
+msgstr ""
+
+#: of pythainlp.tokenize.core.subword_tokenize:12
+msgid ""
+"For example, the word 'ขนมชั้น' would be tokenized into 'ข', 'น', 'ม', "
+"and 'ชั้น'."
+msgstr ""
+"ตัวอย่างเช่น คำว่า 'ขนมชั้น' อาจถูกตัดเป็น 'ข', 'น', 'ม', "
+"และ 'ชั้น'."
+
+#: of pythainlp.tokenize.core.Tokenizer.word_tokenize:3
+#: pythainlp.tokenize.core.subword_tokenize:15
+#: pythainlp.tokenize.core.word_tokenize:5
+#: pythainlp.tokenize.multi_cut.segment:3 pythainlp.tokenize.newmm.segment:8
+#: pythainlp.tokenize.nlpo3.segment:5
+msgid "text to be tokenized"
+msgstr ""
+
+#: of pythainlp.tokenize.core.subword_tokenize:16
+msgid "the name subword tokenizer"
+msgstr ""
+
+#: of pythainlp.tokenize.core.subword_tokenize:17
+msgid "list of subwords"
+msgstr ""
+
+#: of pythainlp.tokenize.core.subword_tokenize:20
+msgid "*tcc* (default) -  Thai Character Cluster (Theeramunkong et al. 2000)"
+msgstr ""
+
+#: of pythainlp.tokenize.core.subword_tokenize:21
+msgid "*etcc* - Enhanced Thai Character Cluster (Inrut et al. 2001)"
+msgstr ""
+
+#: of pythainlp.tokenize.core.subword_tokenize:22
+msgid "*wangchanberta* - SentencePiece from wangchanberta model."
+msgstr ""
+
+#: of pythainlp.tokenize.core.subword_tokenize:23
+msgid "*dict* - newmm word tokenizer with a syllable dictionary"
+msgstr ""
+
+#: of pythainlp.tokenize.core.subword_tokenize:24
+#: pythainlp.tokenize.core.syllable_tokenize:23
+msgid "*ssg* - CRF syllable segmenter for Thai"
+msgstr ""
+
+#: of pythainlp.tokenize.core.subword_tokenize:25
+msgid "*tltk* - syllable tokenizer from tltk"
+msgstr ""
+
+#: of pythainlp.tokenize.core.subword_tokenize:29
+msgid "Tokenize text into subword based on *tcc*::"
+msgstr ""
+
+#: of pythainlp.tokenize.core.subword_tokenize:45
+msgid "Tokenize text into subword based on *etcc*::"
+msgstr ""
+
+#: of pythainlp.tokenize.core.subword_tokenize:56
+msgid "Tokenize text into subword based on *wangchanberta*::"
+msgstr ""
+
+#: of pythainlp.tokenize.core.syllable_tokenize:1
+msgid "Syllable tokenizer."
+msgstr ""
+
+#: of pythainlp.tokenize.core.syllable_tokenize:3
+msgid "**syllable_tokenize is deprecated, use subword_tokenize instead**"
+msgstr ""
+
+#: of pythainlp.tokenize.core.syllable_tokenize:5
+msgid ""
+"Tokenizes text into syllable (Thai: พยางค์), a unit of pronunciation "
+"having one vowel sound.  For example, the word 'รถไฟ' contains two "
+"syallbles including 'รถ', and 'ไฟ'."
+msgstr ""
+
+#: of pythainlp.tokenize.core.syllable_tokenize:9
+msgid ""
+"Under the hood, this function uses "
+":func:`pythainlp.tokenize.word_tokenize` with *newmm* as a tokenizer. The"
+" function tokenize the text with the dictionary of Thai words from "
+":func:`pythainlp.corpus.common.thai_words` and then dictionary of Thai "
+"syllable from :func:`pythainlp.corpus.common.thai_syllables`. As a "
+"result, only syllables are obtained."
+msgstr ""
+
+#: of pythainlp.tokenize.core.syllable_tokenize:17
+#: pythainlp.tokenize.multi_cut.find_all_segment:3
+msgid "input string to be tokenized"
+msgstr ""
+
+#: of pythainlp.tokenize.core.syllable_tokenize:18
+msgid "name of the syllable tokenizer"
+msgstr ""
+
+#: of pythainlp.tokenize.core.syllable_tokenize:19
+msgid "list of syllables where whitespaces in the text **are included**"
+msgstr ""
+
+#: of pythainlp.tokenize.core.syllable_tokenize:22
+msgid "*dict* (default) - newmm word tokenizer with a syllable dictionary"
+msgstr ""
+
+#: of pythainlp.tokenize.core.syllable_tokenize
+msgid "Example:"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:1
+msgid "Word tokenizer."
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:3
+msgid "Tokenizes running text into words (list of strings)."
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:6
+msgid "name of the tokenizer to be used"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:7
+msgid "dictionary trie"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:8
+msgid ""
+"True to keep whitespaces, a common mark for end of phrase in Thai. "
+"Otherwise, whitespaces are omitted."
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:11
+msgid "list of words"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:14
+msgid ""
+"*newmm* (default) - dictionary-based, Maximum Matching + Thai Character "
+"Cluster"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:16
+msgid ""
+"*newmm-safe* - newmm, with a mechanism to help avoid long processing time"
+" for text with continuous ambiguous breaking points"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:18
+msgid "*nlpo3* - Python binding for nlpO3. It is newmm engine in Rust."
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:19
+msgid "*longest* - dictionary-based, Longest Matching"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:20
+msgid ""
+"*icu* - wrapper for ICU (International Components for Unicode, using "
+"PyICU), dictionary-based"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:22
+msgid ""
+"*attacut* - wrapper for `AttaCut "
+"<https://github.com/PyThaiNLP/attacut>`_., learning-based approach"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:25
+msgid ""
+"*deepcut* - wrapper for `DeepCut <https://github.com/rkcosmos/deepcut>`_,"
+" learning-based approach"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:28
+msgid ""
+"*nercut* - Dictionary-based maximal matching word segmentation, "
+"constrained with Thai Character Cluster (TCC) boundaries, and combining "
+"tokens that are parts of the same named-entity."
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:31
+msgid ""
+"*sefr_cut* - wrapper for `SEFR CUT "
+"<https://github.com/mrpeerat/SEFR_CUT>`_.,"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:33
+msgid "*tltk* - wrapper for `TLTK <https://pypi.org/project/tltk/>`_.,"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:35
+msgid "*oskut* - wrapper for `OSKut <https://github.com/mrpeerat/OSKut>`_.,"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize
+msgid "Note"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:39
+msgid ""
+"The parameter **custom_dict** can be provided as an argument           "
+"only for *newmm*, *longest*, and *attacut* engine."
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:42
+msgid "Tokenize text with different tokenizer::"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:54
+msgid "Tokenize text by omiting whitespaces::"
+msgstr ""
+
+#: of pythainlp.tokenize.core.word_tokenize:65
+msgid "Tokenize with default and custom dictionary::"
+msgstr ""
+
+#: of pythainlp.tokenize.core.Tokenizer:1
+msgid "Tokenizer class, for a custom tokenizer."
+msgstr ""
+
+#: of pythainlp.tokenize.core.Tokenizer:3
+msgid ""
+"This class allows users to pre-define custom dictionary along with "
+"tokenizer and encapsulate them into one single object. It is an wrapper "
+"for both two functions including "
+":func:`pythainlp.tokenize.word_tokenize`, and "
+":func:`pythainlp.util.dict_trie`"
+msgstr ""
+
+#: of pythainlp.tokenize.core.Tokenizer:11
+msgid "Tokenizer object instantiated with :class:`pythainlp.util.Trie`::"
+msgstr ""
+
+#: of pythainlp.tokenize.core.Tokenizer:27
+msgid "Tokenizer object instantiated with a list of words::"
+msgstr ""
+
+#: of pythainlp.tokenize.core.Tokenizer:36
+msgid ""
+"Tokenizer object instantiated with a file path containing list of word "
+"separated with *newline* and explicitly set a new tokenizer after "
+"initiation::"
+msgstr ""
+
+#: of pythainlp.tokenize.core.Tokenizer.set_tokenize_engine:1
+msgid "Set the tokenizer's engine."
+msgstr ""
+
+#: of pythainlp.tokenize.core.Tokenizer.set_tokenize_engine:3
+msgid ""
+"choose between different options of engine to token (i.e. *newmm*, "
+"*longest*, *attacut*)"
+msgstr ""
+
+#: of pythainlp.tokenize.core.Tokenizer.word_tokenize:1
+msgid "Main tokenization function."
+msgstr ""
+
+#: of pythainlp.tokenize.core.Tokenizer.word_tokenize:4
+#: pythainlp.tokenize.crfcut.segment:4 pythainlp.tokenize.longest.segment:5
+#: pythainlp.tokenize.nercut.segment:7
+msgid "list of words, tokenized from the text"
+msgstr ""
+
+#: ../../api/tokenize.rst:20
+msgid "Tokenization Engines"
+msgstr ""
+
+#: ../../api/tokenize.rst:23
+msgid "Sentence level"
+msgstr "ระดับประโยค"
+
+#: ../../api/tokenize.rst:26
+msgid "crfcut"
+msgstr "crfcut"
+
+#: of pythainlp.tokenize.crfcut:1
+msgid "CRFCut - Thai sentence segmenter."
+msgstr ""
+
+#: of pythainlp.tokenize.crfcut:3
+msgid ""
+"Thai sentence segmentation using conditional random field, default model "
+"trained on TED dataset"
+msgstr ""
+
+#: of pythainlp.tokenize.crfcut:6
+#, python-format
+msgid "Performance: - ORCHID - space-correct accuracy 87% vs 95% state-of-the-art"
+msgstr ""
+
+#: of pythainlp.tokenize.crfcut:8
+msgid "(Zhou et al, 2016; https://www.aclweb.org/anthology/C16-1031.pdf)"
+msgstr ""
+
+#: of pythainlp.tokenize.crfcut:9
+msgid "TED dataset - space-correct accuracy 82%"
+msgstr ""
+
+#: of pythainlp.tokenize.crfcut:11
+msgid ""
+"See development notebooks at https://github.com/vistec-AI/ted_crawler; "
+"POS features are not used due to unreliable POS tagging available"
+msgstr ""
+
+#: of pythainlp.tokenize.crfcut.extract_features:1
+msgid ""
+"Extract features for CRF by sliding `max_n_gram` of tokens for +/- "
+"`window` from the current token"
+msgstr ""
+
+#: of pythainlp.tokenize.crfcut.extract_features:4
+msgid "tokens from which features are to be extracted from"
+msgstr ""
+
+#: of pythainlp.tokenize.crfcut.extract_features:5
+msgid "size of window before and after the current token"
+msgstr ""
+
+#: of pythainlp.tokenize.crfcut.extract_features:6
+msgid "create n_grams from 1-gram to `max_n_gram`-gram     within the `window`"
+msgstr ""
+
+#: of pythainlp.tokenize.crfcut.extract_features:7
+msgid "list of lists of features to be fed to CRF"
+msgstr ""
+
+#: of pythainlp.tokenize.crfcut.segment:1
+msgid "CRF-based sentence segmentation."
+msgstr ""
+
+#: of pythainlp.tokenize.crfcut.segment:3
+msgid "text to be tokenized to sentences"
+msgstr ""
+
+#: ../../api/tokenize.rst:33
+msgid "Word level"
+msgstr ""
+
+#: ../../api/tokenize.rst:36
+msgid "attacut"
+msgstr ""
+
+#: of pythainlp.tokenize.attacut:1
+msgid "Wrapper for AttaCut - Fast and Reasonably Accurate Word Tokenizer for Thai"
+msgstr ""
+
+#: of pythainlp.tokenize.attacut pythainlp.tokenize.deepcut
+#: pythainlp.tokenize.etcc pythainlp.tokenize.longest
+#: pythainlp.tokenize.multi_cut pythainlp.tokenize.newmm
+#: pythainlp.tokenize.nlpo3.load_dict pythainlp.tokenize.nlpo3.segment
+#: pythainlp.tokenize.oskut pythainlp.tokenize.pyicu
+#: pythainlp.tokenize.sefr_cut
+msgid "See Also"
+msgstr ""
+
+#: of pythainlp.tokenize.attacut:4
+msgid "`GitHub repository <https://github.com/PyThaiNLP/attacut>`_"
+msgstr ""
+
+#: ../../api/tokenize.rst:43
+msgid "deepcut"
+msgstr "deepcut"
+
+#: of pythainlp.tokenize.deepcut:1
+msgid ""
+"Wrapper for deepcut Thai word segmentation. deepcut is a Thai word "
+"segmentation library using 1D Convolution Neural Network."
+msgstr ""
+
+#: of pythainlp.tokenize.deepcut:4
+msgid ""
+"User need to install deepcut (and its dependency: tensorflow) by "
+"themselves."
+msgstr ""
+
+#: of pythainlp.tokenize.deepcut:7
+msgid "`GitHub repository <https://github.com/rkcosmos/deepcut>`_"
+msgstr ""
+
+#: ../../api/tokenize.rst:47
+msgid "multi_cut"
+msgstr "multi_cut"
+
+#: of pythainlp.tokenize.multi_cut:1
+msgid ""
+"Multi cut -- Thai word segmentation with maximum matching. Original code "
+"from Korakot Chaovavanich."
+msgstr ""
+
+#: of pythainlp.tokenize.multi_cut:5
+msgid ""
+"`Facebook post         "
+"<https://www.facebook.com/groups/408004796247683/permalink/431283740586455/>`_"
+msgstr ""
+
+#: of pythainlp.tokenize.multi_cut:6
+msgid ""
+"`GitHub Gist         "
+"<https://gist.github.com/korakot/fe26c65dc9eed467f4497f784a805716>`_"
+msgstr ""
+
+#: of pythainlp.tokenize.multi_cut.segment:1
+msgid "Dictionary-based maximum matching word segmentation."
+msgstr ""
+
+#: of pythainlp.tokenize.multi_cut.find_all_segment:5
+#: pythainlp.tokenize.multi_cut.segment:5 pythainlp.tokenize.newmm.segment:10
+msgid "tokenization dictionary,        defaults to DEFAULT_WORD_DICT_TRIE"
+msgstr ""
+
+#: of pythainlp.tokenize.multi_cut.segment:7
+msgid "list of segmented tokens"
+msgstr ""
+
+#: of pythainlp.tokenize.multi_cut.find_all_segment:1
+msgid "Get all possible segment variations."
+msgstr ""
+
+#: of pythainlp.tokenize.multi_cut.find_all_segment:7
+msgid "list of segment variations"
+msgstr ""
+
+#: ../../api/tokenize.rst:54
+msgid "nlpo3"
+msgstr "nlpo3"
+
+#: of pythainlp.tokenize.nlpo3.load_dict:1
+msgid "Load a dictionary file into an in-memory dictionary collection."
+msgstr ""
+
+#: of pythainlp.tokenize.nlpo3.load_dict:3
+msgid ""
+"The loaded dictionary will be accessible throught the assigned dict_name."
+" *** This function does not override an existing dict name. ***"
+msgstr ""
+
+#: of pythainlp.tokenize.nlpo3.load_dict:6
+msgid "Path to a dictionary file"
+msgstr ""
+
+#: of pythainlp.tokenize.nlpo3.load_dict:8
+msgid "A unique dictionary name, use for reference."
+msgstr ""
+
+#: of pythainlp.tokenize.nlpo3.load_dict:10
+msgid ":return bool"
+msgstr ""
+
+#: of pythainlp.tokenize.nlpo3.load_dict:13 pythainlp.tokenize.nlpo3.segment:14
+msgid "https://github.com/PyThaiNLP/nlpo3"
+msgstr ""
+
+#: of pythainlp.tokenize.nlpo3.segment:1
+msgid "Break text into tokens."
+msgstr ""
+
+#: of pythainlp.tokenize.nlpo3.segment:3
+msgid "Python binding for nlpO3. It is newmm engine in Rust."
+msgstr ""
+
+#: of pythainlp.tokenize.nlpo3.segment:6
+msgid ""
+"dictionary name, as assigned with load_dict(),        defaults to "
+"pythainlp/corpus/common/words_th.txt"
+msgstr ""
+
+#: of pythainlp.tokenize.newmm.segment:12 pythainlp.tokenize.nlpo3.segment:7
+msgid ""
+"reduce chance for long processing time in long text        with many "
+"ambiguous breaking points, defaults to False"
+msgstr ""
+
+#: of pythainlp.tokenize.nlpo3.segment:8
+msgid "Use multithread mode, defaults to False"
+msgstr ""
+
+#: of pythainlp.tokenize.newmm.segment:14 pythainlp.tokenize.nlpo3.segment:10
+msgid "list of tokens"
+msgstr ""
+
+#: ../../api/tokenize.rst:61
+msgid "longest"
+msgstr ""
+
+#: of pythainlp.tokenize.longest:1
+msgid ""
+"Dictionary-based longest-matching Thai word segmentation. Implementation "
+"based on the code from Patorn Utenpattanun."
+msgstr ""
+
+#: of pythainlp.tokenize.longest:5
+msgid ""
+"`GitHub Repository        "
+"<https://github.com/patorn/thaitokenizer/blob/master/thaitokenizer/tokenizer.py>`_"
+msgstr ""
+
+#: of pythainlp.tokenize.longest.segment:1
+msgid "Dictionary-based longest matching word segmentation."
+msgstr ""
+
+#: of pythainlp.tokenize.longest.segment:3 pythainlp.tokenize.nercut.segment:5
+msgid "text to be tokenized to words"
+msgstr ""
+
+#: of pythainlp.tokenize.longest.segment:4
+msgid "dictionary for tokenization"
+msgstr ""
+
+#: ../../api/tokenize.rst:67
+msgid "pyicu"
+msgstr "pyicu"
+
+#: of pythainlp.tokenize.pyicu:1
+msgid ""
+"Wrapper for PyICU word segmentation. This wrapper module uses "
+":class:`icu.BreakIterator` with Thai as :class:`icu.Local` to locate "
+"boundaries between words from the text."
+msgstr ""
+
+#: of pythainlp.tokenize.pyicu:6
+msgid "`GitHub repository <https://github.com/ovalhub/pyicu>`_"
+msgstr ""
+
+#: ../../api/tokenize.rst:71
+msgid "nercut"
+msgstr "nercut"
+
+#: of pythainlp.tokenize.nercut:1
+msgid "nercut 0.2"
+msgstr "nercut 0.2"
+
+#: of pythainlp.tokenize.nercut:3 pythainlp.tokenize.nercut.segment:1
+msgid ""
+"Dictionary-based maximal matching word segmentation, constrained with "
+"Thai Character Cluster (TCC) boundaries, and combining tokens that are "
+"parts of the same named-entity."
+msgstr ""
+
+#: of pythainlp.tokenize.nercut:7
+msgid "Code by Wannaphong Phatthiyaphaibun"
+msgstr ""
+
+#: of pythainlp.tokenize.nercut.segment
+msgid "parm list taglist"
+msgstr ""
+
+#: of pythainlp.tokenize.nercut.segment:6
+msgid "a list of named-entity tags to be used"
+msgstr ""
+
+#: ../../api/tokenize.rst:77
+msgid "sefr_cut"
+msgstr ""
+
+#: of pythainlp.tokenize.sefr_cut:1
+msgid ""
+"Wrapper for SEFR CUT Thai word segmentation. SEFR CUT is a Thai Word "
+"Segmentation Models using Stacked Ensemble."
+msgstr ""
+
+#: of pythainlp.tokenize.sefr_cut:5
+msgid "`GitHub repository <https://github.com/mrpeerat/SEFR_CUT>`_"
+msgstr ""
+
+#: ../../api/tokenize.rst:81
+msgid "oskut"
+msgstr ""
+
+#: of pythainlp.tokenize.oskut:1
+msgid ""
+"Wrapper OSKut (Out-of-domain StacKed cut for Word Segmentation). Handling"
+" Cross- and Out-of-Domain Samples in Thai Word Segmentation Stacked "
+"Ensemble Framework and DeepCut as Baseline model (ACL 2021 Findings)"
+msgstr ""
+
+#: of pythainlp.tokenize.oskut:6
+msgid "`GitHub repository <https://github.com/mrpeerat/OSKut>`_"
+msgstr ""
+
+#: ../../api/tokenize.rst:85
+msgid "newmm"
+msgstr ""
+
+#: ../../api/tokenize.rst:87
+msgid "The default word tokenization engine."
+msgstr ""
+
+#: of pythainlp.tokenize.newmm:1
+msgid ""
+"Dictionary-based maximal matching word segmentation, constrained with "
+"Thai Character Cluster (TCC) boundaries."
+msgstr ""
+
+#: of pythainlp.tokenize.newmm:4
+msgid ""
+"The code is based on the notebooks created by Korakot Chaovavanich, with "
+"heuristic graph size limit added to avoid exponential wait time."
+msgstr ""
+
+#: of pythainlp.tokenize.newmm:8
+msgid "https://colab.research.google.com/notebook#fileId=1V1Z657_5eSWPo8rLfVRwA0A5E4vkg7SI"
+msgstr ""
+
+#: of pythainlp.tokenize.newmm:9
+msgid ""
+"https://colab.research.google.com/drive/14Ibg-"
+"ngZXj15RKwjNwoZlOT32fQBOrBx#scrollTo=MYZ7NzAR7Dmw"
+msgstr ""
+
+#: of pythainlp.tokenize.newmm.segment:1
+msgid "Maximal-matching word segmentation, Thai Character Cluster constrained."
+msgstr ""
+
+#: of pythainlp.tokenize.newmm.segment:3
+msgid ""
+"A dictionary-based word segmentation using maximal matching algorithm, "
+"constrained to Thai Character Cluster boundaries."
+msgstr ""
+
+#: of pythainlp.tokenize.newmm.segment:6
+msgid "A custom dictionary can be supplied."
+msgstr ""
+
+#: ../../api/tokenize.rst:94
+msgid "Subword level"
+msgstr ""
+
+#: ../../api/tokenize.rst:97
+msgid "tcc"
+msgstr ""
+
+#: of pythainlp.tokenize.tcc:1
+msgid ""
+"The implementation of tokenizer accorinding to Thai Character Clusters "
+"(TCCs) rules purposed by `Theeramunkong et al. 2000.     "
+"<http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.59.2548>`_"
+msgstr ""
+
+#: of pythainlp.tokenize.tcc:7
+msgid "Credits:"
+msgstr ""
+
+#: of pythainlp.tokenize.tcc:5
+msgid "TCC: Jakkrit TeCho"
+msgstr ""
+
+#: of pythainlp.tokenize.tcc:6
+msgid ""
+"Grammar: Wittawat Jitkrittum (`link to the source file       "
+"<https://github.com/wittawatj/jtcc/blob/master/TCC.g>`_)"
+msgstr ""
+
+#: of pythainlp.tokenize.tcc:7
+msgid "Python code: Korakot Chaovavanich"
+msgstr ""
+
+#: of pythainlp.tokenize.tcc.segment:1
+msgid "Subword segmentation"
+msgstr ""
+
+#: of pythainlp.tokenize.etcc.segment:10 pythainlp.tokenize.tcc.segment:3
+#: pythainlp.tokenize.tcc.tcc:3 pythainlp.tokenize.tcc.tcc_pos:3
+msgid "text to be tokenized to character clusters"
+msgstr ""
+
+#: of pythainlp.tokenize.tcc.segment:4
+msgid "list of subwords (character clusters), tokenized from the text"
+msgstr ""
+
+#: of pythainlp.tokenize.tcc.tcc:1
+msgid "TCC generator, generates Thai Character Clusters"
+msgstr ""
+
+#: of pythainlp.tokenize.tcc.tcc:4
+msgid "subwords (character clusters)"
+msgstr ""
+
+#: of pythainlp.tokenize.tcc.tcc_pos:1
+msgid "TCC positions"
+msgstr ""
+
+#: of pythainlp.tokenize.tcc.tcc_pos:4
+msgid "list of the end position of subwords"
+msgstr ""
+
+#: ../../api/tokenize.rst:105
+msgid "etcc"
+msgstr ""
+
+#: of pythainlp.tokenize.etcc:1
+msgid ""
+"Segmenting text to Enhanced Thai Character Cluster (ETCC) Python "
+"implementation by Wannaphong Phatthiyaphaibun"
+msgstr ""
+
+#: of pythainlp.tokenize.etcc:4
+msgid ""
+"This implementation relies on a dictionary of ETCC created from etcc.txt "
+"in pythainlp/corpus."
+msgstr ""
+
+#: of pythainlp.tokenize.etcc:7
+msgid ""
+"Notebook: "
+"https://colab.research.google.com/drive/1UTQgxxMRxOr9Jp1B1jcq1frBNvorhtBQ"
+msgstr ""
+
+#: of pythainlp.tokenize.etcc:12
+msgid ""
+"Inrut, Jeeragone, Patiroop Yuanghirun, Sarayut Paludkong, Supot Nitsuwat,"
+" and Para Limmaneepraserth. \"Thai word segmentation using combination of"
+" forward and backward longest matching techniques.\" In International "
+"Symposium on Communications and Information Technology (ISCIT), pp. "
+"37-40. 2001."
+msgstr ""
+
+#: of pythainlp.tokenize.etcc.segment:1
+msgid "Segmenting text into ETCCs."
+msgstr ""
+
+#: of pythainlp.tokenize.etcc.segment:3
+msgid ""
+"Enhanced Thai Character Cluster (ETCC) is a kind of subword unit. The "
+"concept was presented in Inrut, Jeeragone, Patiroop Yuanghirun, Sarayut "
+"Paludkong, Supot Nitsuwat, and Para Limmaneepraserth. \"Thai word "
+"segmentation using combination of forward and backward longest matching "
+"techniques.\" In International Symposium on Communications and "
+"Information Technology (ISCIT), pp. 37-40. 2001."
+msgstr ""
+
+#: of pythainlp.tokenize.etcc.segment:11
+msgid "list of clusters, tokenized from the text"
+msgstr ""
+
+#: of pythainlp.tokenize.etcc.segment:12
+msgid "list[str]"
+msgstr "list[str]"
+

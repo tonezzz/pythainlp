@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 22:29+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/soundex.rst:4
+msgid "pythainlp.soundex"
+msgstr ""
+
+#: ../../api/soundex.rst:5
+msgid "The :class:`pythainlp.soundex` is soundex for Thai."
+msgstr ""
+
+#: ../../api/soundex.rst:8
+msgid "Modules"
+msgstr ""
+
+#: of pythainlp.soundex.core.soundex:1
+msgid "This function converts Thai text into phonetic code."
+msgstr ""
+
+#: of pythainlp.soundex.core.soundex pythainlp.soundex.lk82.lk82
+#: pythainlp.soundex.metasound.metasound pythainlp.soundex.udom83.udom83
+msgid "Parameters"
+msgstr ""
+
+#: of pythainlp.soundex.core.soundex:3
+msgid "word"
+msgstr "คำ"
+
+#: of pythainlp.soundex.core.soundex:4
+msgid "soundex engine"
+msgstr ""
+
+#: of pythainlp.soundex.core.soundex pythainlp.soundex.lk82.lk82
+#: pythainlp.soundex.metasound.metasound pythainlp.soundex.udom83.udom83
+msgid "Returns"
+msgstr "คืนค่า"
+
+#: of pythainlp.soundex.core.soundex:5
+msgid "Soundex code"
+msgstr ""
+
+#: of pythainlp.soundex.core.soundex pythainlp.soundex.lk82.lk82
+#: pythainlp.soundex.metasound.metasound pythainlp.soundex.udom83.udom83
+msgid "Return type"
+msgstr "ชนิดค่าที่คืน"
+
+#: of pythainlp.soundex.core.soundex
+msgid "Options for engine"
+msgstr ""
+
+#: of pythainlp.soundex.core.soundex:9
+msgid ""
+"*udom83* (default) - Thai soundex algorithm proposed by Vichit "
+"Lorchirachoonkul [#udom83]_"
+msgstr ""
+
+#: of pythainlp.soundex.core.soundex:11
+msgid "*lk82* - Thai soundex algorithm proposed by Wannee Udompanich [#lk82]_"
+msgstr ""
+
+#: of pythainlp.soundex.core.soundex:13
+msgid ""
+"*metasound* - Thai soundex algorithm based on a combination of Metaphone "
+"and Soundex proposed by Snae & Brückner [#metasound]_"
+msgstr ""
+
+#: of pythainlp.soundex.core.soundex pythainlp.soundex.lk82.lk82
+#: pythainlp.soundex.metasound.metasound pythainlp.soundex.udom83.udom83
+msgid "Example"
+msgstr ""
+
+#: of pythainlp.soundex.lk82.lk82:1
+msgid ""
+"This function converts Thai text into phonetic code with the a Thai "
+"soundex algorithm named **LK82** [#lk82]_."
+msgstr ""
+
+#: of pythainlp.soundex.lk82.lk82:4 pythainlp.soundex.udom83.udom83:4
+msgid "Thai word"
+msgstr ""
+
+#: of pythainlp.soundex.lk82.lk82:6
+msgid "LK82 soundex of the given Thai word"
+msgstr ""
+
+#: of pythainlp.soundex.udom83.udom83:1
+msgid ""
+"This function converts Thai text into phonetic code with the Thai soundex"
+" algorithm named **Udom83** [#udom83]_."
+msgstr ""
+
+#: of pythainlp.soundex.udom83.udom83:6
+msgid "Udom83 soundex"
+msgstr "Udom83 soundex"
+
+#: of pythainlp.soundex.metasound.metasound:1
+msgid ""
+"This function converts Thai text into phonetic code with the mactching "
+"technique called **MetaSound** [#metasound]_ (combination between Soundex"
+" and Metaphone algorithms). MetaSound algorithm was developed "
+"specifically for Thai language."
+msgstr ""
+
+#: of pythainlp.soundex.metasound.metasound:6
+msgid "Thai text"
+msgstr "ข้อความภาษาไทย"
+
+#: of pythainlp.soundex.metasound.metasound:7
+msgid "preferred length of the MetaSound code (default is 4)"
+msgstr ""
+
+#: of pythainlp.soundex.metasound.metasound:9
+msgid "MetaSound for the given text"
+msgstr ""
+
+#: ../../api/soundex.rst:16
+msgid "References"
+msgstr ""
+
+#: ../../api/soundex.rst:19
+msgid ""
+"Snae & Brückner. (2009). `Novel Phonetic Name Matching Algorithm with a "
+"Statistical Ontology for Analysing Names Given in Accordance with Thai "
+"Astrology "
+"<https://pdfs.semanticscholar.org/3983/963e87ddc6dfdbb291099aa3927a0e3e4ea6.pdf>`_."
+msgstr ""
+"Snae & Brückner. (2009). `Novel Phonetic Name Matching Algorithm with a "
+"Statistical Ontology for Analysing Names Given in Accordance with Thai "
+"Astrology "
+"<https://pdfs.semanticscholar.org/3983/963e87ddc6dfdbb291099aa3927a0e3e4ea6.pdf>`_."
+
+#: ../../api/soundex.rst:22
+msgid ""
+"Wannee Udompanich (1983). Search Thai sound-alike string using homonymic "
+"approach. Master Thesis. Chulalongkorn University, Thailand."
+msgstr ""
+"Wannee Udompanich (1983). Search Thai sound-alike string using homonymic "
+"approach. Master Thesis. Chulalongkorn University, Thailand."
+
+#: ../../api/soundex.rst:25
+msgid ""
+"วิชิต หล่อจีระชุณห์กุล และ เจริญ คุวินทร์พันธุ์. "
+"`โปรแกรมการสืบค้นคำไทยตามเสียงอ่าน (Thai Soundex) "
+"<http://guru.sanook.com/1520/>`_."
+msgstr ""
+"วิชิต หล่อจีระชุณห์กุล และ เจริญ คุวินทร์พันธุ์. "
+"`โปรแกรมการสืบค้นคำไทยตามเสียงอ่าน (Thai Soundex) "
+"<http://guru.sanook.com/1520/>`_."
+

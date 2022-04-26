@@ -21,7 +21,7 @@ jobs:
         if [ -f docker_requirements.txt ]; then pip install -r docker_requirements.txt; fi
         pip install deepcut
         pip install .[full]
-        pip install boto smart_open sphinx sphinx-rtd-theme
+        pip install boto smart_open sphinx sphinx-rtd-theme sphinx-intl
         python -m nltk.downloader omw-1.4
     - name: Build sphinx documentation
       run: |

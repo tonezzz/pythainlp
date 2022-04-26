@@ -1,0 +1,383 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 23:20+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/word_vector.rst:4
+msgid "pythainlp.word_vector"
+msgstr ""
+
+#: ../../api/word_vector.rst:5
+msgid ""
+"The :class:`word_vector` contains functions that makes use of a pre-"
+"trained vector public data."
+msgstr ""
+
+#: ../../api/word_vector.rst:8
+msgid "Dependencies"
+msgstr ""
+
+#: ../../api/word_vector.rst:9
+msgid "Installation of :mod:`numpy` and :mod:`gensim` is required."
+msgstr ""
+
+#: ../../api/word_vector.rst:12
+msgid "Modules"
+msgstr ""
+
+#: of pythainlp.word_vector.core.doesnt_match:1
+#: pythainlp.word_vector.core.get_model:1
+#: pythainlp.word_vector.core.most_similar_cosmul:1
+#: pythainlp.word_vector.core.sentence_vectorizer:1
+#: pythainlp.word_vector.core.similarity:1
+msgid "**DEPRECATED: use WordVector class instead**"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.doesnt_match:1
+#: pythainlp.word_vector.core.doesnt_match:3
+msgid ""
+"This function returns one word that is mostly unrelated to other words in"
+" the list. We use the function :func:`doesnt_match` from :mod:`gensim`."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector
+#: pythainlp.word_vector.core.WordVector.doesnt_match
+#: pythainlp.word_vector.core.WordVector.load_wordvector
+#: pythainlp.word_vector.core.WordVector.most_similar_cosmul
+#: pythainlp.word_vector.core.WordVector.sentence_vectorizer
+#: pythainlp.word_vector.core.WordVector.similarity
+#: pythainlp.word_vector.core.doesnt_match
+#: pythainlp.word_vector.core.most_similar_cosmul
+#: pythainlp.word_vector.core.sentence_vectorizer
+#: pythainlp.word_vector.core.similarity
+msgid "Parameters"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.doesnt_match:5
+#: pythainlp.word_vector.core.doesnt_match:6
+msgid "a list of words"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.doesnt_match
+#: pythainlp.word_vector.core.WordVector.most_similar_cosmul
+#: pythainlp.word_vector.core.WordVector.similarity
+#: pythainlp.word_vector.core.doesnt_match
+#: pythainlp.word_vector.core.most_similar_cosmul
+#: pythainlp.word_vector.core.similarity
+msgid "Raises"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.doesnt_match:6
+#: pythainlp.word_vector.core.WordVector.most_similar_cosmul:13
+#: pythainlp.word_vector.core.doesnt_match:8
+#: pythainlp.word_vector.core.most_similar_cosmul:15
+msgid ""
+"if there is any word in `positive` or `negative` not in the vocabulary of"
+" the model."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.doesnt_match
+#: pythainlp.word_vector.core.WordVector.get_model
+#: pythainlp.word_vector.core.WordVector.most_similar_cosmul
+#: pythainlp.word_vector.core.WordVector.sentence_vectorizer
+#: pythainlp.word_vector.core.WordVector.similarity
+#: pythainlp.word_vector.core.doesnt_match pythainlp.word_vector.core.get_model
+#: pythainlp.word_vector.core.most_similar_cosmul
+#: pythainlp.word_vector.core.sentence_vectorizer
+#: pythainlp.word_vector.core.similarity
+msgid "Returns"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.doesnt_match:8
+#: pythainlp.word_vector.core.doesnt_match:10
+msgid "the word that mostly unrelated"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.doesnt_match
+#: pythainlp.word_vector.core.WordVector.get_model
+#: pythainlp.word_vector.core.WordVector.most_similar_cosmul
+#: pythainlp.word_vector.core.WordVector.sentence_vectorizer
+#: pythainlp.word_vector.core.WordVector.similarity
+#: pythainlp.word_vector.core.doesnt_match pythainlp.word_vector.core.get_model
+#: pythainlp.word_vector.core.most_similar_cosmul
+#: pythainlp.word_vector.core.sentence_vectorizer
+#: pythainlp.word_vector.core.similarity
+msgid "Return type"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.doesnt_match
+#: pythainlp.word_vector.core.WordVector.most_similar_cosmul
+#: pythainlp.word_vector.core.WordVector.similarity
+#: pythainlp.word_vector.core.doesnt_match
+#: pythainlp.word_vector.core.most_similar_cosmul
+#: pythainlp.word_vector.core.similarity
+msgid "Note"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.doesnt_match:12
+#: pythainlp.word_vector.core.doesnt_match:14
+msgid ""
+"If a word in `words` is not in the vocabulary, :class:`KeyError` will be "
+"raised."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.doesnt_match
+#: pythainlp.word_vector.core.WordVector.most_similar_cosmul
+#: pythainlp.word_vector.core.WordVector.sentence_vectorizer
+#: pythainlp.word_vector.core.WordVector.similarity
+#: pythainlp.word_vector.core.doesnt_match
+#: pythainlp.word_vector.core.most_similar_cosmul
+#: pythainlp.word_vector.core.sentence_vectorizer
+#: pythainlp.word_vector.core.similarity
+msgid "Example"
+msgstr ""
+
+#: of pythainlp.word_vector.core.doesnt_match:19
+msgid ""
+"Pick the word \"พริกไทย\" (name of food) out of the list of meals "
+"(\"อาหารเช้า\", \"อาหารเที่ยง\", \"อาหารเย็น\")."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.doesnt_match:25
+#: pythainlp.word_vector.core.doesnt_match:28
+msgid ""
+"Pick the word \"เรือ\" (name of vehicle) out of the list of words related"
+" to occupation (\"ดีไซน์เนอร์\", \"พนักงานเงินเดือน\", \"หมอ\")."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.get_model:1
+#: pythainlp.word_vector.core.get_model:3
+msgid "Get word vector model."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.get_model:3
+#: pythainlp.word_vector.core.get_model:5
+msgid "`gensim` word2vec model"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.most_similar_cosmul:1
+#: pythainlp.word_vector.core.most_similar_cosmul:3
+msgid ""
+"This function find the top-10 words that are most similar with respect to"
+" from two lists of words labeled as positive and negative. The top-10 "
+"most similar words are obtained using multiplication combination "
+"objective from Omer Levy and Yoav Goldberg [OmerLevy_YoavGoldberg_2014]_."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.most_similar_cosmul:7
+#: pythainlp.word_vector.core.most_similar_cosmul:9
+msgid ""
+"We use the function :func:`gensim.most_similar_cosmul` directly from "
+":mod:`gensim`."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.most_similar_cosmul:10
+#: pythainlp.word_vector.core.most_similar_cosmul:12
+msgid "a list of words to add"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.most_similar_cosmul:11
+#: pythainlp.word_vector.core.most_similar_cosmul:13
+msgid "a list of words to substract"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.most_similar_cosmul:15
+#: pythainlp.word_vector.core.most_similar_cosmul:17
+msgid "list of top-10 most similar words and its similarity score"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.most_similar_cosmul:19
+#: pythainlp.word_vector.core.most_similar_cosmul:21
+msgid ""
+"With a single word in the positive list, it will find the most similar "
+"words to the word given (similar to :func:`gensim.most_similar`)"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.most_similar_cosmul:22
+#: pythainlp.word_vector.core.most_similar_cosmul:24
+msgid ""
+"If a word in `positive` or `negative` is not in the vocabulary, "
+":class:`KeyError` will be raised."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.most_similar_cosmul:27
+#: pythainlp.word_vector.core.most_similar_cosmul:29
+msgid "Find the **top-10** most similar words to the word: \"แม่น้ำ\"."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.most_similar_cosmul:41
+#: pythainlp.word_vector.core.most_similar_cosmul:42
+msgid ""
+"Find the **top-10** most similar words to the words: \"นายก\", "
+"\"รัฐมนตรี\", and \"ประเทศ\"."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.most_similar_cosmul:59
+#: pythainlp.word_vector.core.most_similar_cosmul:58
+msgid ""
+"Find the **top-10** most similar words when having **only** positive list"
+" and **both** positive and negative lists."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.most_similar_cosmul:86
+#: pythainlp.word_vector.core.most_similar_cosmul:82
+msgid ""
+"The function return :class:`KeyError` when the term \"เมนูอาหารไทย\" is "
+"not in the vocabulary."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.sentence_vectorizer:1
+#: pythainlp.word_vector.core.sentence_vectorizer:3
+msgid ""
+"This function convert a Thai sentence into vector. Specifically, it first"
+" tokenize that text and map each tokenized words with the word vectors "
+"from the model. Then, word vectors are aggregatesd into one vector of 300"
+" dimension by calulating either mean, or summation of all word vectors."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.sentence_vectorizer:7
+#: pythainlp.word_vector.core.sentence_vectorizer:9
+msgid "text input"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.sentence_vectorizer:8
+#: pythainlp.word_vector.core.sentence_vectorizer:10
+msgid ""
+"if `True` aggregate word vectors with mean of all word vectors. "
+"Otherwise, aggregate with summation of all word vectors"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.sentence_vectorizer:12
+#: pythainlp.word_vector.core.sentence_vectorizer:14
+msgid ""
+"300-dimension vector representing the given sentence in form of "
+":mod:`numpy` array"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.sentence_vectorizer:14
+#: pythainlp.word_vector.core.sentence_vectorizer:16
+msgid ":class:`numpy.ndarray((1,300))`"
+msgstr ""
+
+#: of pythainlp.word_vector.core.sentence_vectorizer:21
+msgid ""
+"Vectorize the sentence, \"อ้วนเสี้ยวเข้ายึดแคว้นกิจิ๋ว ในปี พ.ศ. 735\", "
+"into one sentence vector with two aggregation meanthods: mean and "
+"summation."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.similarity:1
+#: pythainlp.word_vector.core.similarity:3
+msgid "This function computae cosine similarity between two words."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.similarity:3
+#: pythainlp.word_vector.core.similarity:5
+msgid "first word to be compared"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.similarity:4
+#: pythainlp.word_vector.core.similarity:6
+msgid "second word to be compared"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.similarity:6
+#: pythainlp.word_vector.core.similarity:8
+msgid "if either `word1` or `word2` is not in the vocabulary of the model."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.similarity:8
+#: pythainlp.word_vector.core.similarity:10
+msgid "the cosine similarity between the two word vectors"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.similarity:12
+#: pythainlp.word_vector.core.similarity:14
+msgid ""
+"If a word in `word1` or `word2` is not in the vocabulary, "
+":class:`KeyError` will be raised."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.similarity:17
+#: pythainlp.word_vector.core.similarity:19
+msgid ""
+"Compute consine similarity between two words: \"รถไฟ\" and \"รถไฟฟ้า\" "
+"(train and electric train)."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.similarity:26
+#: pythainlp.word_vector.core.similarity:27
+msgid ""
+"Compute consine similarity between two words: \"เสือดาว\" and \"รถไฟฟ้า\""
+" (leopard and electric train)."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector:1
+msgid "Word Vector class"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector:3
+#: pythainlp.word_vector.core.WordVector.load_wordvector:3
+msgid "model name"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector:8
+msgid "**Options for model_name**"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector:6
+msgid "*thai2fit_wv* (default) - word vector from thai2fit"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector:7
+msgid "*ltw2v* - word vector from LTW2V: The Large Thai Word2Vec"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.doesnt_match:16
+msgid ""
+"Pick the word \"พริกไทย\" (name of food) out of the list of meals "
+"(\"อาหารเช้า\", \"อาหารเที่ยง\", \"อาหารเย็น\"). >>> from "
+"pythainlp.word_vector import WordVector >>> >>> wv = WordVector() >>> "
+"words = ['อาหารเช้า', 'อาหารเที่ยง', 'อาหารเย็น', 'พริกไทย'] >>> "
+"wv.doesnt_match(words) พริกไทย"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.load_wordvector:1
+msgid "Load word vector model."
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.sentence_vectorizer:19
+msgid ""
+"Vectorize the sentence, \"อ้วนเสี้ยวเข้ายึดแคว้นกิจิ๋ว ในปี พ.ศ. 735\", "
+"into one sentence vector with two aggregation meanthods: mean"
+msgstr ""
+
+#: of pythainlp.word_vector.core.WordVector.sentence_vectorizer:21
+msgid "and summation."
+msgstr ""
+
+#: ../../api/word_vector.rst:23
+msgid "References"
+msgstr ""
+
+#: ../../api/word_vector.rst:25
+msgid ""
+"Omer Levy and Yoav Goldberg (2014). Linguistic Regularities in Sparse and"
+" Explicit Word Representations."
+msgstr ""
+

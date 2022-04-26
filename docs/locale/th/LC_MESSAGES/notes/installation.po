@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 22:29+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../notes/installation.rst:2
+msgid "Installation"
+msgstr "การติดตั้ง"
+
+#: ../../notes/installation.rst:4
+msgid "For stable version::"
+msgstr ""
+
+#: ../../notes/installation.rst:8
+msgid "For development version::"
+msgstr ""
+
+#: ../../notes/installation.rst:12
+msgid ""
+"For some functionalities, like named entity recognition, extra packages "
+"may be needed. Install them with these install options:"
+msgstr ""
+
+#: ../../notes/installation.rst:14
+msgid "pip install pythainlp[extra1,extra2,...]"
+msgstr "pip install pythainlp[extra1,extra2,...]"
+
+#: ../../notes/installation.rst:35
+msgid "where ``extras`` can be"
+msgstr ""
+
+#: ../../notes/installation.rst:17
+msgid "``attacut`` (to support attacut, a fast and accurate tokenizer)"
+msgstr ""
+
+#: ../../notes/installation.rst:18
+msgid "``benchmarks`` (to support benchmarks)"
+msgstr ""
+
+#: ../../notes/installation.rst:19
+msgid ""
+"``icu`` (for ICU, International Components for Unicode, support in "
+"transliteration and tokenization)"
+msgstr ""
+
+#: ../../notes/installation.rst:20
+msgid ""
+"``ipa`` (for IPA, International Phonetic Alphabet, support in "
+"transliteration)"
+msgstr ""
+
+#: ../../notes/installation.rst:21
+msgid "``ml`` (to support ULMFiT models for classification)"
+msgstr ""
+
+#: ../../notes/installation.rst:22
+msgid "``ssg`` (to support ssg for syllable tokenizer)"
+msgstr "``ssg`` (เพื่อสนับสนุน ssg สำหรับ syllable tokenizer)"
+
+#: ../../notes/installation.rst:23
+msgid "``thai2fit`` (for Thai word vector)"
+msgstr ""
+
+#: ../../notes/installation.rst:24
+msgid "``thai2rom`` (for machine-learnt romanization)"
+msgstr ""
+
+#: ../../notes/installation.rst:25
+msgid "``translate`` (to support translate)"
+msgstr "``translate`` (เพื่อสนับสนุนการแปลภาษา)"
+
+#: ../../notes/installation.rst:26
+msgid "``wangchanberta`` (to support wangchanberta models)"
+msgstr ""
+
+#: ../../notes/installation.rst:27
+msgid "``mt5`` (to mt5 models for Thai text summarizer)"
+msgstr ""
+
+#: ../../notes/installation.rst:28
+msgid "``wordnet`` (to support wordnet)"
+msgstr "``wordnet`` (เพื่อสนับสนุน wordnet)"
+
+#: ../../notes/installation.rst:29
+msgid "``spell`` (to support phunspell & symspellpy)"
+msgstr ""
+
+#: ../../notes/installation.rst:30
+msgid "``generate`` (to support text generate with umlfit or thai2fit)"
+msgstr ""
+
+#: ../../notes/installation.rst:31
+msgid "``tltk`` (to support tltk)"
+msgstr "``tltk`` (เพื่อสนับสนุน tltk)"
+
+#: ../../notes/installation.rst:32
+msgid "``textaugment`` (to support text augmentation)"
+msgstr ""
+
+#: ../../notes/installation.rst:33
+msgid "``oskut`` (to support OSKUT)"
+msgstr "``oskut`` (เพื่อสนับสนุน OSKUT)"
+
+#: ../../notes/installation.rst:34
+msgid "``nlpo3`` (to support nlpo3 enging)"
+msgstr ""
+
+#: ../../notes/installation.rst:35
+msgid "``full`` (install everything)"
+msgstr "``full`` (ติดตั้งทุกอย่าง)"
+
+#: ../../notes/installation.rst:37
+msgid ""
+"For dependency details, look at `extras` variable in `setup.py "
+"<https://github.com/PyThaiNLP/pythainlp/blob/dev/setup.py>`_."
+msgstr ""
+
+#: ../../notes/installation.rst:39
+msgid "Note for installation on Windows:"
+msgstr ""
+
+#: ../../notes/installation.rst:41
+msgid ""
+"``PyICU`` libraries may required. You have two options to get them "
+"installed on Windows."
+msgstr ""
+
+#: ../../notes/installation.rst:46
+msgid "Option 1 (recommended):"
+msgstr ""
+
+#: ../../notes/installation.rst:44
+msgid ""
+"Find a pre-built package (\"wheel\") from "
+"https://www.lfd.uci.edu/~gohlke/pythonlibs/"
+msgstr ""
+
+#: ../../notes/installation.rst:45
+msgid ""
+"Download a suitable wheel for your Python version (3.5, 3.6, etc.) and "
+"CPU architecture (\"win32\" for 32-bit Windows and \"amd64\" for 64-bit "
+"Windows)"
+msgstr ""
+
+#: ../../notes/installation.rst:46
+msgid ""
+"Install them with pip. For example: `pip install PyICU-"
+"xxx‑cp36‑cp36m‑win32.whl`"
+msgstr ""
+"ติดตั้งด้วย PyICU ตัวอย่าง: `pip install PyICU-"
+"xxx‑cp36‑cp36m‑win32.whl`"
+
+#: ../../notes/installation.rst:54
+msgid "Option 2 (advanced):"
+msgstr ""
+
+#: ../../notes/installation.rst:49
+msgid "You can also try to install them with a command: `pip install pyicu`"
+msgstr ""
+
+#: ../../notes/installation.rst:50
+msgid "With this, pip will try to build the libraries directly from source files."
+msgstr ""
+
+#: ../../notes/installation.rst:51
+msgid ""
+"This will take some time and need a set of build tools to be installed in"
+" your system, for example Microsoft Visual C++ Compiler. It also requires"
+" some technical skills on how things are getting built on Windows system,"
+" as you may need to configure some environment variables to accommodate "
+"the build process."
+msgstr ""
+
+#: ../../notes/installation.rst:52
+msgid ""
+"For PyICU, before the installation, you have to set ``ICU_VERSION`` "
+"environment variable to ICU version in your system. For example, ``set "
+"ICU_VERSION=62.1``."
+msgstr ""
+
+#: ../../notes/installation.rst:53
+msgid ""
+"This approach is obviously take more time and effort, but the good side "
+"is the library will be optimized for your system. This could mean a "
+"better performance."
+msgstr ""
+
+#: ../../notes/installation.rst:57
+msgid "Runtime Configurations"
+msgstr "การตั้งค่ารันไทม์"
+
+#: ../../notes/installation.rst:61
+msgid ""
+"This environment variable specifies the location where the downloaded "
+"data and the corpus database information are stored. If this directory "
+"does not exist, PyThaiNLP will automatically create a new one."
+msgstr ""
+
+#: ../../notes/installation.rst:65
+msgid ""
+"By default, it is specified to the directory called ``pythainlp-data`` "
+"within the home directory."
+msgstr ""
+
+#: ../../notes/installation.rst:68
+msgid ""
+"Type `thainlp data path` at command line to see current "
+"PYTHAINLP_DATA_DIR."
+msgstr ""
+
+#: ../../notes/installation.rst:72
+msgid ""
+"This environment variable specifies config PyThaiNLP to read-only mode. "
+"(0 = False, 1 = True)"
+msgstr ""
+"นี่คือการระบุค่า environment variable สำหรับกำหนดให้ PyThaiNLP อยู่ในโหมดอ่านเท่านั้น "
+"(0 = False, 1 = True)"
+
+#: ../../notes/installation.rst:75
+msgid "FAQ"
+msgstr "คำถามที่พบบ่อย"
+
+#: ../../notes/installation.rst:77
+msgid ""
+"Q: How to install pythainlp in Python 3.10+? A: For Python 3.10+, We have"
+" python-crfsuite problem in pythainlp, so you can read about `python-"
+"crfsuite dependency fails to build under python 3.10 "
+"<https://github.com/PyThaiNLP/pythainlp/issues/626>`_."
+msgstr ""
+
+#: ../../notes/installation.rst:80
+msgid ""
+"Q: How to set the environment variables of each executor node in a "
+"distributed environment? A: You can read `PermissionError: [Errno 13] "
+"Permission denied: /home/pythainlp-data "
+"<https://github.com/PyThaiNLP/pythainlp/issues/475>`_."
+msgstr ""
+
+#: ../../notes/installation.rst:83
+msgid ""
+"Q: How to fixed PyThaiNLP to read-only mode? A: You can config "
+"PYTHAINLP_READ_MODE."
+msgstr ""
+

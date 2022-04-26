@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 22:29+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../index.rst:16
+msgid "Notes"
+msgstr "โน้ต"
+
+#: ../../index.rst:23
+msgid "Package reference:"
+msgstr ""
+
+#: ../../index.rst:7
+msgid "PyThaiNLP documentation"
+msgstr "เอกสาร PyThaiNLP"
+
+#: ../../index.rst:11
+msgid "PyThaiNLP is a Python library for Thai natural language processing (NLP)."
+msgstr "PyThaiNLP เป็นชุดคำสั่งสำหรับงานประมวลผลธรรมชาติภาษาไทย"
+
+#: ../../index.rst:13
+msgid "Website: `PyThaiNLP.github.io <https://pythainlp.github.io/>`_"
+msgstr ""
+
+#: ../../index.rst:33
+msgid "Indices and tables"
+msgstr ""
+
+#: ../../index.rst:35
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../index.rst:36
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../index.rst:37
+msgid ":ref:`search`"
+msgstr ""
+
+#: ../../index.rst:40
+msgid "Citations"
+msgstr ""
+
+#: ../../index.rst:41
+msgid ""
+"If you use PyThaiNLP in your project or publication, please cite the "
+"library as follows"
+msgstr ""
+
+#: ../../index.rst:43
+msgid ""
+"Wannaphong Phatthiyaphaibun, Korakot Chaovavanich, Charin Polpanumas, "
+"Arthit Suriyawongkul, Lalita Lowphansirikul, & Pattarawat Chormai. (2016,"
+" Jun 27). PyThaiNLP: Thai Natural Language Processing in Python. Zenodo. "
+"http://doi.org/10.5281/zenodo.3519354"
+msgstr ""
+
+#: ../../index.rst:45
+msgid "Apache Software License 2.0"
+msgstr "Apache Software License 2.0"
+
+#: ../../index.rst:47
+msgid "Maintained by the PyThaiNLP team."
+msgstr "ดูแลโดย ทีม PyThaiNLP"
+

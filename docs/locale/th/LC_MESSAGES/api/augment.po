@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 23:37+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/augment.rst:4
+msgid "pythainlp.augment"
+msgstr ""
+
+#: ../../api/augment.rst:6
+msgid ""
+"The :class:`textaugment` is Thai text augment. This function for text "
+"augment task."
+msgstr ""
+
+#: ../../api/augment.rst:9
+msgid "Modules"
+msgstr ""
+
+#: of pythainlp.augment.wordnet.WordNetAug:1
+#: pythainlp.augment.wordnet.WordNetAug.augment:1
+msgid "Text Augment using wordnet"
+msgstr ""
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug
+#: pythainlp.augment.lm.fasttext.FastTextAug.augment
+#: pythainlp.augment.lm.fasttext.FastTextAug.modify_sent
+#: pythainlp.augment.lm.fasttext.FastTextAug.tokenize
+#: pythainlp.augment.lm.wangchanberta.Thai2transformersAug.augment
+#: pythainlp.augment.word2vec.bpemb_wv.BPEmbAug.augment
+#: pythainlp.augment.word2vec.bpemb_wv.BPEmbAug.tokenizer
+#: pythainlp.augment.word2vec.core.Word2VecAug.augment
+#: pythainlp.augment.word2vec.core.Word2VecAug.modify_sent
+#: pythainlp.augment.word2vec.ltw2v.LTW2VAug.augment
+#: pythainlp.augment.word2vec.ltw2v.LTW2VAug.tokenizer
+#: pythainlp.augment.word2vec.thai2fit.Thai2fitAug.augment
+#: pythainlp.augment.word2vec.thai2fit.Thai2fitAug.tokenizer
+#: pythainlp.augment.wordnet.WordNetAug.augment
+#: pythainlp.augment.wordnet.WordNetAug.find_synonyms
+msgid "Parameters"
+msgstr ""
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug.augment:6
+#: pythainlp.augment.lm.wangchanberta.Thai2transformersAug.augment:3
+#: pythainlp.augment.word2vec.bpemb_wv.BPEmbAug.augment:3
+#: pythainlp.augment.word2vec.ltw2v.LTW2VAug.augment:3
+#: pythainlp.augment.word2vec.thai2fit.Thai2fitAug.augment:3
+#: pythainlp.augment.wordnet.WordNetAug.augment:3
+msgid "thai sentence"
+msgstr ""
+
+#: of pythainlp.augment.wordnet.WordNetAug.augment:4
+msgid "function for tokenize word"
+msgstr ""
+
+#: of pythainlp.augment.word2vec.core.Word2VecAug.augment:2
+#: pythainlp.augment.wordnet.WordNetAug.augment:5
+msgid "max number for synonyms sentence"
+msgstr ""
+
+#: of pythainlp.augment.wordnet.WordNetAug.augment:6
+msgid "on part-of-speech"
+msgstr ""
+
+#: of pythainlp.augment.wordnet.WordNetAug.augment:7
+#: pythainlp.augment.wordnet.WordNetAug.find_synonyms:5
+msgid "postag corpus name"
+msgstr ""
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug.augment
+#: pythainlp.augment.lm.fasttext.FastTextAug.tokenize
+#: pythainlp.augment.lm.wangchanberta.Thai2transformersAug.augment
+#: pythainlp.augment.word2vec.bpemb_wv.BPEmbAug.augment
+#: pythainlp.augment.word2vec.core.Word2VecAug.augment
+#: pythainlp.augment.word2vec.ltw2v.LTW2VAug.augment
+#: pythainlp.augment.word2vec.thai2fit.Thai2fitAug.augment
+#: pythainlp.augment.wordnet.WordNetAug.augment
+#: pythainlp.augment.wordnet.WordNetAug.find_synonyms
+msgid "Returns"
+msgstr "คืนค่า"
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug.augment:10
+#: pythainlp.augment.word2vec.bpemb_wv.BPEmbAug.augment:7
+#: pythainlp.augment.word2vec.core.Word2VecAug.augment:5
+#: pythainlp.augment.wordnet.WordNetAug.augment:9
+#: pythainlp.augment.wordnet.WordNetAug.find_synonyms:6
+msgid "list of synonyms"
+msgstr ""
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug.augment
+#: pythainlp.augment.lm.fasttext.FastTextAug.modify_sent
+#: pythainlp.augment.lm.fasttext.FastTextAug.tokenize
+#: pythainlp.augment.lm.wangchanberta.Thai2transformersAug.augment
+#: pythainlp.augment.word2vec.bpemb_wv.BPEmbAug.augment
+#: pythainlp.augment.word2vec.bpemb_wv.BPEmbAug.tokenizer
+#: pythainlp.augment.word2vec.core.Word2VecAug.augment
+#: pythainlp.augment.word2vec.core.Word2VecAug.modify_sent
+#: pythainlp.augment.word2vec.ltw2v.LTW2VAug.augment
+#: pythainlp.augment.word2vec.ltw2v.LTW2VAug.tokenizer
+#: pythainlp.augment.word2vec.thai2fit.Thai2fitAug.augment
+#: pythainlp.augment.word2vec.thai2fit.Thai2fitAug.tokenizer
+#: pythainlp.augment.wordnet.WordNetAug.augment
+#: pythainlp.augment.wordnet.WordNetAug.find_synonyms
+msgid "Return type"
+msgstr "ชนิดค่าที่คืน"
+
+#: of pythainlp.augment.lm.wangchanberta.Thai2transformersAug.augment
+#: pythainlp.augment.word2vec.bpemb_wv.BPEmbAug.augment
+#: pythainlp.augment.word2vec.ltw2v.LTW2VAug.augment
+#: pythainlp.augment.word2vec.thai2fit.Thai2fitAug.augment
+#: pythainlp.augment.wordnet.WordNetAug.augment
+msgid "Example"
+msgstr "ตัวอย่าง"
+
+#: of pythainlp.augment.wordnet.WordNetAug.find_synonyms:1
+msgid "Find synonyms from wordnet"
+msgstr ""
+
+#: of pythainlp.augment.wordnet.WordNetAug.find_synonyms:3
+msgid "word"
+msgstr "คำ"
+
+#: of pythainlp.augment.wordnet.WordNetAug.find_synonyms:4
+msgid "part-of-speech type"
+msgstr ""
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug.modify_sent:1
+#: pythainlp.augment.word2vec.core.Word2VecAug.augment:1
+#: pythainlp.augment.word2vec.core.Word2VecAug.modify_sent:1
+msgid "text sentence"
+msgstr "ข้อความประโยค"
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug.modify_sent:2
+#: pythainlp.augment.word2vec.core.Word2VecAug.augment:3
+#: pythainlp.augment.word2vec.core.Word2VecAug.modify_sent:2
+msgid "probability"
+msgstr "ความน่าจะเป็น"
+
+#: of pythainlp.augment.word2vec.ltw2v.LTW2VAug.augment:1
+#: pythainlp.augment.word2vec.thai2fit.Thai2fitAug:1
+#: pythainlp.augment.word2vec.thai2fit.Thai2fitAug.augment:1
+msgid "Text Augment using word2vec from Thai2Fit"
+msgstr ""
+
+#: of pythainlp.augment.word2vec.thai2fit.Thai2fitAug:3
+msgid ""
+"Thai2Fit: `github.com/cstorm125/thai2fit "
+"<https://github.com/cstorm125/thai2fit>`_"
+msgstr ""
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug.augment:7
+#: pythainlp.augment.word2vec.bpemb_wv.BPEmbAug.augment:4
+#: pythainlp.augment.word2vec.ltw2v.LTW2VAug.augment:4
+#: pythainlp.augment.word2vec.thai2fit.Thai2fitAug.augment:4
+msgid "number sentence"
+msgstr "จำนวนประโยค"
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug.augment:8
+#: pythainlp.augment.word2vec.bpemb_wv.BPEmbAug.augment:5
+#: pythainlp.augment.word2vec.ltw2v.LTW2VAug.augment:5
+#: pythainlp.augment.word2vec.thai2fit.Thai2fitAug.augment:5
+msgid "Probability of word"
+msgstr ""
+
+#: of pythainlp.augment.lm.wangchanberta.Thai2transformersAug.augment:6
+#: pythainlp.augment.word2vec.ltw2v.LTW2VAug.augment:7
+#: pythainlp.augment.word2vec.thai2fit.Thai2fitAug.augment:7
+msgid "list of text augment"
+msgstr ""
+
+#: of pythainlp.augment.word2vec.thai2fit.Thai2fitAug.load_w2v:1
+msgid "Load thai2fit word2vec model"
+msgstr ""
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug.tokenize:3
+#: pythainlp.augment.word2vec.bpemb_wv.BPEmbAug.tokenizer:1
+#: pythainlp.augment.word2vec.ltw2v.LTW2VAug.tokenizer:1
+#: pythainlp.augment.word2vec.thai2fit.Thai2fitAug.tokenizer:1
+msgid "thai text"
+msgstr "ข้อความภาษาไทย"
+
+#: of pythainlp.augment.word2vec.ltw2v.LTW2VAug:1
+msgid "Text Augment using word2vec from LTW2V"
+msgstr ""
+
+#: of pythainlp.augment.word2vec.ltw2v.LTW2VAug:3
+msgid ""
+"LTW2V: `github.com/PyThaiNLP/large-thaiword2vec "
+"<https://github.com/PyThaiNLP/large-thaiword2vec>`_"
+msgstr ""
+
+#: of pythainlp.augment.word2vec.ltw2v.LTW2VAug.load_w2v:1
+msgid "Load ltw2v word2vec model"
+msgstr ""
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug:1
+#: pythainlp.augment.lm.fasttext.FastTextAug.augment:1
+msgid "Text Augment from FastText"
+msgstr ""
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug:3
+msgid "path of model file"
+msgstr ""
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug.augment:3
+msgid ""
+"You wants to download thai model from https://fasttext.cc/docs/en/crawl-"
+"vectors.html."
+msgstr ""
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug.tokenize:1
+msgid "Thai text tokenize for fasttext"
+msgstr ""
+
+#: of pythainlp.augment.lm.fasttext.FastTextAug.tokenize:5
+msgid "list of word"
+msgstr ""
+
+#: of pythainlp.augment.lm.wangchanberta.Thai2transformersAug.augment:1
+msgid "Text Augment from wangchanberta"
+msgstr ""
+
+#: of pythainlp.augment.lm.wangchanberta.Thai2transformersAug.augment:4
+msgid "number replace tokens"
+msgstr ""
+
+#: of pythainlp.augment.word2vec.bpemb_wv.BPEmbAug:1
+msgid "Thai Text Augment using word2vec from BPEmb"
+msgstr ""
+
+#: of pythainlp.augment.word2vec.bpemb_wv.BPEmbAug:3
+msgid ""
+"BPEmb: `github.com/bheinzerling/bpemb "
+"<https://github.com/bheinzerling/bpemb>`_"
+msgstr ""
+
+#: of pythainlp.augment.word2vec.bpemb_wv.BPEmbAug.augment:1
+msgid "Text Augment using word2vec from BPEmb"
+msgstr ""
+
+#: of pythainlp.augment.word2vec.bpemb_wv.BPEmbAug.load_w2v:1
+msgid "Load BPEmb model"
+msgstr ""
+

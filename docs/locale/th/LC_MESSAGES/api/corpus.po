@@ -1,0 +1,959 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 22:29+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/corpus.rst:4
+msgid "pythainlp.corpus"
+msgstr ""
+
+#: ../../api/corpus.rst:5
+msgid ""
+"The :class:`pythainlp.corpus` provides access to corpus that comes with "
+"PyThaiNLP."
+msgstr ""
+
+#: ../../api/corpus.rst:8
+msgid "Modules"
+msgstr ""
+
+#: of pythainlp.corpus.common.countries:1
+msgid ""
+"Return a frozenset of country names in Thai such as \"แคนาดา\", "
+"\"โรมาเนีย\", \"แอลจีเรีย\", and \"ลาว\"."
+msgstr ""
+
+#: of pythainlp.corpus.common.countries:4
+msgid ""
+"(See: `dev/pythainlp/corpus/countries_th.txt    "
+"<https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/countries_th.txt>`_)"
+msgstr ""
+
+#: of pythainlp.corpus.common.countries pythainlp.corpus.common.provinces
+#: pythainlp.corpus.common.thai_family_names
+#: pythainlp.corpus.common.thai_female_names
+#: pythainlp.corpus.common.thai_male_names
+#: pythainlp.corpus.common.thai_negations
+#: pythainlp.corpus.common.thai_stopwords
+#: pythainlp.corpus.common.thai_syllables pythainlp.corpus.common.thai_words
+msgid "return"
+msgstr ""
+
+#: of pythainlp.corpus.common.countries:6
+msgid ":class:`frozenset` containing countries names in Thai"
+msgstr ""
+
+#: of pythainlp.corpus.common.countries pythainlp.corpus.common.provinces
+#: pythainlp.corpus.common.thai_family_names
+#: pythainlp.corpus.common.thai_female_names
+#: pythainlp.corpus.common.thai_male_names
+#: pythainlp.corpus.common.thai_negations
+#: pythainlp.corpus.common.thai_stopwords
+#: pythainlp.corpus.common.thai_syllables pythainlp.corpus.common.thai_words
+msgid "rtype"
+msgstr ""
+
+#: of pythainlp.corpus.common.countries:7
+#: pythainlp.corpus.common.thai_family_names:6
+#: pythainlp.corpus.common.thai_female_names:6
+#: pythainlp.corpus.common.thai_male_names:6
+#: pythainlp.corpus.common.thai_negations:6
+#: pythainlp.corpus.common.thai_stopwords:11
+#: pythainlp.corpus.common.thai_syllables:8
+#: pythainlp.corpus.common.thai_words:6
+msgid ":class:`frozenset`"
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus:1
+msgid "Read corpus data from file and return a frozenset or a list."
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus:3
+msgid "Each line in the file will be a member of the set or the list."
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus:5
+msgid ""
+"By default, a frozenset will be return, with whitespaces stripped, and "
+"empty values and duplicates removed."
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus:8
+msgid ""
+"If as_is is True, a list will be return, with no modifications in member "
+"values and their orders."
+msgstr ""
+
+#: of pythainlp.corpus.conceptnet.edges pythainlp.corpus.core.download
+#: pythainlp.corpus.core.get_corpus pythainlp.corpus.core.get_corpus_db
+#: pythainlp.corpus.core.get_corpus_db_detail
+#: pythainlp.corpus.core.get_corpus_default_db
+#: pythainlp.corpus.core.get_corpus_path pythainlp.corpus.core.remove
+#: pythainlp.corpus.util.find_badwords
+#: pythainlp.corpus.util.revise_newmm_default_wordset
+#: pythainlp.corpus.util.revise_wordset
+#: pythainlp.corpus.wordnet.all_lemma_names
+#: pythainlp.corpus.wordnet.all_synsets pythainlp.corpus.wordnet.custom_lemmas
+#: pythainlp.corpus.wordnet.lch_similarity pythainlp.corpus.wordnet.lemma
+#: pythainlp.corpus.wordnet.lemma_from_key pythainlp.corpus.wordnet.lemmas
+#: pythainlp.corpus.wordnet.morphy pythainlp.corpus.wordnet.path_similarity
+#: pythainlp.corpus.wordnet.synset pythainlp.corpus.wordnet.synsets
+#: pythainlp.corpus.wordnet.wup_similarity
+msgid "Parameters"
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus:12
+msgid "filename of the corpus to be read"
+msgstr ""
+
+#: of pythainlp.corpus.conceptnet.edges pythainlp.corpus.core.download
+#: pythainlp.corpus.core.get_corpus pythainlp.corpus.core.get_corpus_db_detail
+#: pythainlp.corpus.core.get_corpus_default_db
+#: pythainlp.corpus.core.get_corpus_path pythainlp.corpus.core.remove
+#: pythainlp.corpus.util.find_badwords
+#: pythainlp.corpus.util.revise_newmm_default_wordset
+#: pythainlp.corpus.util.revise_wordset
+#: pythainlp.corpus.wordnet.all_lemma_names
+#: pythainlp.corpus.wordnet.all_synsets pythainlp.corpus.wordnet.langs
+#: pythainlp.corpus.wordnet.lch_similarity pythainlp.corpus.wordnet.lemma
+#: pythainlp.corpus.wordnet.lemma_from_key pythainlp.corpus.wordnet.lemmas
+#: pythainlp.corpus.wordnet.morphy pythainlp.corpus.wordnet.path_similarity
+#: pythainlp.corpus.wordnet.synset pythainlp.corpus.wordnet.synsets
+#: pythainlp.corpus.wordnet.wup_similarity
+msgid "Returns"
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus:14
+msgid ":class:`frozenset` or :class:`list` consists of lines in the file"
+msgstr ""
+
+#: of pythainlp.corpus.conceptnet.edges pythainlp.corpus.core.download
+#: pythainlp.corpus.core.get_corpus pythainlp.corpus.core.get_corpus_db_detail
+#: pythainlp.corpus.core.get_corpus_default_db
+#: pythainlp.corpus.core.get_corpus_path pythainlp.corpus.core.remove
+#: pythainlp.corpus.util.find_badwords
+#: pythainlp.corpus.util.revise_newmm_default_wordset
+#: pythainlp.corpus.util.revise_wordset
+#: pythainlp.corpus.wordnet.all_lemma_names
+#: pythainlp.corpus.wordnet.all_synsets pythainlp.corpus.wordnet.langs
+#: pythainlp.corpus.wordnet.lch_similarity pythainlp.corpus.wordnet.lemma
+#: pythainlp.corpus.wordnet.lemma_from_key pythainlp.corpus.wordnet.lemmas
+#: pythainlp.corpus.wordnet.morphy pythainlp.corpus.wordnet.path_similarity
+#: pythainlp.corpus.wordnet.synset pythainlp.corpus.wordnet.synsets
+#: pythainlp.corpus.wordnet.wup_similarity
+msgid "Return type"
+msgstr ""
+
+#: of pythainlp.corpus.common.provinces:9 pythainlp.corpus.core.get_corpus:15
+msgid ":class:`frozenset` or :class:`list`"
+msgstr ""
+
+#: of pythainlp.corpus.conceptnet.edges pythainlp.corpus.core.download
+#: pythainlp.corpus.core.get_corpus pythainlp.corpus.core.get_corpus_path
+#: pythainlp.corpus.core.remove pythainlp.corpus.wordnet.all_lemma_names
+#: pythainlp.corpus.wordnet.all_synsets pythainlp.corpus.wordnet.langs
+#: pythainlp.corpus.wordnet.lch_similarity pythainlp.corpus.wordnet.lemma
+#: pythainlp.corpus.wordnet.lemma_from_key pythainlp.corpus.wordnet.lemmas
+#: pythainlp.corpus.wordnet.morphy pythainlp.corpus.wordnet.path_similarity
+#: pythainlp.corpus.wordnet.synset pythainlp.corpus.wordnet.synsets
+#: pythainlp.corpus.wordnet.wup_similarity
+msgid "Example"
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus_db:1
+msgid "Get corpus catalog from server."
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus_db:3
+msgid "URL corpus catalog"
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus_db_detail:1
+msgid "Get details about a corpus, using information from local catalog."
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus_db_detail:3
+msgid "name corpus"
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus_db_detail:4
+msgid "details about a corpus"
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus_default_db:1
+msgid "Get model path from default_db.json"
+msgstr ""
+
+#: of pythainlp.corpus.core.download:6
+#: pythainlp.corpus.core.get_corpus_default_db:3
+#: pythainlp.corpus.core.get_corpus_path:3 pythainlp.corpus.core.remove:3
+msgid "corpus name"
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus_default_db:4
+#: pythainlp.corpus.core.get_corpus_path:4
+msgid ""
+"path to the corpus or **None** of the corpus doesn't              exist "
+"in the device"
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus_default_db:7
+msgid ""
+"If you want edit default_db.json,         you can edit in "
+"pythainlp/corpus/default_db.json"
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus_path:1
+msgid "Get corpus path."
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus_path:9
+msgid ""
+"(Please see the filename from `this file <https://pythainlp.github.io"
+"/pythainlp-corpus/db.json>`_"
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus_path:13
+msgid "If the corpus already exists::"
+msgstr ""
+
+#: of pythainlp.corpus.core.get_corpus_path:20
+msgid "If the corpus has not been downloaded yet::"
+msgstr ""
+
+#: of pythainlp.corpus.core.download:1
+msgid "Download corpus."
+msgstr ""
+
+#: of pythainlp.corpus.core.download:3
+msgid ""
+"The available corpus names can be seen in this file: "
+"https://pythainlp.github.io/pythainlp-corpus/db.json"
+msgstr ""
+
+#: of pythainlp.corpus.core.download:7
+msgid "force download"
+msgstr ""
+
+#: of pythainlp.corpus.core.download:8
+msgid "URL of the corpus catalog"
+msgstr ""
+
+#: of pythainlp.corpus.core.download:9
+msgid "Version of the corpus"
+msgstr ""
+
+#: of pythainlp.corpus.core.download:10
+msgid ""
+"**True** if the corpus is found and succesfully downloaded. Otherwise, it"
+" returns **False**."
+msgstr ""
+
+#: of pythainlp.corpus.core.download:25
+msgid ""
+"By default, downloaded corpus and model will be saved in ``$HOME"
+"/pythainlp-data/`` (e.g. ``/Users/bact/pythainlp-"
+"data/wiki_lm_lstm.pth``)."
+msgstr ""
+
+#: of pythainlp.corpus.core.remove:1
+msgid "Remove corpus"
+msgstr ""
+
+#: of pythainlp.corpus.core.remove:4
+msgid ""
+"**True** if the corpus is found and succesfully removed. Otherwise, it "
+"returns **False**."
+msgstr ""
+
+#: of pythainlp.corpus.common.provinces:1
+msgid ""
+"Return a frozenset of Thailand province names in Thai such as \"กระบี่\","
+" \"กรุงเทพมหานคร\", \"กาญจนบุรี\", and \"อุบลราชธานี\"."
+msgstr ""
+
+#: of pythainlp.corpus.common.provinces:4
+msgid ""
+"(See: `dev/pythainlp/corpus/thailand_provinces_th.txt    "
+"<https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/thailand_provinces_th.txt>`_)"
+msgstr ""
+
+#: of pythainlp.corpus.common.provinces
+msgid "param bool details"
+msgstr ""
+
+#: of pythainlp.corpus.common.provinces:6
+msgid "return details of provinces or not"
+msgstr ""
+
+#: of pythainlp.corpus.common.provinces:8
+msgid ""
+":class:`frozenset` containing province names of Thailand     (if details "
+"is False) or :class:`list` containing :class:`dict` of     province names"
+" and details such as     [{'name_th': 'นนทบุรี', 'abbr_th': 'นบ', "
+"'name_en': 'Nonthaburi',     'abbr_en': 'NBI'}]."
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_stopwords:1
+msgid ""
+"Return a frozenset of Thai stopwords such as \"มี\", \"ไป\", \"ไง\", "
+"\"ขณะ\", \"การ\", and \"ประการหนึ่ง\"."
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_stopwords:10
+msgid ""
+"(See: `dev/pythainlp/corpus/stopwords_th.txt    "
+"<https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/stopwords_th.txt>`_)"
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_stopwords:4
+msgid "We using stopword lists by thesis's เพ็ญศิริ ลี้ตระกูล."
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_stopwords
+msgid "See Also"
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_stopwords:8
+msgid ""
+"เพ็ญศิริ ลี้ตระกูล .     "
+"การเลือกประโยคสำคัญในการสรุปความภาษาไทยโดยใช้แบบจำลองแบบลำดับชั้น.     "
+"กรุงเทพมหานคร : มหาวิทยาลัยธรรมศาสตร์; 2551."
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_stopwords:10
+msgid ":class:`frozenset` containing stopwords."
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_words:1
+msgid ""
+"Return a frozenset of Thai words such as \"กติกา\", \"กดดัน\", \"พิษ\", "
+"and \"พิษภัย\"."
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_words:3
+msgid ""
+"(See: `dev/pythainlp/corpus/words_th.txt    "
+"<https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/words_th.txt>`_)"
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_words:5
+msgid ":class:`frozenset` containing words in Thai language."
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_syllables:1
+msgid ""
+"Return a frozenset of Thai syllables such as \"กรอบ\", \"ก็\", \"๑\", "
+"\"โมบ\", \"โมน\", \"โม่ง\", \"กา\", \"ก่า\", and, \"ก้า\"."
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_syllables:7
+msgid ""
+"(See: `dev/pythainlp/corpus/syllables_th.txt    "
+"<https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/syllables_th.txt>`_)"
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_syllables:5
+msgid ""
+"We using thai syllables list from `KUCut "
+"<https://github.com/Thanabhat/KUCut>`_."
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_syllables:7
+msgid ":class:`frozenset` containing syllables in Thai language."
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_negations:1
+msgid "Return a frozenset of Thai negation words including \"ไม่\" and \"แต่\"."
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_negations:3
+msgid ""
+"(See: `dev/pythainlp/corpus/negations_th.txt    "
+"<https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/negations_th.txt>`_)"
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_negations:5
+msgid ":class:`frozenset` containing negations in Thai language."
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_family_names:1
+msgid "Return a frozenset of Thai family names"
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_family_names:3
+msgid ""
+"(See: `dev/pythainlp/corpus/family_names_th.txt    "
+"<https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/family_names_th.txt>`_)"
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_family_names:5
+msgid ":class:`frozenset` containing Thai family names."
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_female_names:1
+msgid "Return a frozenset of Thai female names"
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_female_names:3
+msgid ""
+"(See: `dev/pythainlp/corpus/person_names_female_th.txt    "
+"<https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/person_names_female_th.txt>`_)"
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_female_names:5
+msgid ":class:`frozenset` containing Thai female names."
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_male_names:1
+msgid "Return a frozenset of Thai male names"
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_male_names:3
+msgid ""
+"(See: `dev/pythainlp/corpus/person_names_male_th.txt    "
+"<https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/person_names_male_th.txt>`_)"
+msgstr ""
+
+#: of pythainlp.corpus.common.thai_male_names:5
+msgid ":class:`frozenset` containing Thai male names."
+msgstr ""
+
+#: ../../api/corpus.rst:28
+msgid "ConceptNet"
+msgstr ""
+
+#: ../../api/corpus.rst:30
+msgid ""
+"ConceptNet is an open, multilingual knowledge graph See: "
+"https://github.com/commonsense/conceptnet5/wiki/API"
+msgstr ""
+
+#: of pythainlp.corpus.conceptnet.edges:1
+msgid ""
+"Get edges from `ConceptNet <http://api.conceptnet.io/>`_ API. ConceptNet "
+"is a public semantic network, designed to help computers understand the "
+"meanings of words that people use."
+msgstr ""
+
+#: of pythainlp.corpus.conceptnet.edges:5
+msgid ""
+"For example, the term \"ConceptNet\" is a \"knowledge graph\", and "
+"\"knowledge graph\" has \"common sense knowledge\" which is a  part of "
+"\"artificial inteligence\". Also, \"ConcepNet\" is used for \"natural "
+"language understanding\" which is a part of \"artificial intelligence\"."
+msgstr ""
+
+#: of pythainlp.corpus.conceptnet.edges
+msgid ""
+"\"ConceptNet\" --is a--> \"knowledge graph\" --has--> \"common sense\""
+"          --a part of--> \"artificial intelligence\""
+msgstr ""
+
+#: of pythainlp.corpus.conceptnet.edges
+msgid ""
+"\"ConceptNet\" --used for--> \"natural language understanding\"          "
+"--a part of--> \"artificial intelligence\""
+msgstr ""
+
+#: of pythainlp.corpus.conceptnet.edges:14
+msgid ""
+"With this illustration, it shows relationships (represented as *Edge*) "
+"between the terms (represented as *Node*)"
+msgstr ""
+
+#: of pythainlp.corpus.conceptnet.edges:17
+msgid "word to be sent to ConceptNet API"
+msgstr ""
+
+#: of pythainlp.corpus.conceptnet.edges:18
+msgid ""
+"abbreviation of language (i.e. *th* for Thai, *en* for English, or *ja* "
+"for Japan). By default, it is *th* (Thai)."
+msgstr ""
+
+#: of pythainlp.corpus.conceptnet.edges:22
+msgid "return edges of the given word according to the ConceptNet network."
+msgstr ""
+
+#: ../../api/corpus.rst:36
+msgid "TNC"
+msgstr ""
+
+#: of pythainlp.corpus.tnc.word_freqs:1
+msgid "Get word frequency from Thai National Corpus (TNC)"
+msgstr ""
+
+#: of pythainlp.corpus.tnc.word_freqs:3
+msgid ""
+"(See: `dev/pythainlp/corpus/tnc_freq.txt    "
+"<https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/tnc_freq.txt>`_)"
+msgstr ""
+
+#: of pythainlp.corpus.tnc.word_freqs:5
+msgid "Credit: Korakot Chaovavanich https://bit.ly/3wSkZsF"
+msgstr ""
+
+#: of pythainlp.corpus.tnc.unigram_word_freqs:1
+msgid "Get unigram word frequency from Thai National Corpus (TNC)"
+msgstr ""
+
+#: of pythainlp.corpus.tnc.bigram_word_freqs:1
+msgid "Get bigram word frequency from Thai National Corpus (TNC)"
+msgstr ""
+
+#: of pythainlp.corpus.tnc.trigram_word_freqs:1
+msgid "Get trigram word frequency from Thai National Corpus (TNC)"
+msgstr ""
+
+#: ../../api/corpus.rst:44
+msgid "TTC"
+msgstr ""
+
+#: of pythainlp.corpus.ttc.word_freqs:1
+msgid "Get word frequency from Thai Textbook Corpus (TTC)"
+msgstr ""
+
+#: of pythainlp.corpus.ttc.word_freqs:3
+msgid ""
+"(See: `dev/pythainlp/corpus/ttc_freq.txt    "
+"<https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/ttc_freq.txt>`_)"
+msgstr ""
+
+#: of pythainlp.corpus.ttc.unigram_word_freqs:1
+msgid "Get unigram word frequency from Thai Textbook Corpus (TTC)"
+msgstr ""
+
+#: ../../api/corpus.rst:50
+msgid "OSCAR"
+msgstr ""
+
+#: of pythainlp.corpus.oscar.word_freqs:1
+msgid "Get word frequency from OSCAR Corpus (icu word tokenize)"
+msgstr ""
+
+#: of pythainlp.corpus.oscar.unigram_word_freqs:1
+msgid "Get unigram word frequency from OSCAR Corpus (icu word tokenize)"
+msgstr ""
+
+#: ../../api/corpus.rst:56
+msgid "Util"
+msgstr ""
+
+#: of pythainlp.corpus.util.find_badwords:1
+msgid ""
+"Find words that do not work well with the `tokenize` function for the "
+"provided `training_data`."
+msgstr ""
+
+#: of pythainlp.corpus.util.find_badwords:4
+msgid "a tokenize function"
+msgstr ""
+
+#: of pythainlp.corpus.util.find_badwords:5
+#: pythainlp.corpus.util.revise_newmm_default_wordset:9
+#: pythainlp.corpus.util.revise_wordset:10
+msgid "tokenized text, to be used        as a training set"
+msgstr ""
+
+#: of pythainlp.corpus.util.find_badwords:6
+#: pythainlp.corpus.util.revise_newmm_default_wordset:10
+#: pythainlp.corpus.util.revise_wordset:11
+msgid "words that considered making `tokenize` perform unwell"
+msgstr ""
+
+#: of pythainlp.corpus.util.revise_wordset:1
+msgid ""
+"Revise a set of word that could improve tokenization performance of a "
+"dictionary-based `tokenize` function."
+msgstr ""
+
+#: of pythainlp.corpus.util.revise_wordset:4
+msgid ""
+"`orign_words` will be used as a base set for the dictionary. Words that "
+"do not performed well with `training_data` will be removed. The remaining"
+" words will be returned."
+msgstr ""
+
+#: of pythainlp.corpus.util.revise_wordset:8
+msgid ""
+"a tokenize function, can be        any function that takes a string as "
+"input and returns a List[str]"
+msgstr ""
+
+#: of pythainlp.corpus.util.revise_wordset:9
+msgid ""
+"words that used by the tokenize function,        will be used as a base "
+"for revision"
+msgstr ""
+
+#: of pythainlp.corpus.util.revise_wordset
+msgid "Example:"
+msgstr "ตัวอย่าง:"
+
+#: of pythainlp.corpus.util.revise_wordset:17
+msgid ""
+"from pythainlp.corpus import thai_words from pythainlp.corpus.util import"
+" revise_wordset from pythainlp.tokenize.longest import segment"
+msgstr ""
+
+#: of pythainlp.corpus.util.revise_wordset:21
+msgid "base_words = thai_words() more_words = {"
+msgstr ""
+
+#: of pythainlp.corpus.util.revise_wordset:23
+msgid ""
+"\"ถวิล อุดล\", \"ทองอินทร์ ภูริพัฒน์\", \"เตียง ศิริขันธ์\", \"จำลอง "
+"ดาวเรือง\""
+msgstr ""
+"\"ถวิล อุดล\", \"ทองอินทร์ ภูริพัฒน์\", \"เตียง ศิริขันธ์\", \"จำลอง "
+"ดาวเรือง\""
+
+#: of pythainlp.corpus.util.revise_wordset:24
+msgid "} base_words = base_words.union(more_words) dict_trie = Trie(wordlist)"
+msgstr ""
+
+#: of pythainlp.corpus.util.revise_wordset:28
+msgid "tokenize = lambda text: segment(text, dict_trie)"
+msgstr "tokenize = lambda text: segment(text, dict_trie)"
+
+#: of pythainlp.corpus.util.revise_wordset:32
+msgid "training_data = ["
+msgstr "training_data = ["
+
+#: of pythainlp.corpus.util.revise_wordset:31
+msgid "[str, str, str. ...], [str, str, str, str, ...], ..."
+msgstr "[str, str, str. ...], [str, str, str, str, ...], ..."
+
+#: of pythainlp.corpus.util.revise_wordset:34
+msgid "]"
+msgstr "]"
+
+#: of pythainlp.corpus.util.revise_wordset:36
+msgid "revised_words = revise_wordset(tokenize, wordlist, training_data)"
+msgstr "revised_words = revise_wordset(tokenize, wordlist, training_data)"
+
+#: of pythainlp.corpus.util.revise_newmm_default_wordset:1
+msgid ""
+"Revise a set of word that could improve tokenization performance of "
+"`pythainlp.tokenize.newmm`, a dictionary-based tokenizer and a default "
+"tokenizer for PyThaiNLP."
+msgstr ""
+
+#: of pythainlp.corpus.util.revise_newmm_default_wordset:5
+msgid ""
+"Words from `pythainlp.corpus.thai_words()` will be used as a base set for"
+" the dictionary. Words that do not performed well with `training_data` "
+"will be removed. The remaining words will be returned."
+msgstr ""
+
+#: ../../api/corpus.rst:63
+msgid "WordNet"
+msgstr ""
+
+#: ../../api/corpus.rst:65
+msgid ""
+"PyThaiNLP API is an exact copy of NLTK WordNet API. See: "
+"https://www.nltk.org/howto/wordnet.html"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.synsets:1
+msgid ""
+"This function return the synonym sets for all lemmas given the word with "
+"an optional argument to constrain the part of speech of the word."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.synsets:4
+msgid "word to find its synsets"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lemmas:5 pythainlp.corpus.wordnet.synsets:5
+msgid ""
+"the part of speech constraint (i.e. *n* for Noun, *v* for Verb, *a* for "
+"Adjective, *s* for Adjective satellites, and *r* for Adverb)"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.synsets:8
+msgid "abbreviation of language (i.e. *eng*, *tha*). By default, it is *tha*"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.synsets:11
+msgid ""
+":class:`Synset` for all lemmas for the word constrained with the argument"
+" *pos*."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.all_lemma_names:13
+#: pythainlp.corpus.wordnet.synsets:13
+msgid "list[:class:`Synset`]"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.synsets:29
+msgid ""
+"When specifying the part of speech constrain. For example, the word "
+"\"แรง\" cound be interpreted as force (n.) or hard (adj.)."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.synset:1
+msgid ""
+"This function return the synonym set (synset) given the name of synset "
+"(i.e. 'dog.n.01', 'chase.v.01')."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.synset:4
+msgid "name of the sysset"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.synset:6
+msgid ":class:`Synset` of the given name"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.synset:7
+msgid ":class:`Synset`"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.all_lemma_names:1
+msgid ""
+"This function returns all lemma names for all synsets for the given part "
+"of speech tag and language. If part of speech tag is not specified, all "
+"synsets for all part of speech will be used."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.all_lemma_names:5
+msgid ""
+"the part of speech constraint (i.e. *n* for Noun, *v* for Verb, *a* for "
+"Adjective, *s* for Adjective satellites, and *r* for Adverb). By default,"
+" *pos* is **None**."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.all_lemma_names:9
+#: pythainlp.corpus.wordnet.lemmas:8
+msgid "abbreviation of language (i.e. *eng*, *tha*). By default, it is *tha*."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.all_lemma_names:12
+msgid ":class:`Synset` of lemmas names given the pos and language"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.all_synsets:1
+msgid ""
+"This function iterates over all synsets constrained by given part of "
+"speech tag."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.all_synsets:4
+msgid "part of speech tag"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.all_synsets:6
+msgid "list of synsets constrained by given part of speech tag."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.all_synsets:7
+msgid "Iterable[:class:`Synset`]"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.langs:1
+msgid "This function return a set of ISO-639 language codes."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.langs:3
+msgid "ISO-639 language codes"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lemmas:1
+msgid ""
+"This function returns all lemmas given the word with an optional argument"
+" to constrain the part of speech of the word."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lemmas:4
+msgid "word to find its lammas"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lemmas:11
+msgid ""
+":class:`Synset` for all lemmas for the word constraine with the argument "
+"*pos*."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lemmas:13
+msgid "list[:class:`Lemma`]"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lemmas:26
+msgid "When specify the part of speech tag."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lemma:1
+msgid "This function return lemma object given the name."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lemma:4
+#: pythainlp.corpus.wordnet.lemma_from_key:6
+msgid "Support only English language (*eng*)."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lemma:6
+msgid "name of the synset"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lemma:8
+msgid "lemma object with the given name"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lemma:9
+#: pythainlp.corpus.wordnet.lemma_from_key:11
+msgid ":class:`Lemma`"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lemma_from_key:1
+msgid ""
+"This function returns lemma object given the lemma key. This is similar "
+"to :func:`lemma` but it needs to supply the key of lemma instead of the "
+"name."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lemma_from_key:8
+msgid "key of the lemma object"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lemma_from_key:10
+msgid "lemma object with the given key"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.path_similarity:1
+msgid ""
+"This function returns similarity between two synsets based on the "
+"shortest path distance from the equation as follows."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.path_similarity:4
+msgid ""
+"path\\_similarity = {1 \\over shortest\\_path\\_distance(synsets1,\n"
+"                     synsets2) + 1}"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.path_similarity:9
+msgid ""
+"The shortest path distance is calculated by the connection through the "
+"is-a (hypernym/hyponym) taxonomy. The score is in the ranage 0 to 1. Path"
+" similarity of 1 indicates identicality."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.path_similarity:13
+msgid "first synset supplied to measures the path similarity"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.path_similarity:15
+msgid "second synset supplied to measures the path similarity"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.path_similarity:18
+msgid "path similarity between two synsets"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lch_similarity:1
+msgid ""
+"This function returns Leacock Chodorow similarity (LCH) between two "
+"synsets, based on the shortest path distance and the maximum depth of the"
+" taxonomy. The equation to calculate LCH similarity is shown below:"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lch_similarity:6
+msgid ""
+"lch\\_similarity = {-log(shortest\\_path\\_distance(synsets1,\n"
+"                   synsets2) \\over 2 * taxonomy\\_depth}"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lch_similarity:11
+msgid "first synset supplied to measures the LCH similarity"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lch_similarity:13
+msgid "second synset supplied to measures the LCH similarity"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.lch_similarity:16
+msgid "LCH similarity between two synsets"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.wup_similarity:1
+msgid ""
+"This function returns Wu-Palmer similarity (WUP) between two synsets, "
+"based on the depth of the two senses in the taxonomy and their Least "
+"Common Subsumer (most specific ancestor node)."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.wup_similarity:5
+msgid "first synset supplied to measures the WUP similarity"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.wup_similarity:7
+msgid "second synset supplied to measures the WUP similarity"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.wup_similarity:10
+msgid "WUP similarity between two synsets"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.morphy:1
+msgid ""
+"This function finds a possible base form for the given form, with the "
+"given part of speech."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.morphy:4
+msgid "the form to finds the base form"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.morphy:5
+msgid "part of speech tag of words to be searched"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.morphy:7
+msgid "base form of the given form"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.custom_lemmas:1
+msgid ""
+"This function reads a custom tab file (see: "
+"http://compling.hss.ntu.edu.sg/omw/) containing mappings of lemmas in the"
+" given language."
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.custom_lemmas:5
+msgid "Tab file as a file or file-like object"
+msgstr ""
+
+#: of pythainlp.corpus.wordnet.custom_lemmas:6
+msgid "abbreviation of language (i.e. *eng*, *tha*)."
+msgstr ""
+
+#: ../../api/corpus.rst:83
+msgid "Definition"
+msgstr ""
+
+#: ../../api/corpus.rst:85
+msgid "Synset"
+msgstr ""
+
+#: ../../api/corpus.rst:86
+msgid "a set of synonyms that share a common meaning."
+msgstr ""
+

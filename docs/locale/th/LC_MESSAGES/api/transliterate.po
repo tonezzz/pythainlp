@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 23:20+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/transliterate.rst:4
+msgid "pythainlp.transliterate"
+msgstr ""
+
+#: ../../api/transliterate.rst:5
+msgid ""
+"The :class:`pythainlp.transliterate` turns Thai text into a romanized one"
+" (put simply, spelled with English)."
+msgstr ""
+
+#: ../../api/transliterate.rst:8
+msgid "Modules"
+msgstr ""
+
+#: of pythainlp.transliterate.core.romanize:1
+msgid ""
+"This function renders Thai words in the Latin alphabet or "
+"\"romanization\", using the Royal Thai General System of Transcription "
+"(RTGS) [#rtgs_transcription]_. RTGS is the official system published by "
+"the Royal Institute of Thailand. (Thai: ถอดเสียงภาษาไทยเป็นอักษรละติน)"
+msgstr ""
+
+#: of pythainlp.transliterate.core.pronunciate
+#: pythainlp.transliterate.core.romanize
+#: pythainlp.transliterate.core.transliterate
+#: pythainlp.transliterate.spoonerism.puan
+msgid "Parameters"
+msgstr ""
+
+#: of pythainlp.transliterate.core.romanize:6
+#: pythainlp.transliterate.royin.romanize:6
+msgid "Thai text to be romanized"
+msgstr ""
+
+#: of pythainlp.transliterate.core.romanize:7
+msgid "'royin' (default) or 'thai2rom'"
+msgstr ""
+
+#: of pythainlp.transliterate.core.pronunciate
+#: pythainlp.transliterate.core.romanize
+#: pythainlp.transliterate.core.transliterate
+#: pythainlp.transliterate.spoonerism.puan
+msgid "Returns"
+msgstr ""
+
+#: of pythainlp.transliterate.core.romanize:9
+msgid "A string of Thai words rendered in the Latin alphabet."
+msgstr ""
+
+#: of pythainlp.transliterate.core.pronunciate
+#: pythainlp.transliterate.core.romanize
+#: pythainlp.transliterate.core.transliterate
+#: pythainlp.transliterate.spoonerism.puan
+msgid "Return type"
+msgstr ""
+
+#: of pythainlp.transliterate.core.pronunciate
+#: pythainlp.transliterate.core.romanize
+#: pythainlp.transliterate.core.transliterate
+msgid "Options for engines"
+msgstr ""
+
+#: of pythainlp.transliterate.core.romanize:13
+msgid ""
+"*royin* - (default) based on the Royal Thai General System of "
+"Transcription issued by Royal Institute of Thailand."
+msgstr ""
+
+#: of pythainlp.transliterate.core.romanize:15
+msgid ""
+"*thai2rom* - a deep learning-based Thai romanization engine (require "
+"PyTorch)."
+msgstr ""
+
+#: of pythainlp.transliterate.core.romanize:17
+msgid "*tltk* - TLTK: Thai Language Toolkit"
+msgstr ""
+
+#: of pythainlp.transliterate.core.pronunciate
+#: pythainlp.transliterate.core.romanize
+#: pythainlp.transliterate.core.transliterate
+#: pythainlp.transliterate.spoonerism.puan
+msgid "Example"
+msgstr ""
+
+#: of pythainlp.transliterate.core.transliterate:1
+msgid "This function transliterates Thai text."
+msgstr ""
+
+#: of pythainlp.transliterate.core.transliterate:3
+msgid "Thai text to be transliterated"
+msgstr ""
+
+#: of pythainlp.transliterate.core.transliterate:4
+msgid "'icu', 'ipa', or 'thaig2p' (default)"
+msgstr ""
+
+#: of pythainlp.transliterate.core.transliterate:6
+msgid ""
+"A string of phonetic alphabets indicating how the input text should be "
+"pronounced."
+msgstr ""
+
+#: of pythainlp.transliterate.core.transliterate:11
+msgid ""
+"*thaig2p* - (default) Thai Grapheme-to-Phoneme, output is IPA (require "
+"PyTorch)"
+msgstr ""
+
+#: of pythainlp.transliterate.core.transliterate:13
+msgid "*icu* - pyicu, based on International Components for Unicode (ICU)"
+msgstr ""
+
+#: of pythainlp.transliterate.core.transliterate:14
+msgid "*ipa* - epitran, output is International Phonetic Alphabet (IPA)"
+msgstr ""
+
+#: of pythainlp.transliterate.core.transliterate:15
+msgid ""
+"*tltk_g2p* - Thai Grapheme-to-Phoneme from            `TLTK "
+"<https://pypi.org/project/tltk/>`_.,"
+msgstr ""
+
+#: of pythainlp.transliterate.core.transliterate:16
+msgid "*tltk_ipa* - tltk, output is International Phonetic Alphabet (IPA)"
+msgstr ""
+
+#: of pythainlp.transliterate.core.pronunciate:1
+msgid "This function pronunciates Thai word."
+msgstr ""
+
+#: of pythainlp.transliterate.core.pronunciate:3
+msgid "Thai text to be pronunciated"
+msgstr ""
+
+#: of pythainlp.transliterate.core.pronunciate:4
+msgid "'w2p' (default)"
+msgstr ""
+
+#: of pythainlp.transliterate.core.pronunciate:6
+msgid ""
+"A string of Thai letters indicating how the input text should be "
+"pronounced."
+msgstr ""
+
+#: of pythainlp.transliterate.core.pronunciate:11
+msgid "*w2p* - Thai Word-to-Phoneme"
+msgstr ""
+
+#: of pythainlp.transliterate.spoonerism.puan:1
+msgid "Thai Spoonerism"
+msgstr ""
+
+#: of pythainlp.transliterate.spoonerism.puan:3
+msgid "This function converts Thai word to spoonerism word."
+msgstr ""
+
+#: of pythainlp.transliterate.spoonerism.puan:5
+msgid "Thai word to be spoonerized"
+msgstr ""
+
+#: of pythainlp.transliterate.spoonerism.puan:6
+msgid "True (default) or False"
+msgstr ""
+
+#: of pythainlp.transliterate.spoonerism.puan:8
+msgid "A string of Thai spoonerism word."
+msgstr ""
+
+#: ../../api/transliterate.rst:16
+msgid "Romanize Engines"
+msgstr ""
+
+#: ../../api/transliterate.rst:18
+msgid "thai2rom"
+msgstr ""
+
+#: ../../api/transliterate.rst:21
+msgid "royin"
+msgstr ""
+
+#: of pythainlp.transliterate.royin.romanize:1
+msgid "Render Thai words in Latin alphabet, using RTGS"
+msgstr ""
+
+#: of pythainlp.transliterate.royin.romanize:3
+msgid ""
+"Royal Thai General System of Transcription (RTGS), is the official system"
+" by the Royal Institute of Thailand."
+msgstr ""
+
+#: of pythainlp.transliterate.royin.romanize
+msgid "param text"
+msgstr ""
+
+#: of pythainlp.transliterate.royin.romanize
+msgid "type text"
+msgstr ""
+
+#: of pythainlp.transliterate.royin.romanize:7
+#: pythainlp.transliterate.royin.romanize:9
+msgid "str"
+msgstr ""
+
+#: of pythainlp.transliterate.royin.romanize
+msgid "return"
+msgstr ""
+
+#: of pythainlp.transliterate.royin.romanize:8
+msgid "A string of Thai words rendered in the Latin alphabet"
+msgstr ""
+
+#: of pythainlp.transliterate.royin.romanize
+msgid "rtype"
+msgstr ""
+
+#: ../../api/transliterate.rst:25
+msgid "Transliterate Engines"
+msgstr ""
+
+#: ../../api/transliterate.rst:28
+msgid "icu"
+msgstr ""
+
+#: of pythainlp.transliterate.pyicu.transliterate:1
+msgid ""
+"Use ICU (International Components for Unicode) for transliteration :param"
+" str text: Thai text to be transliterated. :return: A string of "
+"Internaitonal Phonetic Alphabets indicating how the text should be "
+"pronounced."
+msgstr ""
+
+#: ../../api/transliterate.rst:31
+msgid "ipa"
+msgstr ""
+
+#: ../../api/transliterate.rst:36
+msgid "thaig2p"
+msgstr ""
+
+#: ../../api/transliterate.rst:40
+msgid "References"
+msgstr ""
+
+#: ../../api/transliterate.rst:42
+msgid ""
+"Nitaya Kanchanawan. (2006). `Romanization, Transliteration, and "
+"Transcription for the Globalization of the Thai Language. "
+"<http://www.royin.go.th/wp-content/uploads/royin-"
+"ebook/276/FileUpload/758_6484.pdf>`_ The Journal of the Royal Institute "
+"of Thailand."
+msgstr ""
+

@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 22:29+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/benchmarks.rst:4
+msgid "pythainlp.benchmarks"
+msgstr ""
+
+#: ../../api/benchmarks.rst:5
+msgid ""
+"The :class:`pythainlp.benchmarks` contains utility functions for "
+"benchmarking tasked related to Thai NLP. At the moment, we have only for "
+"word tokenization. Other tasks will be added soon."
+msgstr ""
+
+#: ../../api/benchmarks.rst:10
+msgid "Modules"
+msgstr ""
+
+#: ../../api/benchmarks.rst:13
+msgid "Tokenization"
+msgstr ""
+
+#: ../../api/benchmarks.rst:16
+msgid "Quality"
+msgstr ""
+
+#: ../../api/benchmarks.rst:20
+msgid "Qualitative evaluation of word tokenization."
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.compute_stats:1
+msgid "Compute statistics for tokenization quality"
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.compute_stats:3
+msgid "These statistics includes:"
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.compute_stats:5
+msgid "**Character-Level**:"
+msgstr "**ระดับตัวอักษร**:"
+
+#: of pythainlp.benchmarks.word_tokenization.compute_stats:6
+msgid ""
+"True Positive, False Positive, True Negative, False Negative, Precision, "
+"Recall, and f1"
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.compute_stats:7
+msgid "**Word-Level**:"
+msgstr "**ระดับคำ**:"
+
+#: of pythainlp.benchmarks.word_tokenization.compute_stats:8
+msgid "Precision, Recall, and f1"
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.compute_stats:11
+msgid "**Other**:"
+msgstr "**อื่น ๆ**:"
+
+#: of pythainlp.benchmarks.word_tokenization.compute_stats:10
+msgid ""
+"Correct tokenization indicator: {0, 1} sequence indicating the "
+"correspoding word is tokenized correctly."
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.benchmark
+#: pythainlp.benchmarks.word_tokenization.compute_stats
+#: pythainlp.benchmarks.word_tokenization.preprocessing
+msgid "Parameters"
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.benchmark:6
+#: pythainlp.benchmarks.word_tokenization.compute_stats:13
+msgid "ground truth samples"
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.benchmark:7
+#: pythainlp.benchmarks.word_tokenization.compute_stats:14
+msgid "samples that we want to evaluate"
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.benchmark
+#: pythainlp.benchmarks.word_tokenization.compute_stats
+#: pythainlp.benchmarks.word_tokenization.preprocessing
+msgid "Returns"
+msgstr "คืนค่า"
+
+#: of pythainlp.benchmarks.word_tokenization.compute_stats:16
+msgid ""
+"metrics in character and word-level and correctly tokenized word "
+"indicators"
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.benchmark
+#: pythainlp.benchmarks.word_tokenization.compute_stats
+#: pythainlp.benchmarks.word_tokenization.preprocessing
+msgid "Return type"
+msgstr "ชนิดค่าที่คืน"
+
+#: of pythainlp.benchmarks.word_tokenization.benchmark:1
+msgid "Performace benchmark of samples."
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.benchmark:3
+msgid ""
+"Please see :meth:`pythainlp.benchmarks.word_tokenization.compute_stats` "
+"for metrics being computed."
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.benchmark:9
+msgid "dataframe with row x col = len(samples) x len(metrics)"
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.preprocessing:1
+msgid "Clean up text before performing evaluation."
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.preprocessing:3
+msgid "text to be preprocessed"
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.preprocessing:4
+msgid "whether remove white space"
+msgstr ""
+
+#: of pythainlp.benchmarks.word_tokenization.preprocessing:6
+msgid "preprocessed text"
+msgstr ""
+

@@ -1,0 +1,1383 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 23:20+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/tag.rst:4
+msgid "pythainlp.tag"
+msgstr ""
+
+#: ../../api/tag.rst:5
+msgid ""
+"The :class:`pythainlp.tag` contains functions that are used to mark "
+"linguistic and other annotation to different parts of a text including "
+"part-of-speech (POS) tag and named entity (NE) tag."
+msgstr ""
+
+#: ../../api/tag.rst:8
+msgid ""
+"For POS tags, there are three set of available tags: `Universal POS tags "
+"<https://universaldependencies.org/>`_, ORCHID POS tags "
+"[#Sornlertlamvanich_2000]_, and LST20 POS tags [#Prachya_2020]_."
+msgstr ""
+
+#: ../../api/tag.rst:10
+msgid ""
+"The following table shows Universal POS tags as used in Universal "
+"Dependencies (UD):"
+msgstr ""
+
+#: ../../api/tag.rst:13 ../../api/tag.rst:35
+msgid "Abbreviation"
+msgstr ""
+
+#: ../../api/tag.rst:13 ../../api/tag.rst:35
+msgid "Part-of-Speech tag"
+msgstr ""
+
+#: ../../api/tag.rst:13 ../../api/tag.rst:35 ../../api/tag.rst:210
+msgid "Examples"
+msgstr "ตัวอย่าง"
+
+#: ../../api/tag.rst:15 ../../api/tag.rst:113 ../../api/tag.rst:114
+#: ../../api/tag.rst:115 ../../api/tag.rst:116 ../../api/tag.rst:170
+msgid "ADJ"
+msgstr ""
+
+#: ../../api/tag.rst:15
+msgid "Adjective"
+msgstr ""
+
+#: ../../api/tag.rst:15
+msgid "ใหม่, พิเศษ , ก่อน, มาก, สูง"
+msgstr ""
+
+#: ../../api/tag.rst:16 ../../api/tag.rst:145 ../../api/tag.rst:146
+#: ../../api/tag.rst:192
+msgid "ADP"
+msgstr ""
+
+#: ../../api/tag.rst:16
+msgid "Adposition"
+msgstr ""
+
+#: ../../api/tag.rst:16
+msgid "แม้, ว่า, เมื่อ, ของ, สำหรับ"
+msgstr ""
+
+#: ../../api/tag.rst:17 ../../api/tag.rst:117 ../../api/tag.rst:118
+#: ../../api/tag.rst:119 ../../api/tag.rst:120 ../../api/tag.rst:121
+#: ../../api/tag.rst:172
+msgid "ADV"
+msgstr ""
+
+#: ../../api/tag.rst:17
+msgid "Adverb"
+msgstr ""
+
+#: ../../api/tag.rst:17
+msgid "ก่อน, ก็, เล็กน้อย, เลย, สุด"
+msgstr ""
+
+#: ../../api/tag.rst:18 ../../api/tag.rst:139 ../../api/tag.rst:140
+#: ../../api/tag.rst:141 ../../api/tag.rst:142 ../../api/tag.rst:143
+#: ../../api/tag.rst:144 ../../api/tag.rst:174
+msgid "AUX"
+msgstr "AUX"
+
+#: ../../api/tag.rst:18
+msgid "Auxiliary"
+msgstr ""
+
+#: ../../api/tag.rst:18
+msgid "เป็น, ใช่, คือ, คล้าย"
+msgstr ""
+
+#: ../../api/tag.rst:19 ../../api/tag.rst:147 ../../api/tag.rst:148
+#: ../../api/tag.rst:176
+msgid "CCONJ"
+msgstr "CCONJ"
+
+#: ../../api/tag.rst:19 ../../api/tag.rst:81
+msgid "Coordinating conjunction"
+msgstr ""
+
+#: ../../api/tag.rst:19
+msgid "แต่, และ, หรือ"
+msgstr ""
+
+#: ../../api/tag.rst:20 ../../api/tag.rst:127 ../../api/tag.rst:128
+#: ../../api/tag.rst:129 ../../api/tag.rst:130 ../../api/tag.rst:131
+#: ../../api/tag.rst:132 ../../api/tag.rst:133 ../../api/tag.rst:134
+msgid "DET"
+msgstr "DET"
+
+#: ../../api/tag.rst:20
+msgid "Determiner"
+msgstr ""
+
+#: ../../api/tag.rst:20
+msgid "ที่, นี้, ซึ่ง, ทั้ง, ทุก, หลาย"
+msgstr ""
+
+#: ../../api/tag.rst:21 ../../api/tag.rst:122 ../../api/tag.rst:182
+msgid "INTJ"
+msgstr "INTJ"
+
+#: ../../api/tag.rst:21 ../../api/tag.rst:85
+msgid "Interjection"
+msgstr ""
+
+#: ../../api/tag.rst:21
+msgid "อุ้ย, โอ้ย"
+msgstr "อุ้ย, โอ้ย"
+
+#: ../../api/tag.rst:22 ../../api/tag.rst:101 ../../api/tag.rst:102
+#: ../../api/tag.rst:103 ../../api/tag.rst:104 ../../api/tag.rst:105
+#: ../../api/tag.rst:106 ../../api/tag.rst:107 ../../api/tag.rst:108
+#: ../../api/tag.rst:178 ../../api/tag.rst:180 ../../api/tag.rst:184
+msgid "NOUN"
+msgstr "NOUN"
+
+#: ../../api/tag.rst:22
+msgid "Noun"
+msgstr "Noun"
+
+#: ../../api/tag.rst:22
+msgid "กำมือ, พวก, สนาม, กีฬา, บัญชี"
+msgstr ""
+
+#: ../../api/tag.rst:23 ../../api/tag.rst:135 ../../api/tag.rst:136
+#: ../../api/tag.rst:137 ../../api/tag.rst:138 ../../api/tag.rst:186
+msgid "NUM"
+msgstr "NUM"
+
+#: ../../api/tag.rst:23
+msgid "Numeral"
+msgstr "ตัวเลข"
+
+#: ../../api/tag.rst:23
+msgid "5,000, 103.7, 2004, หนึ่ง, ร้อย"
+msgstr "5,000, 103.7, 2004, หนึ่ง, ร้อย"
+
+#: ../../api/tag.rst:24 ../../api/tag.rst:153 ../../api/tag.rst:154
+#: ../../api/tag.rst:155 ../../api/tag.rst:156 ../../api/tag.rst:157
+#: ../../api/tag.rst:158 ../../api/tag.rst:188
+msgid "PART"
+msgstr ""
+
+#: ../../api/tag.rst:24
+msgid "Particle"
+msgstr ""
+
+#: ../../api/tag.rst:24
+msgid "มา ขึ้น ไม่ ได้ เข้า"
+msgstr ""
+
+#: ../../api/tag.rst:25 ../../api/tag.rst:123 ../../api/tag.rst:124
+#: ../../api/tag.rst:125 ../../api/tag.rst:126
+msgid "PRON"
+msgstr "PRON"
+
+#: ../../api/tag.rst:25
+msgid "Pronoun"
+msgstr ""
+
+#: ../../api/tag.rst:25
+msgid "เรา, เขา, ตัวเอง, ใคร, เธอ"
+msgstr "เรา, เขา, ตัวเอง, ใคร, เธอ"
+
+#: ../../api/tag.rst:26 ../../api/tag.rst:111 ../../api/tag.rst:112
+#: ../../api/tag.rst:190
+msgid "PROPN"
+msgstr "PROPN"
+
+#: ../../api/tag.rst:26 ../../api/tag.rst:37
+msgid "Proper noun"
+msgstr ""
+
+#: ../../api/tag.rst:26
+msgid "โอบามา, แคปิตอลฮิล, จีโอพี, ไมเคิล"
+msgstr "โอบามา, แคปิตอลฮิล, จีโอพี, ไมเคิล"
+
+#: ../../api/tag.rst:27 ../../api/tag.rst:159 ../../api/tag.rst:160
+#: ../../api/tag.rst:194
+msgid "PUNCT"
+msgstr "PUNCT"
+
+#: ../../api/tag.rst:27 ../../api/tag.rst:91
+msgid "Punctuation"
+msgstr ""
+
+#: ../../api/tag.rst:27
+msgid "(, ), \", ', :"
+msgstr "(, ), \", ', :"
+
+#: ../../api/tag.rst:28 ../../api/tag.rst:149 ../../api/tag.rst:150
+#: ../../api/tag.rst:151 ../../api/tag.rst:152
+msgid "SCONJ"
+msgstr ""
+
+#: ../../api/tag.rst:28 ../../api/tag.rst:83
+msgid "Subordinating conjunction"
+msgstr ""
+
+#: ../../api/tag.rst:28
+msgid "หาก"
+msgstr "หาก"
+
+#: ../../api/tag.rst:29 ../../api/tag.rst:109 ../../api/tag.rst:110
+#: ../../api/tag.rst:196
+msgid "VERB"
+msgstr ""
+
+#: ../../api/tag.rst:29
+msgid "Verb"
+msgstr ""
+
+#: ../../api/tag.rst:29
+msgid "เปิด, ให้, ใช้, เผชิญ, อ่าน"
+msgstr ""
+
+#: ../../api/tag.rst:32
+msgid "The following table shows POS tags as used in ORCHID:"
+msgstr ""
+
+#: ../../api/tag.rst:37 ../../api/tag.rst:112
+msgid "NPRP"
+msgstr ""
+
+#: ../../api/tag.rst:37
+msgid "วินโดวส์ 95, โคโรน่า, โค้ก"
+msgstr ""
+
+#: ../../api/tag.rst:38 ../../api/tag.rst:136
+msgid "NCNM"
+msgstr ""
+
+#: ../../api/tag.rst:38
+msgid "Cardinal number"
+msgstr ""
+
+#: ../../api/tag.rst:38
+msgid "หนึ่ง, สอง, สาม, 1, 2, 10"
+msgstr ""
+
+#: ../../api/tag.rst:39 ../../api/tag.rst:114
+msgid "NONM"
+msgstr ""
+
+#: ../../api/tag.rst:39
+msgid "Ordinal number"
+msgstr ""
+
+#: ../../api/tag.rst:39
+msgid "ที่หนึ่ง, ที่สอง, ที่สาม, ที่1, ที่2"
+msgstr ""
+
+#: ../../api/tag.rst:40 ../../api/tag.rst:137
+msgid "NLBL"
+msgstr ""
+
+#: ../../api/tag.rst:40
+msgid "Label noun"
+msgstr ""
+
+#: ../../api/tag.rst:40
+msgid "1, 2, 3, 4, ก, ข, a, b"
+msgstr ""
+
+#: ../../api/tag.rst:41 ../../api/tag.rst:102
+msgid "NCMN"
+msgstr ""
+
+#: ../../api/tag.rst:41
+msgid "Common noun"
+msgstr ""
+
+#: ../../api/tag.rst:41
+msgid "หนังสือ, อาหาร, อาคาร, คน"
+msgstr "หนังสือ, อาหาร, อาคาร, คน"
+
+#: ../../api/tag.rst:42 ../../api/tag.rst:103
+msgid "NTTL"
+msgstr "NTTL"
+
+#: ../../api/tag.rst:42
+msgid "Title noun"
+msgstr ""
+
+#: ../../api/tag.rst:42
+msgid "ครู, พลเอก"
+msgstr "ครู, พลเอก"
+
+#: ../../api/tag.rst:43 ../../api/tag.rst:124
+msgid "PPRS"
+msgstr ""
+
+#: ../../api/tag.rst:43
+msgid "Personal pronoun"
+msgstr ""
+
+#: ../../api/tag.rst:43
+msgid "คุณ, เขา, ฉัน"
+msgstr ""
+
+#: ../../api/tag.rst:44 ../../api/tag.rst:125
+msgid "PDMN"
+msgstr ""
+
+#: ../../api/tag.rst:44
+msgid "Demonstrative pronoun"
+msgstr ""
+
+#: ../../api/tag.rst:44
+msgid "นี่, นั้น, ที่นั่น, ที่นี่"
+msgstr ""
+
+#: ../../api/tag.rst:45 ../../api/tag.rst:126
+msgid "PNTR"
+msgstr ""
+
+#: ../../api/tag.rst:45
+msgid "Interrogative pronoun"
+msgstr ""
+
+#: ../../api/tag.rst:45
+msgid "ใคร, อะไร, อย่างไร"
+msgstr ""
+
+#: ../../api/tag.rst:46 ../../api/tag.rst:150
+msgid "PREL"
+msgstr ""
+
+#: ../../api/tag.rst:46
+msgid "Relative pronoun"
+msgstr ""
+
+#: ../../api/tag.rst:46
+msgid "ที่, ซึ่ง, อัน, ผู้"
+msgstr ""
+
+#: ../../api/tag.rst:47 ../../api/tag.rst:109
+msgid "VACT"
+msgstr ""
+
+#: ../../api/tag.rst:47
+msgid "Active verb"
+msgstr ""
+
+#: ../../api/tag.rst:47
+msgid "ทำงาน, ร้องเพลง, กิน"
+msgstr ""
+
+#: ../../api/tag.rst:48 ../../api/tag.rst:110
+msgid "VSTA"
+msgstr ""
+
+#: ../../api/tag.rst:48
+msgid "Stative verb"
+msgstr ""
+
+#: ../../api/tag.rst:48
+msgid "เห็น, รู้, คือ"
+msgstr ""
+
+#: ../../api/tag.rst:49 ../../api/tag.rst:115
+msgid "VATT"
+msgstr ""
+
+#: ../../api/tag.rst:49
+msgid "Attributive verb"
+msgstr ""
+
+#: ../../api/tag.rst:49
+msgid "อ้วน, ดี, สวย"
+msgstr ""
+
+#: ../../api/tag.rst:50 ../../api/tag.rst:140
+msgid "XVBM"
+msgstr ""
+
+#: ../../api/tag.rst:50
+msgid "Pre-verb auxiliary, before negator \"ไม่\""
+msgstr ""
+
+#: ../../api/tag.rst:50
+msgid "เกิด, เกือบ, กำลัง"
+msgstr ""
+
+#: ../../api/tag.rst:51 ../../api/tag.rst:141
+msgid "XVAM"
+msgstr ""
+
+#: ../../api/tag.rst:51
+msgid "Pre-verb auxiliary, after negator \"ไม่\""
+msgstr ""
+
+#: ../../api/tag.rst:51
+msgid "ค่อย, น่า, ได้"
+msgstr ""
+
+#: ../../api/tag.rst:52 ../../api/tag.rst:142
+msgid "XVMM"
+msgstr ""
+
+#: ../../api/tag.rst:52
+msgid "Pre-verb, before or after negator \"ไม่\""
+msgstr ""
+
+#: ../../api/tag.rst:52
+msgid "ควร, เคย, ต้อง"
+msgstr ""
+
+#: ../../api/tag.rst:53 ../../api/tag.rst:143
+msgid "XVBB"
+msgstr ""
+
+#: ../../api/tag.rst:53
+msgid "Pre-verb auxiliary, in imperative mood"
+msgstr ""
+
+#: ../../api/tag.rst:53
+msgid "กรุณา, จง, เชิญ, อย่า, ห้าม"
+msgstr ""
+
+#: ../../api/tag.rst:54 ../../api/tag.rst:144
+msgid "XVAE"
+msgstr ""
+
+#: ../../api/tag.rst:54
+msgid "Post-verb auxiliary"
+msgstr ""
+
+#: ../../api/tag.rst:54
+msgid "ไป, มา, ขึ้น"
+msgstr ""
+
+#: ../../api/tag.rst:55 ../../api/tag.rst:128
+msgid "DDAN"
+msgstr ""
+
+#: ../../api/tag.rst
+msgid "Definite determiner, after noun without"
+msgstr ""
+
+#: ../../api/tag.rst
+msgid "classifier in between"
+msgstr ""
+
+#: ../../api/tag.rst:55
+msgid "ยี่, นั่น, โน่น, ทั้งหมด"
+msgstr ""
+
+#: ../../api/tag.rst:57 ../../api/tag.rst:129
+msgid "DDAC"
+msgstr ""
+
+#: ../../api/tag.rst
+msgid "Definite determiner, allowing classifier"
+msgstr ""
+
+#: ../../api/tag.rst
+msgid "in between"
+msgstr ""
+
+#: ../../api/tag.rst:57
+msgid "นี้, นั้น, โน้น, นู้น"
+msgstr ""
+
+#: ../../api/tag.rst:59 ../../api/tag.rst:130
+msgid "DDBQ"
+msgstr ""
+
+#: ../../api/tag.rst
+msgid "Definite determiner, between noun and"
+msgstr ""
+
+#: ../../api/tag.rst
+msgid "classifier or preceding quantitative expression"
+msgstr ""
+
+#: ../../api/tag.rst:59
+msgid "ทั้ง, อีก, เพียง"
+msgstr ""
+
+#: ../../api/tag.rst:61 ../../api/tag.rst:131
+msgid "DDAQ"
+msgstr ""
+
+#: ../../api/tag.rst
+msgid "Definite determiner,"
+msgstr ""
+
+#: ../../api/tag.rst
+msgid "following quantitative expression"
+msgstr ""
+
+#: ../../api/tag.rst:61
+msgid "พอดี, ถ้วน"
+msgstr ""
+
+#: ../../api/tag.rst:63 ../../api/tag.rst:132
+msgid "DIAC"
+msgstr ""
+
+#: ../../api/tag.rst
+msgid "Indefinite determiner, following noun; allowing"
+msgstr ""
+
+#: ../../api/tag.rst:63
+msgid "ไหน, อื่น, ต่างๆ"
+msgstr ""
+
+#: ../../api/tag.rst:65 ../../api/tag.rst:133
+msgid "DIBQ"
+msgstr ""
+
+#: ../../api/tag.rst
+msgid "Indefinite determiner, between noun and"
+msgstr ""
+
+#: ../../api/tag.rst:65
+msgid "บาง, ประมาณ, เกือบ"
+msgstr ""
+
+#: ../../api/tag.rst:67 ../../api/tag.rst:134
+msgid "DIAQ"
+msgstr ""
+
+#: ../../api/tag.rst
+msgid "Indefinite determiner,"
+msgstr ""
+
+#: ../../api/tag.rst:67
+msgid "กว่า, เศษ"
+msgstr ""
+
+#: ../../api/tag.rst:69 ../../api/tag.rst:138
+msgid "DCNM"
+msgstr ""
+
+#: ../../api/tag.rst:69
+msgid "Determiner, cardinal number expression"
+msgstr ""
+
+#: ../../api/tag.rst:69
+msgid "**หนึ่ง**\\ คน, เสือ, **2** ตัว"
+msgstr ""
+
+#: ../../api/tag.rst:70 ../../api/tag.rst:116
+msgid "DONM"
+msgstr ""
+
+#: ../../api/tag.rst:70
+msgid "Determiner, ordinal number expression"
+msgstr ""
+
+#: ../../api/tag.rst:70
+msgid "ที่หนึ่ง, ที่สอง, ที่สุดท้สย"
+msgstr ""
+
+#: ../../api/tag.rst:71 ../../api/tag.rst:118
+msgid "ADVN"
+msgstr ""
+
+#: ../../api/tag.rst:71
+msgid "Adverb with normal form"
+msgstr ""
+
+#: ../../api/tag.rst:71
+msgid "เก่ง, เร็ว, ช้า, สม่ำเสมอ"
+msgstr ""
+
+#: ../../api/tag.rst:72 ../../api/tag.rst:119
+msgid "ADVI"
+msgstr ""
+
+#: ../../api/tag.rst:72
+msgid "Adverb with iterative form"
+msgstr ""
+
+#: ../../api/tag.rst:72
+msgid "เร็วๆ, เสทอๆ, ช้าๆ"
+msgstr ""
+
+#: ../../api/tag.rst:73 ../../api/tag.rst:120
+msgid "ADVP"
+msgstr ""
+
+#: ../../api/tag.rst:73
+msgid "Adverb with prefixed form"
+msgstr ""
+
+#: ../../api/tag.rst:73
+msgid "โดยเร็ว"
+msgstr ""
+
+#: ../../api/tag.rst:74 ../../api/tag.rst:121
+msgid "ADVS"
+msgstr ""
+
+#: ../../api/tag.rst:74
+msgid "Sentential adverb"
+msgstr ""
+
+#: ../../api/tag.rst:74
+msgid "โดยปกติ, ธรรมดา"
+msgstr ""
+
+#: ../../api/tag.rst:75 ../../api/tag.rst:104
+msgid "CNIT"
+msgstr ""
+
+#: ../../api/tag.rst:75
+msgid "Unit classifier"
+msgstr ""
+
+#: ../../api/tag.rst:75
+msgid "ตัว, คน, เล่ม"
+msgstr "ตัว, คน, เล่ม"
+
+#: ../../api/tag.rst:76 ../../api/tag.rst:105
+msgid "CLTV"
+msgstr ""
+
+#: ../../api/tag.rst:76
+msgid "Collective classifier"
+msgstr ""
+
+#: ../../api/tag.rst
+msgid "คู่, กลุ่ม, ฝูง, เชิง, ทาง,"
+msgstr ""
+
+#: ../../api/tag.rst
+msgid "ด้าน, แบบ, รุ่น"
+msgstr ""
+
+#: ../../api/tag.rst:78 ../../api/tag.rst:106
+msgid "CMTR"
+msgstr ""
+
+#: ../../api/tag.rst:78
+msgid "Measurement classifier"
+msgstr ""
+
+#: ../../api/tag.rst:78
+msgid "กิโลกรัม, แก้ว, ชั่วโมง"
+msgstr ""
+
+#: ../../api/tag.rst:79 ../../api/tag.rst:107
+msgid "CFQC"
+msgstr ""
+
+#: ../../api/tag.rst:79
+msgid "Frequency classifier"
+msgstr ""
+
+#: ../../api/tag.rst:79
+msgid "ครั้ง, เที่ยว"
+msgstr ""
+
+#: ../../api/tag.rst:80 ../../api/tag.rst:108
+msgid "CVBL"
+msgstr ""
+
+#: ../../api/tag.rst:80
+msgid "Verbal classifier"
+msgstr ""
+
+#: ../../api/tag.rst:80
+msgid "ม้วน, มัด"
+msgstr ""
+
+#: ../../api/tag.rst:81 ../../api/tag.rst:148
+msgid "JCRG"
+msgstr ""
+
+#: ../../api/tag.rst:81
+msgid "และ, หรือ, แต่"
+msgstr ""
+
+#: ../../api/tag.rst:82 ../../api/tag.rst:152
+msgid "JCMP"
+msgstr ""
+
+#: ../../api/tag.rst:82
+msgid "Comparative conjunction"
+msgstr ""
+
+#: ../../api/tag.rst:82
+msgid "กว่า, เหมือนกับ, เท่ากับ"
+msgstr ""
+
+#: ../../api/tag.rst:83 ../../api/tag.rst:151
+msgid "JSBR"
+msgstr "JSBR"
+
+#: ../../api/tag.rst:83
+msgid "เพราะว่า, เนื่องจาก ที่, แม้ว่า, ถ้า"
+msgstr "เพราะว่า, เนื่องจาก ที่, แม้ว่า, ถ้า"
+
+#: ../../api/tag.rst:84 ../../api/tag.rst:146
+msgid "RPRE"
+msgstr "RPRE"
+
+#: ../../api/tag.rst:84
+msgid "Preposition"
+msgstr ""
+
+#: ../../api/tag.rst:84
+msgid "จาก, ละ, ของ, ใต้, บน"
+msgstr "จาก, ละ, ของ, ใต้, บน"
+
+#: ../../api/tag.rst:85 ../../api/tag.rst:122
+msgid "INT"
+msgstr ""
+
+#: ../../api/tag.rst:85
+msgid "โอ้บ, โอ้, เออ, เอ๋, อ๋อ"
+msgstr ""
+
+#: ../../api/tag.rst:86 ../../api/tag.rst:154
+msgid "FIXN"
+msgstr ""
+
+#: ../../api/tag.rst:86
+msgid "Nominal prefix"
+msgstr ""
+
+#: ../../api/tag.rst:86
+msgid "**การ**\\ ทำงาน, **ความ**\\ สนุนสนาน"
+msgstr ""
+
+#: ../../api/tag.rst:87 ../../api/tag.rst:155
+msgid "FIXV"
+msgstr ""
+
+#: ../../api/tag.rst:87
+msgid "Adverbial prefix"
+msgstr ""
+
+#: ../../api/tag.rst:87
+msgid "**อย่าง**\\ เร็ว"
+msgstr ""
+
+#: ../../api/tag.rst:88 ../../api/tag.rst:156
+msgid "EAFF"
+msgstr ""
+
+#: ../../api/tag.rst:88
+msgid "Ending for affirmative sentence"
+msgstr ""
+
+#: ../../api/tag.rst:88
+msgid "จ๊ะ, จ้ะ, ค่ะ, ครับ, นะ, น่า, เถอะ"
+msgstr ""
+
+#: ../../api/tag.rst:89 ../../api/tag.rst:157
+msgid "EITT"
+msgstr ""
+
+#: ../../api/tag.rst:89
+msgid "Ending for interrogative sentence"
+msgstr ""
+
+#: ../../api/tag.rst:89
+msgid "หรือ, เหรอ, ไหม, มั้ย"
+msgstr ""
+
+#: ../../api/tag.rst:90 ../../api/tag.rst:158
+msgid "NEG"
+msgstr ""
+
+#: ../../api/tag.rst:90
+msgid "Negator"
+msgstr ""
+
+#: ../../api/tag.rst:90
+msgid "ไม่, มิได้, ไม่ได้, มิ"
+msgstr ""
+
+#: ../../api/tag.rst:91 ../../api/tag.rst:160
+msgid "PUNC"
+msgstr ""
+
+#: ../../api/tag.rst:91
+msgid "(, ), “, ,, ;"
+msgstr ""
+
+#: ../../api/tag.rst:94
+msgid ""
+"ORCHID corpus uses different set of POS tags. Thus, we make UD POS tags "
+"version for ORCHID corpus."
+msgstr ""
+
+#: ../../api/tag.rst:96
+msgid "The following table shows the mapping of POS tags from ORCHID to UD:"
+msgstr ""
+
+#: ../../api/tag.rst:99
+msgid "ORCHID POS tags"
+msgstr ""
+
+#: ../../api/tag.rst:99 ../../api/tag.rst:168
+msgid "Coresponding UD POS tag"
+msgstr ""
+
+#: ../../api/tag.rst:163
+msgid "Details about LST20 POS tags are available in [#Prachya_2020]_."
+msgstr ""
+
+#: ../../api/tag.rst:165
+msgid "The following table shows the mapping of POS tags from LST20 to UD:"
+msgstr ""
+
+#: ../../api/tag.rst:168
+msgid "LST20 POS tags"
+msgstr ""
+
+#: ../../api/tag.rst:170
+msgid "AJ"
+msgstr ""
+
+#: ../../api/tag.rst:172
+msgid "AV"
+msgstr ""
+
+#: ../../api/tag.rst:174
+msgid "AX"
+msgstr ""
+
+#: ../../api/tag.rst:176
+msgid "CC"
+msgstr ""
+
+#: ../../api/tag.rst:178
+msgid "CL"
+msgstr ""
+
+#: ../../api/tag.rst:180
+msgid "FX"
+msgstr ""
+
+#: ../../api/tag.rst:182
+msgid "IJ"
+msgstr ""
+
+#: ../../api/tag.rst:184
+msgid "NN"
+msgstr ""
+
+#: ../../api/tag.rst:186
+msgid "NU"
+msgstr ""
+
+#: ../../api/tag.rst:188
+msgid "PA"
+msgstr ""
+
+#: ../../api/tag.rst:190
+msgid "PR"
+msgstr ""
+
+#: ../../api/tag.rst:192
+msgid "PS"
+msgstr ""
+
+#: ../../api/tag.rst:194
+msgid "PU"
+msgstr ""
+
+#: ../../api/tag.rst:196
+msgid "VV"
+msgstr ""
+
+#: ../../api/tag.rst:198
+msgid "XX"
+msgstr ""
+
+#: ../../api/tag.rst:198
+msgid "X"
+msgstr ""
+
+#: ../../api/tag.rst:201
+#, python-format
+msgid ""
+"For the NE, we use `Inside-outside-beggining (IOB) "
+"<https://en.wikipedia.org/wiki/Inside%E2%80%93outside%E2%80%93beginning_(tagging)>`_"
+" format to tag NE for each word."
+msgstr ""
+
+#: ../../api/tag.rst:203
+msgid ""
+"*B-* prefix indicates the begining token of the chunk. *I-* prefix "
+"indicates the intermediate token within the chunk. *O* indicates that the"
+" token does not belong to any NE chunk."
+msgstr ""
+
+#: ../../api/tag.rst:205
+msgid ""
+"For instance, given a sentence \"บารัค โอบามาเป็นประธานธิปดี\", it would "
+"tag the tokens \"บารัค\", \"โอบามา\", \"เป็น\", \"ประธานาธิปดี\" with "
+"\"B-PERSON\", \"I-PERSON\", \"O\", and \"O\" respectively."
+msgstr ""
+
+#: ../../api/tag.rst:207
+msgid "The following table shows named entity (NE) tags as used PyThaiNLP:"
+msgstr ""
+
+#: ../../api/tag.rst:210
+msgid "Named Entity tag"
+msgstr ""
+
+#: ../../api/tag.rst:212
+msgid "DATE"
+msgstr "DATE"
+
+#: ../../api/tag.rst:212
+msgid "2/21/2004, 16 ก.พ., จันทร์"
+msgstr ""
+
+#: ../../api/tag.rst:213
+msgid "TIME"
+msgstr ""
+
+#: ../../api/tag.rst:213
+msgid "16.30 น., 5 วัน, 1-3 ปี"
+msgstr "16.30 น., 5 วัน, 1-3 ปี"
+
+#: ../../api/tag.rst:214
+msgid "EMAIL"
+msgstr "EMAIL"
+
+#: ../../api/tag.rst:214
+msgid "info@nrpsc.ac.th"
+msgstr ""
+
+#: ../../api/tag.rst:215
+msgid "LEN"
+msgstr ""
+
+#: ../../api/tag.rst:215
+msgid "30 กิโลเมตร, 5 กม."
+msgstr ""
+
+#: ../../api/tag.rst:216
+msgid "LOCATION"
+msgstr ""
+
+#: ../../api/tag.rst:216
+msgid "ไทย, จ.ปราจีนบุรี, กำแพงเพชร"
+msgstr ""
+
+#: ../../api/tag.rst:217
+msgid "ORGANIZATION"
+msgstr ""
+
+#: ../../api/tag.rst:217
+msgid "กรมวิทยาศาสตร์การแพทย์, อย."
+msgstr ""
+
+#: ../../api/tag.rst:218
+msgid "PERSON"
+msgstr ""
+
+#: ../../api/tag.rst:218
+msgid "น.พ.จรัล, นางประนอม ทองจันทร์"
+msgstr ""
+
+#: ../../api/tag.rst:219
+msgid "PHONE"
+msgstr ""
+
+#: ../../api/tag.rst:219
+msgid "1200, 0 2670 8888"
+msgstr ""
+
+#: ../../api/tag.rst:220
+msgid "URL"
+msgstr ""
+
+#: ../../api/tag.rst:220
+msgid "http://www.bangkokhealth.com/"
+msgstr ""
+
+#: ../../api/tag.rst:221
+msgid "ZIP"
+msgstr ""
+
+#: ../../api/tag.rst:221
+msgid "10400, 11130"
+msgstr ""
+
+#: ../../api/tag.rst:222
+msgid "Money"
+msgstr "Money"
+
+#: ../../api/tag.rst:222
+msgid "2.7 ล้านบาท, 2,000 บาท"
+msgstr "2.7 ล้านบาท, 2,000 บาท"
+
+#: ../../api/tag.rst:223
+msgid "LAW"
+msgstr ""
+
+#: ../../api/tag.rst:223
+msgid "พ.ร.บ.โรคระบาด พ.ศ.2499, รัฐธรรมนูญ"
+msgstr ""
+
+#: ../../api/tag.rst:227
+msgid "Modules"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag:1
+msgid "Marks words with part-of-speech (POS) tags, such as 'NOUN' and 'VERB'."
+msgstr ""
+
+#: of pythainlp.tag.chunk.chunk_parse pythainlp.tag.locations.tag_provinces
+#: pythainlp.tag.named_entity.NER pythainlp.tag.named_entity.NER.tag
+#: pythainlp.tag.pos_tag.pos_tag pythainlp.tag.pos_tag.pos_tag_sents
+#: pythainlp.tag.thainer.ThaiNameTagger.get_ner pythainlp.tag.tltk.get_ner
+msgid "Parameters"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag:3
+msgid "a list of tokenized words"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag:4
+msgid ""
+"* *perceptron* - perceptron tagger (default) * *unigram* - unigram tagger"
+" * *wangchanberta* - wangchanberta model (support lst20 corpus only"
+"             and it supports a string only. if you input a list of word,"
+"             it will convert list word to a string. * *tltk* - TLTK: Thai"
+" Language Toolkit (support TNC corpus only.            if you choose "
+"other corpus, It's change to TNC corpus.)"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag:5 pythainlp.tag.pos_tag.pos_tag_sents:5
+msgid "*perceptron* - perceptron tagger (default)"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag:6 pythainlp.tag.pos_tag.pos_tag_sents:6
+msgid "*unigram* - unigram tagger"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag:7
+msgid ""
+"*wangchanberta* - wangchanberta model (support lst20 corpus only"
+"             and it supports a string only. if you input a list of word,"
+"             it will convert list word to a string."
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag:8 pythainlp.tag.pos_tag.pos_tag_sents:8
+msgid ""
+"*tltk* - TLTK: Thai Language Toolkit (support TNC corpus only."
+"            if you choose other corpus, It's change to TNC corpus.)"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag:9
+msgid ""
+"the corpus that used to create the language model for tagger * *lst20* - "
+"`LST20 <https://aiforthai.in.th/corpus.php>`_ corpus             by "
+"National Electronics and Computer Technology Center, Thailand * "
+"*lst20_ud* - LST20 text, with tags mapped to Universal POS tag"
+"             from `Universal Dependencies "
+"<https://universaldependencies.org/>` * *orchid* - `ORCHID             "
+"<https://www.academia.edu/9127599/Thai_Treebank>`_ corpus,             "
+"text from Thai academic articles (default) * *orchid_ud* - ORCHID text, "
+"with tags mapped to Universal POS tags * *pud* - `Parallel Universal "
+"Dependencies (PUD)            <https://github.com/UniversalDependencies"
+"/UD_Thai-PUD>`_             treebanks, natively use Universal POS tags * "
+"*tnc* - Thai National Corpus (support tltk engine only)"
+msgstr ""
+
+#: of pythainlp.tag.chunk.chunk_parse pythainlp.tag.named_entity.NER.tag
+#: pythainlp.tag.pos_tag.pos_tag pythainlp.tag.pos_tag.pos_tag_sents
+#: pythainlp.tag.thainer.ThaiNameTagger.get_ner pythainlp.tag.tltk.get_ner
+msgid "Returns"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag:16
+msgid "a list of tuples (word, POS tag)"
+msgstr ""
+
+#: of pythainlp.tag.chunk.chunk_parse pythainlp.tag.locations.tag_provinces
+#: pythainlp.tag.named_entity.NER.tag pythainlp.tag.pos_tag.pos_tag
+#: pythainlp.tag.pos_tag.pos_tag_sents
+#: pythainlp.tag.thainer.ThaiNameTagger.get_ner pythainlp.tag.tltk.get_ner
+msgid "Return type"
+msgstr ""
+
+#: of pythainlp.tag.chunk.chunk_parse pythainlp.tag.locations.tag_provinces
+#: pythainlp.tag.named_entity.NER.tag pythainlp.tag.pos_tag.pos_tag
+#: pythainlp.tag.pos_tag.pos_tag_sents pythainlp.tag.thainer.ThaiNameTagger
+#: pythainlp.tag.thainer.ThaiNameTagger.get_ner pythainlp.tag.tltk.get_ner
+msgid "Example"
+msgstr "ตัวอย่าง"
+
+#: of pythainlp.tag.pos_tag.pos_tag:21
+msgid "Tag words with corpus `orchid` (default)::"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag:33
+msgid "Tag words with corpus `orchid_ud`::"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag:46
+msgid "Tag words with corpus `pud`::"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag:57
+msgid "Tag words with different engines including *perceptron* and *unigram*::"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag_sents:1
+msgid "Marks sentences with part-of-speech (POS) tags."
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag_sents:3
+msgid "a list of lists of tokenized words"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag_sents:4
+msgid ""
+"* *perceptron* - perceptron tagger (default) * *unigram* - unigram tagger"
+" * *wangchanberta*  - wangchanberta model (support lst20 corpus only) * "
+"*tltk* - TLTK: Thai Language Toolkit (support TNC corpus only."
+"            if you choose other corpus, It's change to TNC corpus.)"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag_sents:7
+msgid "*wangchanberta*  - wangchanberta model (support lst20 corpus only)"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag_sents:9
+msgid ""
+"the corpus that used to create the language model for tagger * *lst20* - "
+"`LST20 <https://aiforthai.in.th/corpus.php>`_ corpus             by "
+"National Electronics and Computer Technology Center, Thailand * "
+"*lst20_ud* - LST20 text, with tags mapped to Universal POS tags"
+"             from `Universal Dependencies "
+"<https://universaldependencies.org/>` * *orchid* - `ORCHID             "
+"<https://www.academia.edu/9127599/Thai_Treebank>`_ corpus,             "
+"text from Thai academic articles (default) * *orchid_ud* - ORCHID text, "
+"with tags mapped to Universal POS tags * *pud* - `Parallel Universal "
+"Dependencies (PUD)            <https://github.com/UniversalDependencies"
+"/UD_Thai-PUD>`_             treebanks, natively use Universal POS tags * "
+"*tnc* - Thai National Corpus (support tltk engine only)"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag_sents:16
+msgid "a list of lists of tuples (word, POS tag)"
+msgstr ""
+
+#: of pythainlp.tag.pos_tag.pos_tag_sents:21
+msgid "Labels POS for two sentences::"
+msgstr ""
+
+#: of pythainlp.tag.locations.tag_provinces:1
+msgid "This function recognize Thailand provinces in text."
+msgstr ""
+
+#: of pythainlp.tag.locations.tag_provinces:3
+msgid "Note that it uses exact match and considers no context."
+msgstr ""
+
+#: of pythainlp.tag.locations.tag_provinces:5
+msgid "a list of words"
+msgstr ""
+
+#: of pythainlp.tag.locations.tag_provinces
+msgid "reutrn"
+msgstr ""
+
+#: of pythainlp.tag.locations.tag_provinces:6
+msgid "a list of tuple indicating NER for `LOCATION` in IOB format"
+msgstr ""
+
+#: of pythainlp.tag.chunk.chunk_parse:1
+msgid "This function parse thai sentence to phrase structure in IOB format."
+msgstr ""
+
+#: of pythainlp.tag.chunk.chunk_parse:3
+msgid "list [(word,part-of-speech)]"
+msgstr ""
+
+#: of pythainlp.tag.chunk.chunk_parse:4
+msgid "chunk parse engine (now, it has crf only)"
+msgstr ""
+
+#: of pythainlp.tag.chunk.chunk_parse:5
+msgid "chunk parse corpus (now, it has orchidpp only)"
+msgstr ""
+
+#: of pythainlp.tag.chunk.chunk_parse:7
+msgid "a list of tuple (word,part-of-speech,chunking)"
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER:1
+msgid "Named-entity recognizer class"
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER:3
+msgid "Named-entity recognizer engine"
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER:4
+msgid "corpus"
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER:10
+msgid "**Options for engine**"
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER:7
+msgid "*thainer* - Thai NER engine"
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER:8
+msgid "*wangchanberta* - wangchanberta model"
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER:9
+msgid "*lst20_onnx* - LST20 NER model by wangchanberta with ONNX runtime"
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER:10
+msgid "*tltk* - wrapper for `TLTK <https://pypi.org/project/tltk/>`_."
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER:14
+msgid "**Options for corpus**"
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER:13
+msgid "*thaimer* - Thai NER corpus"
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER:14
+msgid "*lst20* - lst20 corpus (wangchanberta only)"
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER:16
+msgid "**Note**: for tltk engine, It's support ner model from tltk only."
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER.tag:1
+#: pythainlp.tag.thainer.ThaiNameTagger.get_ner:1 pythainlp.tag.tltk.get_ner:3
+msgid "This function tags named-entitiy from text in IOB format."
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER.tag:3
+#: pythainlp.tag.thainer.ThaiNameTagger.get_ner:3 pythainlp.tag.tltk.get_ner:5
+msgid "text in Thai to be tagged"
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER.tag:4
+msgid "output with part-of-speech tag.            (wangchanberta is not support)"
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER.tag:5
+#: pythainlp.tag.thainer.ThaiNameTagger.get_ner:6 pythainlp.tag.tltk.get_ner:8
+msgid "output like html tag."
+msgstr ""
+
+#: of pythainlp.tag.named_entity.NER.tag:6
+#: pythainlp.tag.thainer.ThaiNameTagger.get_ner:7 pythainlp.tag.tltk.get_ner:9
+msgid ""
+"a list of tuple associated with tokenized word, NER tag, POS tag (if the "
+"parameter `pos` is specified as `True`), and output like html tag (if the"
+" parameter `tag` is specified as `True`). Otherwise, return a list of "
+"tuple associated with tokenized word and NER tag"
+msgstr ""
+
+#: of pythainlp.tag.thainer.ThaiNameTagger:1
+msgid "Thai named-entity recognizer. :param str version: Thai NER version."
+msgstr ""
+
+#: of pythainlp.tag.thainer.ThaiNameTagger:3
+msgid "It's support Thai NER 1.4 & 1.5. The defualt value is `1.5`"
+msgstr ""
+
+#: of pythainlp.tag.thainer.ThaiNameTagger.get_ner:4
+#: pythainlp.tag.tltk.get_ner:6
+msgid ""
+"To include POS tags in the results (`True`) or exclude (`False`). The "
+"defualt value is `True`"
+msgstr ""
+
+#: of pythainlp.tag.thainer.ThaiNameTagger.get_ner
+msgid "Note"
+msgstr ""
+
+#: of pythainlp.tag.thainer.ThaiNameTagger.get_ner:16
+msgid ""
+"For the POS tags to be included in the results, this function uses "
+":func:`pythainlp.tag.pos_tag` with engine as `perceptron` and corpus as "
+"orchid_ud`."
+msgstr ""
+
+#: of pythainlp.tag.tltk.get_ner:1
+msgid "Named-entity recognizer from **TLTK**"
+msgstr ""
+
+#: ../../api/tag.rst:240
+msgid "Tagger Engines"
+msgstr ""
+
+#: ../../api/tag.rst:243
+msgid "perceptron"
+msgstr ""
+
+#: ../../api/tag.rst:245
+msgid ""
+"Perceptron tagger is the part-of-speech tagging using the averaged, "
+"structured perceptron algorithm."
+msgstr ""
+
+#: ../../api/tag.rst:248
+msgid "unigram"
+msgstr ""
+
+#: ../../api/tag.rst:250
+msgid ""
+"Unigram tagger doesn't take the ordering of words in the list into "
+"account."
+msgstr ""
+
+#: ../../api/tag.rst:254
+msgid "References"
+msgstr ""
+
+#: ../../api/tag.rst:256
+msgid ""
+"Virach Sornlertlamvanich, Naoto Takahashi and Hitoshi Isahara. (2000). "
+"Building a Thai Part-Of-Speech Tagged Corpus (ORCHID). The Journal of the"
+" Acoustical Society of Japan (E), Vol.20, No.3, pp 189-198, May 1999."
+msgstr ""
+
+#: ../../api/tag.rst:259
+msgid ""
+"Prachya Boonkwan and Vorapon Luantangsrisuk and Sitthaa Phaholphinyo and "
+"Kanyanat Kriengket and Dhanon Leenoi and Charun Phrombut and Monthika "
+"Boriboon and Krit Kosawat and Thepchai Supnithi. (2020). The Annotation "
+"Guideline of LST20 Corpus. arXiv:2008.05055"
+msgstr ""
+

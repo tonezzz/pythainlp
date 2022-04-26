@@ -1,0 +1,332 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 23:20+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/ulmfit.rst:4
+msgid "pythainlp.ulmfit"
+msgstr "pythainlp.ulmfit"
+
+#: ../../api/ulmfit.rst:6
+msgid "Universal Language Model Fine-tuning for Text Classification (ULMFiT)."
+msgstr ""
+
+#: ../../api/ulmfit.rst:9
+msgid "Modules"
+msgstr ""
+
+#: of pythainlp.ulmfit.tokenizer.ThaiTokenizer:1
+msgid ""
+"Wrapper around a frozen newmm tokenizer to make it a "
+":class:`fastai.BaseTokenizer`. (see: "
+"https://docs.fast.ai/text.transform#BaseTokenizer)"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.document_vector:1
+msgid ""
+"This function vectorize Thai input text into a 400 dimension vector using"
+" :class:`fastai` language model and data bunch."
+msgstr ""
+
+#: of pythainlp.ulmfit.core.document_vector pythainlp.ulmfit.core.merge_wgts
+msgid "meth"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.document_vector:4
+msgid ""
+"`document_vector` get document vector using fastai language model and "
+"data bunch"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.document_vector pythainlp.ulmfit.core.merge_wgts
+#: pythainlp.ulmfit.core.process_thai pythainlp.ulmfit.preprocess.fix_html
+#: pythainlp.ulmfit.preprocess.remove_space
+#: pythainlp.ulmfit.preprocess.replace_rep_after
+#: pythainlp.ulmfit.preprocess.replace_rep_nonum
+#: pythainlp.ulmfit.preprocess.replace_wrep_post
+#: pythainlp.ulmfit.preprocess.replace_wrep_post_nonum
+msgid "Parameters"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.document_vector:6
+msgid "text to be vectorized with :class:`fastai` language model."
+msgstr ""
+
+#: of pythainlp.ulmfit.core.document_vector:7
+msgid ":class:`fastai` language model learner"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.document_vector:8
+msgid ":class:`fastai` data bunch"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.document_vector:9
+msgid ""
+"name of aggregation methods for word embeddings The avialable methods are"
+" \"mean\" and \"sum\""
+msgstr ""
+
+#: of pythainlp.ulmfit.core.document_vector pythainlp.ulmfit.core.merge_wgts
+#: pythainlp.ulmfit.core.process_thai pythainlp.ulmfit.preprocess.fix_html
+#: pythainlp.ulmfit.preprocess.remove_space
+#: pythainlp.ulmfit.preprocess.replace_rep_after
+#: pythainlp.ulmfit.preprocess.replace_rep_nonum
+#: pythainlp.ulmfit.preprocess.replace_wrep_post
+#: pythainlp.ulmfit.preprocess.replace_wrep_post_nonum
+msgid "Returns"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.document_vector:12
+msgid ""
+":class:`numpy.array` of document vector sized 400 based on the encoder of"
+" the model"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.document_vector pythainlp.ulmfit.core.process_thai
+#: pythainlp.ulmfit.preprocess.fix_html
+#: pythainlp.ulmfit.preprocess.remove_space
+#: pythainlp.ulmfit.preprocess.replace_rep_after
+#: pythainlp.ulmfit.preprocess.replace_rep_nonum
+#: pythainlp.ulmfit.preprocess.replace_wrep_post
+#: pythainlp.ulmfit.preprocess.replace_wrep_post_nonum
+msgid "Return type"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.document_vector:14
+msgid ":class:`numpy.ndarray((1, 400))`"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.document_vector pythainlp.ulmfit.core.merge_wgts
+#: pythainlp.ulmfit.core.process_thai pythainlp.ulmfit.preprocess.fix_html
+#: pythainlp.ulmfit.preprocess.replace_rep_after
+#: pythainlp.ulmfit.preprocess.replace_rep_nonum
+#: pythainlp.ulmfit.preprocess.replace_wrep_post
+#: pythainlp.ulmfit.preprocess.replace_wrep_post_nonum
+msgid "Example"
+msgstr "ตัวอย่าง"
+
+#: of pythainlp.ulmfit.core.document_vector
+msgid "See Also"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.document_vector:35
+msgid ""
+"A notebook showing how to train `ulmfit` language model and its usage, "
+"`Jupyter Notebook           "
+"<https://github.com/cstorm125/thai2fit/blob/master/thwiki_lm/word2vec_examples.ipynb>`_"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.fix_html:1
+msgid "List of replacements from html strings in `test`. (code from `fastai`)"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.fix_html:3
+msgid "text to replace html string"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.fix_html:5
+msgid "text where html strings are replaced"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.lowercase_all:1
+msgid ""
+"Lowercase all English words; English words in Thai texts don't usually "
+"have nuances of capitalization."
+msgstr ""
+
+#: of pythainlp.ulmfit.core.merge_wgts:1
+msgid ""
+"This function is to insert new vocab into an existing model named `wgts` "
+"and update the model's weights for new vocab with the average embedding."
+msgstr ""
+
+#: of pythainlp.ulmfit.core.merge_wgts:4
+msgid ""
+"`merge_wgts` insert pretrained weights and vocab into a new set of "
+"weights and vocab; use average if vocab not in pretrained vocab"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.merge_wgts:6
+msgid "embedding size"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.merge_wgts:7
+msgid "torch model weights"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.merge_wgts:8
+msgid "pretrained list of vocab"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.merge_wgts:9
+msgid "list of new vocab"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.merge_wgts:11
+msgid "merged torch model weights"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.process_thai:1
+msgid "Process Thai texts for models (with sparse features as default)"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.process_thai:3
+msgid "text to be cleaned"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.process_thai:4
+msgid "rules to apply before tokenization."
+msgstr ""
+
+#: of pythainlp.ulmfit.core.process_thai:5
+msgid ""
+"tokenization function (by default, **tok_func** is "
+":func:`pythainlp.tokenize.word_tokenize`)"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.process_thai:8
+msgid "rules to apply after tokenizations"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.process_thai:10
+msgid "a list of cleaned tokenized texts"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.process_thai
+msgid "Note"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.process_thai:15
+msgid ""
+"The default **pre-rules** consists of :func:`fix_html`, "
+":func:`pythainlp.util.normalize`, :func:`spec_add_spaces`, "
+":func:`rm_useless_spaces`, :func:`rm_useless_newlines`, "
+":func:`rm_brackets` and :func:`replace_rep_nonum`."
+msgstr ""
+
+#: of pythainlp.ulmfit.core.process_thai:23
+msgid ""
+"The default **post-rules** consists of :func:`ungroup_emoji`, "
+":func:`lowercase_all`,  :func:`replace_wrep_post_nonum`, and "
+":func:`remove_space`."
+msgstr ""
+
+#: of pythainlp.ulmfit.core.process_thai:29
+msgid "Use default pre-rules and post-rules:"
+msgstr ""
+
+#: of pythainlp.ulmfit.core.process_thai:37
+msgid ""
+"Modify pre_rules and post_rules arugments with rules provided in "
+":mod:`pythainlp.ulmfit`:"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.rm_brackets:1
+msgid "Remove all empty brackets and artifacts within brackets from `text`."
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.rm_useless_newlines:1
+msgid "Remove multiple newlines in `text`."
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.rm_useless_spaces:1
+msgid "Remove multiple spaces in `text`. (code from `fastai`)"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.remove_space:1
+msgid "Do not include space for bag-of-word models."
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.remove_space:3
+#: pythainlp.ulmfit.preprocess.replace_wrep_post:4
+#: pythainlp.ulmfit.preprocess.replace_wrep_post_nonum:4
+msgid "list of tokens"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.remove_space:5
+msgid "list of tokens where space tokens (\" \") are filtered out"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.replace_rep_after:1
+msgid ""
+"Replace repetitions at the character level in `text` after the "
+"repetition. This is done to prevent such case as 'น้อยยยยยยยย' becoming "
+"'น้อ xxrep 8 ย' ;instead it will retain the word as 'น้อย xxrep 8'"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.replace_rep_after:5
+#: pythainlp.ulmfit.preprocess.replace_rep_nonum:5
+msgid "input text to replace character repetition"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.replace_rep_after:7
+msgid ""
+"text with repetitive token **xxrep** and the counter after character "
+"repetition"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.replace_rep_nonum:1
+msgid ""
+"Replace repetitions at the character level in `text` after the "
+"repetition. This is done to prevent such case as 'น้อยยยยยยยย' becoming "
+"'น้อ xxrep ย'; instead it will retain the word as 'น้อย xxrep '"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.replace_rep_nonum:7
+msgid "text with repetitive token **xxrep** after character repetition"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.replace_wrep_post:1
+#: pythainlp.ulmfit.preprocess.replace_wrep_post_nonum:1
+msgid ""
+"Replace reptitive words post tokenization; fastai `replace_wrep` does not"
+" work well with Thai."
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.replace_wrep_post:6
+msgid ""
+"list of tokens where **xxwrep** token and the counter is added in front "
+"of repetitive words."
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.replace_wrep_post_nonum:6
+msgid ""
+"list of tokens where **xxwrep** token is added in front of repetitive "
+"words."
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.spec_add_spaces:1
+msgid "Add spaces around / and # in `text`.  (code from `fastai`)"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.ungroup_emoji:1
+msgid "Ungroup Zero Width Joiner (ZVJ) Emojis"
+msgstr ""
+
+#: of pythainlp.ulmfit.preprocess.ungroup_emoji:3
+msgid "See https://emojipedia.org/emoji-zwj-sequence/"
+msgstr ""
+
+#: ../../api/ulmfit.rst
+msgid "members"
+msgstr ""
+
+#: ../../api/ulmfit.rst:27
+msgid "tokenizer"
+msgstr ""
+

@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 22:29+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/summarize.rst:4
+msgid "pythainlp.summarize"
+msgstr "pythainlp.summarize"
+
+#: ../../api/summarize.rst:5
+msgid "The :class:`summarize` is Thai text summarizer."
+msgstr ""
+
+#: ../../api/summarize.rst:8
+msgid "Modules"
+msgstr ""
+
+#: of pythainlp.summarize.core.summarize:1
+msgid "This function summarizes text based on frequency of words."
+msgstr "นี่คือ ฟังก์ชันสรุปข้อความ ทำงานบนพื้นฐานความถี่ของคำ"
+
+#: of pythainlp.summarize.core.summarize:3
+msgid ""
+"Under the hood, this function first tokenize sentence from the given text"
+" with :func:`pythainlp.tokenize.sent_tokenize`. Then, computes "
+"frequencies of tokenized words (with "
+":func:`pythainlp.tokenize.word_tokenize`) in all sentences and normalized"
+" with maximum word frequency. The words with normalized frequncy that are"
+" less than 0.1 or greater than 0.9 will be filtered out from frequency "
+"dictionary. Finally, it picks *n* sentences with highest sum of "
+"normalized frequency from all words in the sentence and also appear in "
+"the frequency dictionary."
+msgstr ""
+
+#: of pythainlp.summarize.core.summarize
+msgid "Parameters"
+msgstr ""
+
+#: of pythainlp.summarize.core.summarize:13
+msgid "text to be summarized"
+msgstr ""
+
+#: of pythainlp.summarize.core.summarize:14
+msgid ""
+"number of sentences to be included in the summary By default, n is *1* "
+"(effective for frequency engine only)"
+msgstr ""
+
+#: of pythainlp.summarize.core.summarize:16
+msgid "text summarization engine (By default: *frequency*)."
+msgstr ""
+
+#: of pythainlp.summarize.core.summarize:17
+msgid ""
+"word tokenizer engine name (refer to "
+":func:`pythainlp.tokenize.word_tokenize`). By default, tokenizer is "
+"*newmm* (effective for frequency engine only)"
+msgstr ""
+
+#: of pythainlp.summarize.core.summarize
+msgid "Returns"
+msgstr "คืนค่า"
+
+#: of pythainlp.summarize.core.summarize:22
+msgid "list of selected sentences"
+msgstr ""
+
+#: of pythainlp.summarize.core.summarize:30
+msgid "**Options for engine**"
+msgstr ""
+
+#: of pythainlp.summarize.core.summarize:24
+msgid "*frequency* (default) - frequency of words"
+msgstr "*frequency* (ค่าเริ่มต้น) - ความถี่ของคำ"
+
+#: of pythainlp.summarize.core.summarize:25
+msgid "*mt5* - mT5-small model"
+msgstr "*mt5* - mT5-small model"
+
+#: of pythainlp.summarize.core.summarize:26
+msgid "*mt5-small* - mT5-small model"
+msgstr "*mt5-small* - mT5-small model"
+
+#: of pythainlp.summarize.core.summarize:27
+msgid "*mt5-base* - mT5-base model"
+msgstr "*mt5-base* - mT5-base model"
+
+#: of pythainlp.summarize.core.summarize:28
+msgid "*mt5-large* - mT5-large model"
+msgstr "*mt5-large* - mT5-large model"
+
+#: of pythainlp.summarize.core.summarize:29
+msgid "*mt5-xl* - mT5-xl model"
+msgstr "*mt5-xl* - mT5-xl model"
+
+#: of pythainlp.summarize.core.summarize:30
+msgid "*mt5-xxl* - mT5-xxl model"
+msgstr "*mt5-xxl* - mT5-xxl model"
+
+#: of pythainlp.summarize.core.summarize
+msgid "Example"
+msgstr "ตัวอย่าง"
+

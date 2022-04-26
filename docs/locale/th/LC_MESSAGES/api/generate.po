@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 23:43+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/generate.rst:4
+msgid "pythainlp.generate"
+msgstr ""
+
+#: ../../api/generate.rst:5
+msgid "The :class:`pythainlp.generate` is Thai text generate with PyThaiNLP."
+msgstr ""
+
+#: ../../api/generate.rst:8
+msgid "Modules"
+msgstr ""
+
+#: of pythainlp.generate.core.Unigram:1
+msgid "Text generator using Unigram"
+msgstr ""
+
+#: of pythainlp.generate.core.Bigram
+#: pythainlp.generate.core.Bigram.gen_sentence
+#: pythainlp.generate.core.Bigram.prob pythainlp.generate.core.Trigram
+#: pythainlp.generate.core.Trigram.gen_sentence
+#: pythainlp.generate.core.Trigram.prob pythainlp.generate.core.Unigram
+#: pythainlp.generate.core.Unigram.gen_sentence
+#: pythainlp.generate.thai2fit.gen_sentence
+msgid "Parameters"
+msgstr ""
+
+#: of pythainlp.generate.core.Unigram:3
+msgid ""
+"corpus name * *tnc* - Thai National Corpus (default) * *ttc* - Thai "
+"Textbook Corpus (TTC) * *oscar* - OSCAR Corpus"
+msgstr ""
+
+#: of pythainlp.generate.core.Bigram.gen_sentence:1
+#: pythainlp.generate.core.Trigram.gen_sentence:1
+#: pythainlp.generate.core.Unigram.gen_sentence:1
+#: pythainlp.generate.thai2fit.gen_sentence:3
+msgid "word for begin word."
+msgstr ""
+
+#: of pythainlp.generate.core.Bigram.gen_sentence:2
+#: pythainlp.generate.core.Trigram.gen_sentence:2
+#: pythainlp.generate.core.Unigram.gen_sentence:2
+#: pythainlp.generate.thai2fit.gen_sentence:4
+msgid "number of word."
+msgstr ""
+
+#: of pythainlp.generate.core.Bigram.gen_sentence:3
+#: pythainlp.generate.core.Trigram.gen_sentence:3
+#: pythainlp.generate.core.Unigram.gen_sentence:3
+#: pythainlp.generate.thai2fit.gen_sentence:5
+msgid "output is str"
+msgstr ""
+
+#: of pythainlp.generate.core.Bigram.gen_sentence:4
+#: pythainlp.generate.core.Trigram.gen_sentence:4
+#: pythainlp.generate.core.Unigram.gen_sentence:4
+#: pythainlp.generate.thai2fit.gen_sentence:6
+msgid "duplicate word in sent"
+msgstr ""
+
+#: of pythainlp.generate.core.Bigram.gen_sentence
+#: pythainlp.generate.core.Bigram.prob
+#: pythainlp.generate.core.Trigram.gen_sentence
+#: pythainlp.generate.core.Trigram.prob
+#: pythainlp.generate.core.Unigram.gen_sentence
+#: pythainlp.generate.thai2fit.gen_sentence
+msgid "Returns"
+msgstr "คืนค่า"
+
+#: of pythainlp.generate.core.Bigram.gen_sentence:6
+#: pythainlp.generate.core.Trigram.gen_sentence:6
+#: pythainlp.generate.core.Unigram.gen_sentence:6
+#: pythainlp.generate.thai2fit.gen_sentence:8
+msgid "list words or str words"
+msgstr ""
+
+#: of pythainlp.generate.core.Bigram.gen_sentence
+#: pythainlp.generate.core.Bigram.prob
+#: pythainlp.generate.core.Trigram.gen_sentence
+#: pythainlp.generate.core.Trigram.prob
+#: pythainlp.generate.core.Unigram.gen_sentence
+#: pythainlp.generate.thai2fit.gen_sentence
+msgid "Return type"
+msgstr "ชนิดค่าที่คืน"
+
+#: of pythainlp.generate.core.Bigram.gen_sentence
+#: pythainlp.generate.core.Trigram.gen_sentence
+#: pythainlp.generate.core.Unigram.gen_sentence
+#: pythainlp.generate.thai2fit.gen_sentence
+msgid "Example"
+msgstr "ตัวอย่าง"
+
+#: of pythainlp.generate.core.Bigram:1
+msgid "Text generator using Bigram"
+msgstr ""
+
+#: of pythainlp.generate.core.Bigram:3 pythainlp.generate.core.Trigram:3
+msgid "corpus name * *tnc* - Thai National Corpus (default)"
+msgstr ""
+
+#: of pythainlp.generate.core.Bigram.prob:1
+#: pythainlp.generate.core.Trigram.prob:1
+msgid "probability word"
+msgstr ""
+
+#: of pythainlp.generate.core.Bigram.prob:3
+#: pythainlp.generate.core.Trigram.prob:3
+msgid "text 1"
+msgstr ""
+
+#: of pythainlp.generate.core.Bigram.prob:4
+#: pythainlp.generate.core.Trigram.prob:4
+msgid "text 2"
+msgstr ""
+
+#: of pythainlp.generate.core.Bigram.prob:6
+#: pythainlp.generate.core.Trigram.prob:7
+msgid "probability value"
+msgstr ""
+
+#: of pythainlp.generate.core.Trigram:1
+msgid "Text generator using Trigram"
+msgstr ""
+
+#: of pythainlp.generate.core.Trigram.prob:5
+msgid "text 3"
+msgstr ""
+
+#: of pythainlp.generate.thai2fit.gen_sentence:1
+msgid "Text generator using Thai2fit"
+msgstr ""
+

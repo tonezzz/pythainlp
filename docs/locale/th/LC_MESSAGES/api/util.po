@@ -1,0 +1,973 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 22:29+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/util.rst:4
+msgid "pythainlp.util"
+msgstr ""
+
+#: ../../api/util.rst:5
+msgid ""
+"The :class:`pythainlp.util` contains utility functions, like text "
+"conversion and formatting"
+msgstr ""
+
+#: ../../api/util.rst:8
+msgid "Modules"
+msgstr ""
+
+#: of pythainlp.util.digitconv.arabic_digit_to_thai_digit:1
+msgid ""
+"This function convert Arabic digits (i.e. 1, 3, 10) to Thai digits (i.e. "
+"๑, ๓, ๑๐)."
+msgstr ""
+
+#: of pythainlp.util.collate.collate pythainlp.util.date.reign_year_to_ad
+#: pythainlp.util.date.thaiword_to_date
+#: pythainlp.util.digitconv.arabic_digit_to_thai_digit
+#: pythainlp.util.digitconv.digit_to_text
+#: pythainlp.util.digitconv.text_to_arabic_digit
+#: pythainlp.util.digitconv.text_to_thai_digit
+#: pythainlp.util.digitconv.thai_digit_to_arabic_digit
+#: pythainlp.util.emojiconv.emoji_to_thai pythainlp.util.keyboard.eng_to_thai
+#: pythainlp.util.keyboard.thai_to_eng pythainlp.util.keywords.find_keyword
+#: pythainlp.util.keywords.rank pythainlp.util.normalize.maiyamok
+#: pythainlp.util.normalize.normalize pythainlp.util.normalize.remove_dangling
+#: pythainlp.util.normalize.remove_dup_spaces
+#: pythainlp.util.normalize.remove_repeat_vowels
+#: pythainlp.util.normalize.remove_tonemark pythainlp.util.normalize.remove_zw
+#: pythainlp.util.normalize.reorder_vowels pythainlp.util.numtoword.bahttext
+#: pythainlp.util.numtoword.num_to_thaiword
+#: pythainlp.util.strftime.thai_strftime pythainlp.util.thai.countthai
+#: pythainlp.util.thai.display_thai_char pythainlp.util.thai.isthai
+#: pythainlp.util.thai.isthaichar pythainlp.util.thaiwordcheck.is_native_thai
+#: pythainlp.util.time.thaiword_to_time pythainlp.util.time.time_to_thaiword
+#: pythainlp.util.trie.Trie.add pythainlp.util.trie.Trie.prefixes
+#: pythainlp.util.trie.Trie.remove pythainlp.util.trie.dict_trie
+#: pythainlp.util.wordtonum.text_to_num
+#: pythainlp.util.wordtonum.thaiword_to_num
+#: pythainlp.util.wordtonum.words_to_num
+msgid "Parameters"
+msgstr ""
+
+#: of pythainlp.util.digitconv.arabic_digit_to_thai_digit:4
+msgid "Text with Arabic digits such as '1', '2', '3'"
+msgstr ""
+
+#: of pythainlp.util.collate.collate pythainlp.util.date.now_reign_year
+#: pythainlp.util.date.reign_year_to_ad pythainlp.util.date.thaiword_to_date
+#: pythainlp.util.digitconv.arabic_digit_to_thai_digit
+#: pythainlp.util.digitconv.digit_to_text
+#: pythainlp.util.digitconv.text_to_arabic_digit
+#: pythainlp.util.digitconv.text_to_thai_digit
+#: pythainlp.util.digitconv.thai_digit_to_arabic_digit
+#: pythainlp.util.emojiconv.emoji_to_thai pythainlp.util.keyboard.eng_to_thai
+#: pythainlp.util.keyboard.thai_to_eng pythainlp.util.keywords.find_keyword
+#: pythainlp.util.keywords.rank pythainlp.util.normalize.maiyamok
+#: pythainlp.util.normalize.normalize pythainlp.util.normalize.remove_dangling
+#: pythainlp.util.normalize.remove_dup_spaces
+#: pythainlp.util.normalize.remove_repeat_vowels
+#: pythainlp.util.normalize.remove_tonemark pythainlp.util.normalize.remove_zw
+#: pythainlp.util.normalize.reorder_vowels pythainlp.util.numtoword.bahttext
+#: pythainlp.util.numtoword.num_to_thaiword
+#: pythainlp.util.strftime.thai_strftime pythainlp.util.thai.countthai
+#: pythainlp.util.thai.display_thai_char pythainlp.util.thai.isthai
+#: pythainlp.util.thai.isthaichar pythainlp.util.thaiwordcheck.is_native_thai
+#: pythainlp.util.time.thaiword_to_time pythainlp.util.time.time_to_thaiword
+#: pythainlp.util.trie.Trie.prefixes pythainlp.util.trie.dict_trie
+#: pythainlp.util.wordtonum.text_to_num
+#: pythainlp.util.wordtonum.thaiword_to_num
+#: pythainlp.util.wordtonum.words_to_num
+msgid "Returns"
+msgstr ""
+
+#: of pythainlp.util.digitconv.arabic_digit_to_thai_digit:5
+msgid ""
+"Text with Arabic digits being converted to Thai digits such as '๑', '๒', "
+"'๓'"
+msgstr ""
+
+#: of pythainlp.util.collate.collate pythainlp.util.date.now_reign_year
+#: pythainlp.util.date.reign_year_to_ad pythainlp.util.date.thaiword_to_date
+#: pythainlp.util.digitconv.arabic_digit_to_thai_digit
+#: pythainlp.util.digitconv.text_to_arabic_digit
+#: pythainlp.util.digitconv.text_to_thai_digit
+#: pythainlp.util.digitconv.thai_digit_to_arabic_digit
+#: pythainlp.util.emojiconv.emoji_to_thai pythainlp.util.keyboard.eng_to_thai
+#: pythainlp.util.keyboard.thai_to_eng pythainlp.util.keywords.find_keyword
+#: pythainlp.util.keywords.rank pythainlp.util.normalize.maiyamok
+#: pythainlp.util.normalize.normalize pythainlp.util.normalize.remove_dangling
+#: pythainlp.util.normalize.remove_dup_spaces
+#: pythainlp.util.normalize.remove_repeat_vowels
+#: pythainlp.util.normalize.remove_tonemark pythainlp.util.normalize.remove_zw
+#: pythainlp.util.normalize.reorder_vowels pythainlp.util.numtoword.bahttext
+#: pythainlp.util.numtoword.num_to_thaiword
+#: pythainlp.util.strftime.thai_strftime pythainlp.util.thai.countthai
+#: pythainlp.util.thai.display_thai_char pythainlp.util.thai.isthai
+#: pythainlp.util.thai.isthaichar pythainlp.util.thaiwordcheck.is_native_thai
+#: pythainlp.util.time.thaiword_to_time pythainlp.util.time.time_to_thaiword
+#: pythainlp.util.trie.Trie.prefixes pythainlp.util.trie.dict_trie
+#: pythainlp.util.wordtonum.text_to_num
+#: pythainlp.util.wordtonum.thaiword_to_num
+#: pythainlp.util.wordtonum.words_to_num
+msgid "Return type"
+msgstr ""
+
+#: of pythainlp.util.collate.collate pythainlp.util.date.now_reign_year
+#: pythainlp.util.date.reign_year_to_ad pythainlp.util.date.thaiword_to_date
+#: pythainlp.util.digitconv.arabic_digit_to_thai_digit
+#: pythainlp.util.digitconv.text_to_arabic_digit
+#: pythainlp.util.digitconv.text_to_thai_digit
+#: pythainlp.util.digitconv.thai_digit_to_arabic_digit
+#: pythainlp.util.emojiconv.emoji_to_thai pythainlp.util.keyboard.eng_to_thai
+#: pythainlp.util.keyboard.thai_to_eng pythainlp.util.keywords.find_keyword
+#: pythainlp.util.keywords.rank pythainlp.util.normalize.maiyamok
+#: pythainlp.util.normalize.normalize pythainlp.util.normalize.remove_dangling
+#: pythainlp.util.normalize.remove_dup_spaces
+#: pythainlp.util.normalize.remove_tonemark pythainlp.util.numtoword.bahttext
+#: pythainlp.util.numtoword.num_to_thaiword
+#: pythainlp.util.strftime.thai_strftime pythainlp.util.thai.countthai
+#: pythainlp.util.thai.display_thai_char pythainlp.util.thai.isthai
+#: pythainlp.util.thai.isthaichar pythainlp.util.thaiwordcheck.is_native_thai
+#: pythainlp.util.time.thaiword_to_time pythainlp.util.time.time_to_thaiword
+#: pythainlp.util.wordtonum.text_to_num
+#: pythainlp.util.wordtonum.thaiword_to_num
+#: pythainlp.util.wordtonum.words_to_num
+msgid "Example"
+msgstr ""
+
+#: of pythainlp.util.numtoword.bahttext:1
+msgid ""
+"This function converts a number to Thai text and adds a suffix \"บาท\" "
+"(Baht). The precision will be fixed at two decimal places (0.00) to fits "
+"\"สตางค์\" (Satang) unit. This function works similar to `BAHTTEXT` "
+"function in Microsoft Excel."
+msgstr ""
+
+#: of pythainlp.util.numtoword.bahttext:7
+msgid "number to be converted into Thai Baht currency format"
+msgstr ""
+
+#: of pythainlp.util.numtoword.bahttext:8
+msgid "text representing the amount of money in the format of Thai currency"
+msgstr ""
+
+#: of pythainlp.util.collate.collate:1
+msgid "This function sorts strings (almost) according to Thai dictionary."
+msgstr ""
+
+#: of pythainlp.util.collate.collate:3
+msgid "Important notes: this implementation ignores tone marks and symbols"
+msgstr ""
+
+#: of pythainlp.util.collate.collate:5
+msgid "a list of words to be sorted"
+msgstr ""
+
+#: of pythainlp.util.collate.collate:7
+msgid ""
+"If `reverse` is set to **True** the result will be sorted in descending "
+"order. Otherwise, the result will be sorted in ascending order, defaults "
+"to False"
+msgstr ""
+
+#: of pythainlp.util.collate.collate:12
+msgid ""
+"a list of strings, sorted alphabetically, (almost) according to Thai "
+"dictionary"
+msgstr ""
+
+#: of pythainlp.util.trie.dict_trie:1
+msgid "Create a dictionary trie from a file or an iterable."
+msgstr ""
+
+#: of pythainlp.util.trie.dict_trie:3
+msgid ""
+"a path to dictionary file or a list of words or a pythainlp.util.Trie "
+"object"
+msgstr ""
+
+#: of pythainlp.util.trie.dict_trie:5
+msgid "a trie object"
+msgstr ""
+
+#: of pythainlp.util.digitconv.digit_to_text:1
+msgid "Text with digits such as '1', '2', '๓', '๔'"
+msgstr ""
+
+#: of pythainlp.util.digitconv.digit_to_text:2
+msgid "Text with digits being spelled out in Thai"
+msgstr ""
+
+#: of pythainlp.util.thai.display_thai_char:1
+msgid ""
+"Prefix an underscore (_) to a high-position vowel or a tone mark, to ease"
+" readability."
+msgstr ""
+
+#: of pythainlp.util.thai.display_thai_char:4 pythainlp.util.thai.isthaichar:3
+msgid "input character"
+msgstr ""
+
+#: of pythainlp.util.thai.display_thai_char:6
+msgid "\"_\" + ch"
+msgstr ""
+
+#: of pythainlp.util.emojiconv.emoji_to_thai:1
+msgid "This function convert emoji to thai meaning"
+msgstr ""
+
+#: of pythainlp.util.emojiconv.emoji_to_thai:3
+msgid "Text with Emoji"
+msgstr ""
+
+#: of pythainlp.util.emojiconv.emoji_to_thai:4
+msgid "Text with Emoji being converted to thai meaning"
+msgstr ""
+
+#: of pythainlp.util.keyboard.eng_to_thai:1
+msgid ""
+"Corrects the given text that was incorrectly typed using English-US "
+"Qwerty keyboard layout to the originally intended keyboard layout that is"
+" the Thai Kedmanee keyboard."
+msgstr ""
+
+#: of pythainlp.util.keyboard.eng_to_thai:5
+msgid "incorrect text input (type Thai with English keyboard)"
+msgstr ""
+
+#: of pythainlp.util.keyboard.eng_to_thai:6
+msgid "Thai text where incorrect typing with a keyboard layout is corrected"
+msgstr ""
+
+#: of pythainlp.util.keyboard.eng_to_thai:12
+msgid ""
+"Intentionally type \"ธนาคารแห่งประเทศไทย\", but got "
+"\"Tok8kicsj'xitgmLwmp\"::"
+msgstr ""
+
+#: of pythainlp.util.keywords.find_keyword:1
+msgid ""
+"This function count the frequency of words in the list where stopword is "
+"excluded and returns as a frequency dictionary."
+msgstr ""
+
+#: of pythainlp.util.keywords.find_keyword:4 pythainlp.util.keywords.rank:4
+msgid "a list of words"
+msgstr ""
+
+#: of pythainlp.util.keywords.find_keyword:5
+msgid "the mininum frequency for words to obtain"
+msgstr ""
+
+#: of pythainlp.util.keywords.find_keyword:7
+msgid "a dictionary object with key-value pair as word and its raw count"
+msgstr ""
+
+#: of pythainlp.util.thai.countthai:1
+msgid "Find proportion of Thai characters in a given text"
+msgstr ""
+
+#: of pythainlp.util.normalize.normalize:18
+#: pythainlp.util.normalize.remove_dangling:12
+#: pythainlp.util.normalize.remove_dup_spaces:6
+#: pythainlp.util.normalize.remove_repeat_vowels:6
+#: pythainlp.util.normalize.remove_tonemark:14
+#: pythainlp.util.normalize.remove_zw:11
+#: pythainlp.util.normalize.reorder_vowels:11 pythainlp.util.thai.countthai:3
+#: pythainlp.util.thai.isthai:3
+msgid "input text"
+msgstr ""
+
+#: of pythainlp.util.thai.countthai:5
+msgid ""
+"characters to be ignored, defaults to whitespaces,\\ digits, and "
+"puntuations."
+msgstr ""
+
+#: of pythainlp.util.thai.countthai:8
+msgid "proportion of Thai characters in the text (percent)"
+msgstr ""
+
+#: of pythainlp.util.thaiwordcheck.is_native_thai:1
+msgid ""
+"Check if a word is an \"native Thai word\" (Thai: \"คำไทยแท้\") This "
+"function based on a simple heuristic algorithm and cannot be entirely "
+"reliable."
+msgstr ""
+
+#: of pythainlp.util.thaiwordcheck.is_native_thai:5
+msgid "word"
+msgstr ""
+
+#: of pythainlp.util.thaiwordcheck.is_native_thai:6
+msgid "True or False"
+msgstr ""
+
+#: of pythainlp.util.thaiwordcheck.is_native_thai:11
+msgid "English word::"
+msgstr ""
+
+#: of pythainlp.util.thaiwordcheck.is_native_thai:18
+msgid "Native Thai word::"
+msgstr ""
+
+#: of pythainlp.util.thaiwordcheck.is_native_thai:25
+msgid "Non-native Thai word::"
+msgstr ""
+
+#: of pythainlp.util.thai.isthai:1
+msgid "Check if every characters in a string are Thai character."
+msgstr ""
+
+#: of pythainlp.util.thai.isthai:5
+msgid "characters to be ignored, defaults to \".\""
+msgstr ""
+
+#: of pythainlp.util.thai.isthai:7
+msgid "True if every characters in the input string are Thai, otherwise False."
+msgstr ""
+
+#: of pythainlp.util.thai.isthaichar:1
+msgid "Check if a character is a Thai character."
+msgstr ""
+
+#: of pythainlp.util.thai.isthaichar:5
+msgid "True if ch is a Thai characttr, otherwise False."
+msgstr ""
+
+#: of pythainlp.util.normalize.normalize:1
+msgid "Normalize and clean Thai text with normalizing rules as follows:"
+msgstr ""
+
+#: of pythainlp.util.normalize.normalize:3
+msgid "Remove zero-width spaces"
+msgstr ""
+
+#: of pythainlp.util.normalize.normalize:4
+msgid "Remove duplicate spaces"
+msgstr ""
+
+#: of pythainlp.util.normalize.normalize:5
+msgid "Reorder tone marks and vowels to standard order/spelling"
+msgstr ""
+
+#: of pythainlp.util.normalize.normalize:6
+msgid "Remove duplicate vowels and signs"
+msgstr ""
+
+#: of pythainlp.util.normalize.normalize:7
+msgid "Remove duplicate tone marks"
+msgstr ""
+
+#: of pythainlp.util.normalize.normalize:8
+msgid "Remove dangling non-base characters at the beginning of text"
+msgstr ""
+
+#: of pythainlp.util.normalize.normalize:10
+msgid ""
+"normalize() simply call remove_zw(), remove_dup_spaces(), "
+"remove_repeat_vowels(), and remove_dangling(), in that order."
+msgstr ""
+
+#: of pythainlp.util.normalize.normalize:13
+msgid ""
+"If a user wants to customize the selection or the order of rules to be "
+"applied, they can choose to call those functions by themselves."
+msgstr ""
+
+#: of pythainlp.util.normalize.normalize:16
+msgid "Note: for Unicode normalization, see unicodedata.normalize()."
+msgstr ""
+
+#: of pythainlp.util.normalize.normalize:19
+msgid "normalized text according to the fules"
+msgstr ""
+
+#: of pythainlp.util.date.now_reign_year:1
+msgid "Return the reign year of the 10th King of Chakri dynasty."
+msgstr ""
+
+#: of pythainlp.util.date.now_reign_year:3
+msgid "reign year of the 10th King of Chakri dynasty."
+msgstr ""
+
+#: of pythainlp.util.numtoword.num_to_thaiword:1
+msgid "This function convert number to Thai text"
+msgstr ""
+
+#: of pythainlp.util.numtoword.num_to_thaiword:3
+msgid "an integer number to be converted to Thai text"
+msgstr ""
+
+#: of pythainlp.util.numtoword.num_to_thaiword:4
+msgid "text representing the number in Thai"
+msgstr ""
+
+#: of pythainlp.util.normalize.maiyamok:1
+msgid "Thai MaiYaMok"
+msgstr ""
+
+#: of pythainlp.util.normalize.maiyamok:3
+msgid ""
+"MaiYaMok (ๆ) is the mark of duplicate word in Thai language. This "
+"function is preprocessing MaiYaMok in Thai sentence."
+msgstr ""
+
+#: of pythainlp.util.normalize.maiyamok:6
+msgid "input sentence (list or str)"
+msgstr ""
+
+#: of pythainlp.util.normalize.maiyamok:7
+msgid "List of words"
+msgstr ""
+
+#: of pythainlp.util.keywords.rank:1
+msgid ""
+"Count word frequecy given a list of Thai words with an option to exclude "
+"stopwords."
+msgstr ""
+
+#: of pythainlp.util.keywords.rank:5
+msgid ""
+"If this parameter is set to **True** to exclude stopwords from counting. "
+"Otherwise, the stopwords will be counted. By default, "
+"`exclude_stopwords`is set to **False**"
+msgstr ""
+
+#: of pythainlp.util.keywords.rank:10
+msgid "a Counter object representing word frequency from the text"
+msgstr ""
+
+#: of pythainlp.util.keywords.rank:11
+msgid ":class:`collections.Counter`"
+msgstr ""
+
+#: of pythainlp.util.keywords.rank:15
+msgid "Include stopwords in counting word frequency::"
+msgstr ""
+
+#: of pythainlp.util.keywords.rank:35
+msgid "Exclude stopword in counting word frequency::"
+msgstr ""
+
+#: of pythainlp.util.date.reign_year_to_ad:1
+msgid "Convert reigh year to AD."
+msgstr ""
+
+#: of pythainlp.util.date.reign_year_to_ad:3
+msgid ""
+"Return AD year according to the reign year for the 7th to 10th King of "
+"Chakri dynasty, Thailand. For instance, the AD year of the 4th reign year"
+" of the 10th King is 2019."
+msgstr ""
+
+#: of pythainlp.util.date.reign_year_to_ad:7
+msgid "reign year of the King"
+msgstr ""
+
+#: of pythainlp.util.date.reign_year_to_ad:8
+msgid "the reign of the King (i.e. 7, 8, 9, and 10)"
+msgstr ""
+
+#: of pythainlp.util.date.reign_year_to_ad:10
+msgid "the year in AD of the King given the reign and reign year."
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_dangling:1
+msgid "Remove Thai non-base characters at the beginning of text."
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_dangling:3
+msgid ""
+"This is a common \"typo\", especially for input field in a form, as these"
+" non-base characters can be visually hidden from user who may "
+"accidentally typed them in."
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_dangling:7
+msgid "A character to be removed should be both:"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_dangling:9
+msgid "tone mark, above vowel, below vowel, or non-base sign AND"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_dangling:10
+msgid "located at the beginning of the text"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_dangling:13
+msgid "text without dangling Thai characters at the beginning"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_dup_spaces:1
+msgid "Remove duplicate spaces. Replace multiple spaces with one space."
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_dup_spaces:3
+msgid ""
+"Multiple newline characters and empty lines will be replaced with one "
+"newline character."
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_dup_spaces:7
+msgid "text without duplicated spaces and newlines"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_repeat_vowels:1
+msgid "Remove repeating vowels, tone marks, and signs."
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_repeat_vowels:3
+msgid ""
+"This function will call reorder_vowels() first, to make sure that double "
+"Sara E will be converted to Sara Ae and not be removed."
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_repeat_vowels:7
+msgid "text without repeating Thai vowels, tone marks, and signs"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_tonemark:1
+msgid "Remove all Thai tone marks from the text."
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_tonemark:3
+msgid "Thai script has four tone marks indicating four tones as follows:"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_tonemark:5
+msgid "Down tone (Thai: ไม้เอก  _่ )"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_tonemark:6
+msgid "Falling tone  (Thai: ไม้โท  _้ )"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_tonemark:7
+msgid "High tone (Thai: ไม้ตรี  ​_๊ )"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_tonemark:8
+msgid "Rising tone (Thai: ไม้จัตวา _๋ )"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_tonemark:10
+msgid ""
+"Putting wrong tone mark is a common mistake in Thai writing. By removing "
+"tone marks from the string, it could be used to for a approximate string "
+"matching"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_tonemark:15
+msgid "text without Thai tone marks"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_zw:1
+msgid "Remove zero-width characters."
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_zw:3
+msgid ""
+"These non-visible characters may cause unexpected result from the user's "
+"point of view. Removing them can make string matching more robust."
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_zw:6
+msgid "Characters to be removed:"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_zw:8
+msgid "Zero-width space (ZWSP)"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_zw:9
+msgid "Zero-width non-joiner (ZWJP)"
+msgstr ""
+
+#: of pythainlp.util.normalize.remove_zw:12
+msgid "text without zero-width characters"
+msgstr ""
+
+#: of pythainlp.util.normalize.reorder_vowels:1
+msgid "Reorder vowels and tone marks to the standard logical order/spelling."
+msgstr ""
+
+#: of pythainlp.util.normalize.reorder_vowels:3
+msgid ""
+"Characters in input text will be reordered/transformed, according to "
+"these rules:"
+msgstr ""
+
+#: of pythainlp.util.normalize.reorder_vowels:6
+msgid "Sara E + Sara E -> Sara Ae"
+msgstr ""
+
+#: of pythainlp.util.normalize.reorder_vowels:7
+msgid "Nikhahit + Sara Aa -> Sara Am"
+msgstr ""
+
+#: of pythainlp.util.normalize.reorder_vowels:8
+msgid "tone mark + non-base vowel -> non-base vowel + tone mark"
+msgstr ""
+
+#: of pythainlp.util.normalize.reorder_vowels:9
+msgid "follow vowel + tone mark -> tone mark + follow vowel"
+msgstr ""
+
+#: of pythainlp.util.normalize.reorder_vowels:12
+msgid "text with vowels and tone marks in the standard logical order"
+msgstr ""
+
+#: of pythainlp.util.digitconv.text_to_arabic_digit:1
+msgid "This function convert Thai spelled out digits to Arabic digits."
+msgstr ""
+
+#: of pythainlp.util.digitconv.text_to_arabic_digit:3
+#: pythainlp.util.digitconv.text_to_thai_digit:3
+msgid "A digit spelled out in Thai"
+msgstr ""
+
+#: of pythainlp.util.digitconv.text_to_arabic_digit:4
+msgid ""
+"An Arabic digit such as '1', '2', '3' if the text is Thai digit spelled "
+"out (ศูนย์, หนึ่ง, สอง, ..., เก้า). Otherwise, it returns an empty "
+"string."
+msgstr ""
+
+#: of pythainlp.util.wordtonum.text_to_num:1
+msgid "Thai text to list thai word with floating point number"
+msgstr ""
+
+#: of pythainlp.util.wordtonum.text_to_num:3
+msgid "Thai text with the spelled-out numerals"
+msgstr ""
+
+#: of pythainlp.util.wordtonum.text_to_num:4
+msgid "list of thai words with float value of the input"
+msgstr ""
+
+#: of pythainlp.util.digitconv.text_to_thai_digit:1
+msgid "This function convert Thai spelled out digits to Thai digits."
+msgstr ""
+
+#: of pythainlp.util.digitconv.text_to_thai_digit:4
+msgid ""
+"A Thai digit such as '๑', '๒', '๓'  if the text is Thai digit spelled out"
+" (ศูนย์, หนึ่ง, สอง, ..., เก้า). Otherwise, it returns an empty string."
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:1
+msgid "Convert :class:`datetime.datetime` into Thai date and time format."
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:3
+msgid "The formatting directives are similar to :func:`datatime.strrftime`."
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:19
+msgid "This function uses Thai names and Thai Buddhist Era for these directives:"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:6
+msgid ""
+"**%a** - abbreviated weekday name (i.e. \"จ\", \"อ\", \"พ\", \"พฤ\", "
+"\"ศ\", \"ส\", \"อา\")"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:8
+msgid ""
+"**%A** - full weekday name (i.e. \"วันจันทร์\", \"วันอังคาร\", "
+"\"วันเสาร์\", \"วันอาทิตย์\")"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:10
+msgid ""
+"**%b** - abbreviated month name (i.e. "
+"\"ม.ค.\",\"ก.พ.\",\"มี.ค.\",\"เม.ย.\",\"พ.ค.\",\"มิ.ย.\", \"ธ.ค.\")"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:12
+msgid ""
+"**%B** - full month name (i.e. \"มกราคม\", \"กุมภาพันธ์\", \"พฤศจิกายน\","
+" \"ธันวาคม\",)"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:14
+msgid "**%y** - year without century (i.e. \"56\", \"10\")"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:15
+msgid "**%Y** - year with century (i.e. \"2556\", \"2410\")"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:16
+#, python-format
+msgid "**%c** - date and time representation (i.e. \"พ   6 ต.ค. 01:40:00 2519\")"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:18
+msgid ""
+"**%v** - short date representation (i.e. \" 6-ม.ค.-2562\", "
+"\"27-ก.พ.-2555\")"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:21
+msgid "Other directives will be passed to datetime.strftime()"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime
+msgid "Note"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:24
+msgid ""
+"The Thai Buddhist Era (BE) year is simply converted from AD by adding "
+"543. This is certainly not accurate for years before 1941 AD, due to the "
+"change in Thai New Year's Day."
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:27
+msgid ""
+"This meant to be an interrim solution, since Python standard's locale "
+"module (which relied on C's strftime()) does not support \"th\" or "
+"\"th_TH\" locale yet. If supported, we can just "
+"locale.setlocale(locale.LC_TIME, \"th_TH\") and then use native "
+"datetime.strftime()."
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:33
+msgid ""
+"We trying to make this platform-independent and support extentions as "
+"many as possible. See these links for strftime() extensions in POSIX, "
+"BSD, and GNU libc:"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:37
+msgid ""
+"Python https://docs.python.org/3/library/datetime.html#strftime-strptime-"
+"behavior"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:39
+msgid "C http://www.cplusplus.com/reference/ctime/strftime/"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:40
+msgid "GNU https://metacpan.org/pod/POSIX::strftime::GNU"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:41
+msgid "Linux https://linux.die.net/man/3/strftime"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:42
+msgid "OpenBSD https://man.openbsd.org/strftime.3"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:43
+msgid "FreeBSD https://www.unix.com/man-page/FreeBSD/3/strftime/"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:44
+msgid ""
+"macOS "
+"https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man3/strftime.3.html"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:46
+msgid "PHP https://secure.php.net/manual/en/function.strftime.php"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:47
+msgid "JavaScript's implementation https://github.com/samsonjs/strftime"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:48
+msgid "strftime() quick reference http://www.strftime.net/"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:50
+msgid "an instantiatetd object of :mod:`datetime.datetime`"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:52
+msgid "string containing date and time directives"
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:53
+msgid ""
+"If `thaidigit` is set to **False** (default), number will be represented "
+"in Arabic digit. If it is set to **True**, it will be represented in Thai"
+" digit."
+msgstr ""
+
+#: of pythainlp.util.strftime.thai_strftime:58
+msgid ""
+"Date and time text, with month in Thai name and year in Thai Buddhist "
+"era. The year is simply converted from AD by adding 543 (will not "
+"accurate for years before 1941 AD, due to change in Thai New Year's Day)."
+msgstr ""
+
+#: of pythainlp.util.keyboard.thai_to_eng:1
+msgid ""
+"Corrects the given text that was incorrectly typed using Thai Kedmanee "
+"keyboard layout to the originally intended keyboard layout that is the "
+"English-US Qwerty keyboard."
+msgstr ""
+
+#: of pythainlp.util.keyboard.thai_to_eng:5
+msgid "incorrect text input (type English with Thai keyboard)"
+msgstr ""
+
+#: of pythainlp.util.keyboard.thai_to_eng:6
+msgid "English text where incorrect typing with a keyboard layout is corrected"
+msgstr ""
+
+#: of pythainlp.util.keyboard.thai_to_eng:12
+msgid "Intentionally type \"Bank of Thailand\", but got \"ฺฟืา นด ธ้ฟรสฟืก\"::"
+msgstr ""
+
+#: of pythainlp.util.digitconv.thai_digit_to_arabic_digit:1
+msgid ""
+"This function convert Thai digits (i.e. ๑, ๓, ๑๐) to Arabic digits (i.e. "
+"1, 3, 10)."
+msgstr ""
+
+#: of pythainlp.util.digitconv.thai_digit_to_arabic_digit:4
+msgid "Text with Thai digits such as '๑', '๒', '๓'"
+msgstr ""
+
+#: of pythainlp.util.digitconv.thai_digit_to_arabic_digit:5
+msgid ""
+"Text with Thai digits being converted to Arabic digits such as '1', '2', "
+"'3'"
+msgstr ""
+
+#: of pythainlp.util.date.thaiword_to_date:1
+msgid "Convert Thai relative date to :class:`datetime.datetime`."
+msgstr ""
+
+#: of pythainlp.util.date.thaiword_to_date:3
+msgid "Thai text contains relative date"
+msgstr ""
+
+#: of pythainlp.util.date.thaiword_to_date:4
+msgid "date (default is datetime.datetime.now())"
+msgstr ""
+
+#: of pythainlp.util.date.thaiword_to_date:6
+msgid "datetime object, if it can be calculated. Otherwise, None."
+msgstr ""
+
+#: of pythainlp.util.date.thaiword_to_date:11
+msgid "thaiword_to_date(\"พรุ่งนี้\") # output: # datetime of tomorrow"
+msgstr ""
+
+#: of pythainlp.util.wordtonum.thaiword_to_num:1
+msgid "Converts the spelled-out numerals in Thai scripts into an actual integer."
+msgstr ""
+
+#: of pythainlp.util.wordtonum.thaiword_to_num:3
+msgid "Spelled-out numerals in Thai scripts"
+msgstr ""
+
+#: of pythainlp.util.wordtonum.thaiword_to_num:4
+msgid "Corresponding integer value of the input"
+msgstr ""
+
+#: of pythainlp.util.time.thaiword_to_time:1
+msgid "Convert Thai time in words into time (H:M)."
+msgstr ""
+
+#: of pythainlp.util.time.thaiword_to_time:3
+msgid "Thai time in words"
+msgstr ""
+
+#: of pythainlp.util.time.thaiword_to_time:4
+msgid "Zero padding the hour if True"
+msgstr ""
+
+#: of pythainlp.util.time.thaiword_to_time:6
+msgid "time string"
+msgstr ""
+
+#: of pythainlp.util.time.time_to_thaiword:1
+msgid "Spell out time to Thai words."
+msgstr ""
+
+#: of pythainlp.util.time.time_to_thaiword:3
+msgid ""
+"time input, can be a datetime.time object         or a datetime.datetime "
+"object         or a string (in H:M or H:M:S format, using 24-hour clock)"
+msgstr ""
+
+#: of pythainlp.util.time.time_to_thaiword:4
+msgid ""
+"time output format * *24h* - 24-hour clock (default) * *6h* - 6-hour "
+"clock * *m6h* - Modified 6-hour clock"
+msgstr ""
+
+#: of pythainlp.util.time.time_to_thaiword:8
+msgid ""
+"precision of the spell out * *m* - always spell out to minute level * *s*"
+" - always spell out to second level * None - spell out only non-zero "
+"parts"
+msgstr ""
+
+#: of pythainlp.util.time.time_to_thaiword:12
+msgid "Time spell out in Thai words"
+msgstr ""
+
+#: of pythainlp.util.wordtonum.words_to_num:1
+msgid "Thai Words to float"
+msgstr ""
+
+#: of pythainlp.util.wordtonum.words_to_num:3
+msgid "Thai words"
+msgstr ""
+
+#: of pythainlp.util.wordtonum.words_to_num:4
+msgid "float of words"
+msgstr ""
+
+#: of pythainlp.util.trie.Trie.add:1
+msgid ""
+"Add a word to the trie. Spaces in front of and following the word will be"
+" removed."
+msgstr ""
+
+#: of pythainlp.util.trie.Trie.add:4 pythainlp.util.trie.Trie.prefixes:3
+#: pythainlp.util.trie.Trie.remove:4
+msgid "a word"
+msgstr ""
+
+#: of pythainlp.util.trie.Trie.prefixes:1
+msgid "List all possible words from first sequence of characters in a word."
+msgstr ""
+
+#: of pythainlp.util.trie.Trie.prefixes:4
+msgid "a list of possible words"
+msgstr ""
+
+#: of pythainlp.util.trie.Trie.remove:1
+msgid "Remove a word from the trie. If the word is not found, do nothing."
+msgstr ""
+

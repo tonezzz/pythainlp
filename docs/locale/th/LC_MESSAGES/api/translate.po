@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 23:37+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/translate.rst:4
+msgid "pythainlp.translate"
+msgstr ""
+
+#: ../../api/translate.rst:5
+msgid "The :class:`pythainlp.translate` for machine translation."
+msgstr ""
+
+#: ../../api/translate.rst:8
+msgid "Modules"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate:1
+msgid "Machine Translation"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate
+#: pythainlp.translate.core.Translate.translate
+msgid "Parameters"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate:3
+msgid "source language"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate:4
+msgid "target language"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate:11
+msgid "**Options for source & target language**"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate:7
+msgid "*th* - *en* - Thai to English"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate:8
+msgid "*en* - *th* - English to Thai"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate:9
+msgid "*th* - *zh* - Thai to Chinese"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate:10
+msgid "*zh* - *th* - Chinese to Thai"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate:11
+msgid "*th* - *fr* - Thai to French"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate
+msgid "Example"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate:15
+msgid "Translate text from Thai to English::"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate.translate:1
+msgid "Translate text"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate.translate:3
+msgid "input text in source language"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate.translate
+msgid "Returns"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate.translate:4
+msgid "translated text in target language"
+msgstr ""
+
+#: of pythainlp.translate.core.Translate.translate
+msgid "Return type"
+msgstr ""
+
+#: of pythainlp.translate.en_th.download_model_all:1
+msgid "Download all translation models in advanced"
+msgstr ""
+
+#: of pythainlp.translate.en_th.EnThTranslator:1
+msgid "English-Thai Machine Translation"
+msgstr ""
+
+#: of pythainlp.translate.en_th.EnThTranslator:3
+#: pythainlp.translate.en_th.ThEnTranslator:3
+msgid "from VISTEC-depa Thailand Artificial Intelligence Research Institute"
+msgstr ""
+
+#: of pythainlp.translate.en_th.EnThTranslator:5
+#: pythainlp.translate.en_th.ThEnTranslator:5
+msgid "Website: https://airesearch.in.th/releases/machine-translation-models/"
+msgstr ""
+
+#: of pythainlp.translate.en_th.ThEnTranslator:1
+msgid "Thai-English Machine Translation"
+msgstr ""
+
+#: of pythainlp.translate.zh_th.ThZhTranslator:1
+msgid "Thai-Chinese Machine Translation"
+msgstr ""
+
+#: of pythainlp.translate.zh_th.ThZhTranslator:3
+#: pythainlp.translate.zh_th.ZhThTranslator:3
+msgid "from Lalita @ AI builder"
+msgstr ""
+
+#: of pythainlp.translate.zh_th.ThZhTranslator:5
+#: pythainlp.translate.zh_th.ZhThTranslator:5
+msgid "GitHub: https://github.com/LalitaDeelert/lalita-mt-zhth"
+msgstr ""
+
+#: of pythainlp.translate.zh_th.ThZhTranslator:6
+#: pythainlp.translate.zh_th.ZhThTranslator:6
+msgid "Facebook post https://web.facebook.com/aibuildersx/posts/166736255494822"
+msgstr ""
+
+#: of pythainlp.translate.zh_th.ZhThTranslator:1
+msgid "Chinese-Thai Machine Translation"
+msgstr ""
+
+#: of pythainlp.translate.th_fr.ThFrTranslator:1
+msgid "Thai-French Machine Translation"
+msgstr ""
+
+#: of pythainlp.translate.th_fr.ThFrTranslator:3
+msgid "Trained by OPUS Corpus"
+msgstr ""
+
+#: of pythainlp.translate.th_fr.ThFrTranslator:5
+msgid ""
+"Model from Language Technology Research Group at the University of "
+"Helsinki"
+msgstr ""
+
+#: of pythainlp.translate.th_fr.ThFrTranslator:7
+msgid "BLEU 20.4"
+msgstr ""
+
+#: of pythainlp.translate.th_fr.ThFrTranslator:9
+msgid "Huggingface https://huggingface.co/Helsinki-NLP/opus-mt-th-fr"
+msgstr ""
+

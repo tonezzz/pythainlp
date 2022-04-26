@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 22:29+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/tools.rst:4
+msgid "pythainlp.tools"
+msgstr "pythainlp.tools"
+
+#: ../../api/tools.rst:5
+msgid ""
+"The :class:`pythainlp.tools` contains miscellaneous functions for "
+"PyThaiNLP internal use."
+msgstr ""
+
+#: ../../api/tools.rst:8
+msgid "Modules"
+msgstr ""
+
+#: of pythainlp.tools.path.get_full_data_path:1
+msgid ""
+"This function joins path of :mod:`pythainlp` data directory and the given"
+" path, and returns the full path."
+msgstr ""
+
+#: of pythainlp.tools.misspell.misspell pythainlp.tools.path.get_full_data_path
+#: pythainlp.tools.path.get_pythainlp_data_path
+#: pythainlp.tools.path.get_pythainlp_path
+msgid "Returns"
+msgstr ""
+
+#: of pythainlp.tools.path.get_full_data_path:4
+msgid "full path given the name of dataset"
+msgstr ""
+
+#: of pythainlp.tools.misspell.misspell pythainlp.tools.path.get_full_data_path
+#: pythainlp.tools.path.get_pythainlp_data_path
+#: pythainlp.tools.path.get_pythainlp_path
+msgid "Return type"
+msgstr ""
+
+#: of pythainlp.tools.misspell.misspell pythainlp.tools.path.get_full_data_path
+#: pythainlp.tools.path.get_pythainlp_data_path
+#: pythainlp.tools.path.get_pythainlp_path
+msgid "Example"
+msgstr "ตัวอย่าง"
+
+#: of pythainlp.tools.path.get_pythainlp_data_path:1
+msgid ""
+"Returns the full path where PyThaiNLP keeps its (downloaded) data. If the"
+" directory does not yet exist, it will be created. The path can be "
+"specified through the environment variable :envvar:`PYTHAINLP_DATA_DIR`. "
+"By default, `~/pythainlp-data` will be used."
+msgstr ""
+
+#: of pythainlp.tools.path.get_pythainlp_data_path:7
+msgid "full path of directory for :mod:`pythainlp` downloaded data"
+msgstr ""
+
+#: of pythainlp.tools.path.get_pythainlp_path:1
+msgid "This function returns full path of PyThaiNLP code"
+msgstr ""
+
+#: of pythainlp.tools.path.get_pythainlp_path:3
+msgid "full path of :mod:`pythainlp` code"
+msgstr ""
+
+#: of pythainlp.tools.misspell.misspell:1
+msgid ""
+"Simulate some mispellings for the input sentence. The number of mispelled"
+" locations is governed by ratio."
+msgstr ""
+
+#: of pythainlp.tools.misspell.misspell
+msgid "params str sentence"
+msgstr ""
+
+#: of pythainlp.tools.misspell.misspell:4
+msgid "sentence to be mispelled"
+msgstr ""
+
+#: of pythainlp.tools.misspell.misspell
+msgid "params float ratio"
+msgstr ""
+
+#: of pythainlp.tools.misspell.misspell:5
+msgid "number of misspells per 100 chars. Defaults to 0.5."
+msgstr ""
+
+#: of pythainlp.tools.misspell.misspell:7
+msgid "sentence containing some misspelled"
+msgstr ""
+
+#: of pythainlp.tools.misspell.misspell:17
+msgid "::"
+msgstr "::"
+
+#: of pythainlp.tools.misspell.misspell:12
+msgid "from pythainlp.tools import misspell"
+msgstr "from pythainlp.tools import misspell"
+
+#: of pythainlp.tools.misspell.misspell:14
+msgid "sentence = \"ภาษาไทยปรากฏครั้งแรกในพุทธศักราช 1826\""
+msgstr "sentence = \"ภาษาไทยปรากฏครั้งแรกในพุทธศักราช 1826\""
+
+#: of pythainlp.tools.misspell.misspell:16
+msgid "misspell(sent, ratio=0.1) # output: ภาษาไทยปรากฏครั้งแรกในกุทธศักราช 1727"
+msgstr "misspell(sent, ratio=0.1) # output: ภาษาไทยปรากฏครั้งแรกในกุทธศักราช 1727"
+

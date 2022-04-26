@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2022, PyThaiNLP (Apache Software License 2.0)
+# This file is distributed under the same license as the PyThaiNLP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyThaiNLP add-lst20-ner-onnx (v3.0.5) <br /> "
+"Published date: 2022-04-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 23:37+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../api/wangchanberta.rst:4
+msgid "pythainlp.wangchanberta"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:6
+msgid ""
+"WangchanBERTa base model: wangchanberta-base-att-spm-uncased "
+"[#Lowphansirikul_2021]_"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:8
+msgid ""
+"We used WangchanBERTa for Thai name tagger task, part-of-speech and "
+"subword tokenizer."
+msgstr ""
+
+#: ../../api/wangchanberta.rst:10
+msgid ""
+"If you want to finetune model, You can read https://github.com/vistec-"
+"AI/thai2transformers"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:12
+msgid "**Speed Benchmark**"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:15
+msgid "Function"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:15
+msgid "Named Entity Recognition"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:15
+msgid "Part of Speech"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:17
+msgid "PyThaiNLP basic function"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:17
+msgid "89.7 ms"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:17
+msgid "312 ms"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:18
+msgid "pythainlp.wangchanberta (CPU)"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:18
+msgid "9.64 s"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:18
+msgid "9.65 s"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:19
+msgid "pythainlp.wangchanberta (GPU)"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:19
+msgid "8.02 s"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:19
+msgid "8 s"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:22
+msgid "Notebook:"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:24
+msgid ""
+"`PyThaiNLP basic function and pythainlp.wangchanberta CPU at Google "
+"Colab`_"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:26
+msgid "`pythainlp.wangchanberta GPU`_"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:32
+msgid "Modules"
+msgstr ""
+
+#: of pythainlp.wangchanberta.core.ThaiNameTagger.get_ner:1
+msgid ""
+"This function tags named-entitiy from text in IOB format. Powered by "
+"wangchanberta from VISTEC-depa             AI Research Institute of "
+"Thailand"
+msgstr ""
+
+#: of pythainlp.wangchanberta.core.ThaiNameTagger.get_ner
+#: pythainlp.wangchanberta.core.segment pythainlp.wangchanberta.postag.pos_tag
+msgid "Parameters"
+msgstr ""
+
+#: of pythainlp.wangchanberta.core.ThaiNameTagger.get_ner:4
+msgid "text in Thai to be tagged"
+msgstr ""
+
+#: of pythainlp.wangchanberta.core.ThaiNameTagger.get_ner:5
+msgid "output like html tag."
+msgstr ""
+
+#: of pythainlp.wangchanberta.core.ThaiNameTagger.get_ner
+#: pythainlp.wangchanberta.core.segment pythainlp.wangchanberta.postag.pos_tag
+msgid "Returns"
+msgstr ""
+
+#: of pythainlp.wangchanberta.core.ThaiNameTagger.get_ner:6
+msgid ""
+"a list of tuple associated with tokenized word group, NER tag,"
+"                  and output like html tag (if the parameter `tag` is"
+"                  specified as `True`).                  Otherwise, "
+"return a list of tuple associated with tokenized                  word "
+"and NER tag"
+msgstr ""
+
+#: of pythainlp.wangchanberta.core.ThaiNameTagger.get_ner
+#: pythainlp.wangchanberta.core.segment pythainlp.wangchanberta.postag.pos_tag
+msgid "Return type"
+msgstr ""
+
+#: of pythainlp.wangchanberta.postag.pos_tag:1
+msgid "Marks words with part-of-speech (POS) tags."
+msgstr ""
+
+#: of pythainlp.wangchanberta.postag.pos_tag:3
+msgid "thai text"
+msgstr ""
+
+#: of pythainlp.wangchanberta.postag.pos_tag:4
+msgid "* *lst20* - a LST20 tagger (default)"
+msgstr ""
+
+#: of pythainlp.wangchanberta.postag.pos_tag:5
+msgid "*lst20* - a LST20 tagger (default)"
+msgstr ""
+
+#: of pythainlp.wangchanberta.postag.pos_tag:6
+msgid "grouped word (default is False)"
+msgstr ""
+
+#: of pythainlp.wangchanberta.postag.pos_tag:7
+msgid "a list of tuples (word, POS tag)"
+msgstr ""
+
+#: of pythainlp.wangchanberta.core.segment:1
+msgid "Subword tokenize. SentencePiece from wangchanberta model."
+msgstr ""
+
+#: of pythainlp.wangchanberta.core.segment:3
+msgid "text to be tokenized"
+msgstr ""
+
+#: of pythainlp.wangchanberta.core.segment:4
+msgid "list of subwords"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:39
+msgid "References"
+msgstr ""
+
+#: ../../api/wangchanberta.rst:41
+msgid ""
+"Lowphansirikul L, Polpanumas C, Jantrakulchai N, Nutanong S. "
+"WangchanBERTa: Pretraining transformer-based Thai Language Models. "
+"arXiv:210109635 [cs] [Internet]. 2021 Jan 23 [cited 2021 Feb 27]; "
+"Available from: http://arxiv.org/abs/2101.09635"
+msgstr ""
+
