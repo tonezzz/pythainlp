@@ -18,4 +18,5 @@ pythainlp.chat
 
 __all__ = ["ChatBotModel"]
 
-from pythainlp.chat.core import ChatBotModel
+#from pythainlp.chat.core import ChatBotModel
+import core.py
